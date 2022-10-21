@@ -1,0 +1,721 @@
+2022-10-13 10:50:03,213 - basicLogger - INFO - Query for Daily Sales after the beginning of time returns 0 results
+2022-10-13 10:50:05,261 - basicLogger - INFO - Query for Delivery after the beginning of time returns 0 results
+2022-10-13 10:50:08,191 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:50:05Z returns 0 results
+2022-10-13 10:50:10,262 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:50:05Z returns 0 results
+2022-10-13 10:50:13,179 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:50:10Z returns 0 results
+2022-10-13 10:50:15,238 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:50:10Z returns 0 results
+2022-10-13 10:50:15,762 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 71332
+2022-10-13 10:50:15,770 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 69623
+2022-10-13 10:50:15,786 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 45143
+2022-10-13 10:50:15,806 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 43594
+2022-10-13 10:50:15,855 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 56271
+2022-10-13 10:50:15,866 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 90019
+2022-10-13 10:50:15,867 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 53569
+2022-10-13 10:50:15,889 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 95157
+2022-10-13 10:50:15,902 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 14752
+2022-10-13 10:50:15,915 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 21119
+2022-10-13 10:50:15,945 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 39526
+2022-10-13 10:50:15,979 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 92313
+2022-10-13 10:50:15,984 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 99735
+2022-10-13 10:50:16,000 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 17283
+2022-10-13 10:50:16,002 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 26242
+2022-10-13 10:50:16,012 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 34257
+2022-10-13 10:50:16,019 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 72214
+2022-10-13 10:50:16,056 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 88674
+2022-10-13 10:50:16,110 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 58318
+2022-10-13 10:50:16,118 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 32662
+2022-10-13 10:50:16,126 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 77932
+2022-10-13 10:50:16,155 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 34067
+2022-10-13 10:50:16,226 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 31737
+2022-10-13 10:50:16,283 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 93427
+2022-10-13 10:50:16,289 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 28204
+2022-10-13 10:50:16,292 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 36101
+2022-10-13 10:50:16,302 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 39736
+2022-10-13 10:50:16,313 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 56267
+2022-10-13 10:50:16,314 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 55412
+2022-10-13 10:50:16,323 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 71256
+2022-10-13 10:50:16,325 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 68620
+2022-10-13 10:50:16,329 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 39556
+2022-10-13 10:50:16,394 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 40046
+2022-10-13 10:50:16,402 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 68628
+2022-10-13 10:50:16,411 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 62380
+2022-10-13 10:50:16,417 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 90018
+2022-10-13 10:50:16,431 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 90773
+2022-10-13 10:50:16,445 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 17078
+2022-10-13 10:50:16,447 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 25968
+2022-10-13 10:50:16,505 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 20613
+2022-10-13 10:50:16,559 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 26077
+2022-10-13 10:50:16,561 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 36699
+2022-10-13 10:50:16,576 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 53641
+2022-10-13 10:50:16,577 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 90854
+2022-10-13 10:50:16,580 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 47585
+2022-10-13 10:50:16,595 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 89136
+2022-10-13 10:50:16,615 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 53312
+2022-10-13 10:50:16,619 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 48140
+2022-10-13 10:50:16,623 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 82846
+2022-10-13 10:50:16,658 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 84594
+2022-10-13 10:50:16,753 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 56988
+2022-10-13 10:50:16,755 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 93237
+2022-10-13 10:50:16,771 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 29517
+2022-10-13 10:50:16,776 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 77425
+2022-10-13 10:50:16,800 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 96143
+2022-10-13 10:50:16,924 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 80048
+2022-10-13 10:50:16,953 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 53619
+2022-10-13 10:50:16,989 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 94243
+2022-10-13 10:50:17,008 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 47074
+2022-10-13 10:50:17,013 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 35011
+2022-10-13 10:50:17,014 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 22751
+2022-10-13 10:50:17,014 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 28672
+2022-10-13 10:50:17,018 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 55089
+2022-10-13 10:50:17,020 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 18567
+2022-10-13 10:50:17,073 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 28220
+2022-10-13 10:50:17,179 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 78369
+2022-10-13 10:50:17,229 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 43720
+2022-10-13 10:50:17,234 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 23874
+2022-10-13 10:50:17,236 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 45794
+2022-10-13 10:50:17,244 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 17458
+2022-10-13 10:50:17,253 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 74148
+2022-10-13 10:50:17,254 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 30205
+2022-10-13 10:50:17,262 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 33146
+2022-10-13 10:50:17,274 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 42291
+2022-10-13 10:50:17,286 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 60097
+2022-10-13 10:50:17,320 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 31421
+2022-10-13 10:50:17,338 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 34833
+2022-10-13 10:50:17,339 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 11821
+2022-10-13 10:50:17,354 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 65729
+2022-10-13 10:50:17,420 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 31328
+2022-10-13 10:50:17,425 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 98784
+2022-10-13 10:50:17,434 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 54005
+2022-10-13 10:50:17,436 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 57672
+2022-10-13 10:50:17,444 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 49343
+2022-10-13 10:50:17,450 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 34034
+2022-10-13 10:50:17,463 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 38192
+2022-10-13 10:50:17,535 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 31827
+2022-10-13 10:50:17,612 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 69678
+2022-10-13 10:50:17,705 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 51235
+2022-10-13 10:50:17,768 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 49082
+2022-10-13 10:50:17,773 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 49902
+2022-10-13 10:50:17,774 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 46706
+2022-10-13 10:50:17,777 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 47667
+2022-10-13 10:50:17,780 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 48109
+2022-10-13 10:50:17,785 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 39574
+2022-10-13 10:50:17,789 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 96616
+2022-10-13 10:50:17,804 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 74001
+2022-10-13 10:50:17,895 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 29744
+2022-10-13 10:50:17,898 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 80387
+2022-10-13 10:50:17,900 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 72609
+2022-10-13 10:50:17,909 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 79506
+2022-10-13 10:50:17,924 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 75450
+2022-10-13 10:50:18,002 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 18364
+2022-10-13 10:50:18,018 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 14189
+2022-10-13 10:50:18,022 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 43299
+2022-10-13 10:50:18,024 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 59122
+2022-10-13 10:50:18,027 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 48390
+2022-10-13 10:50:18,038 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 53557
+2022-10-13 10:50:18,065 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 26268
+2022-10-13 10:50:18,068 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 77053
+2022-10-13 10:50:18,147 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 25322
+2022-10-13 10:50:18,149 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 67249
+2022-10-13 10:50:18,167 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 77136
+2022-10-13 10:50:18,225 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 38286
+2022-10-13 10:50:18,252 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 49082
+2022-10-13 10:50:18,288 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 22240
+2022-10-13 10:50:18,300 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 92895
+2022-10-13 10:50:18,303 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 20094
+2022-10-13 10:50:18,359 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 82156
+2022-10-13 10:50:18,361 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 94697
+2022-10-13 10:50:18,362 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:50:15Z returns 115 results
+2022-10-13 10:50:18,398 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 22179
+2022-10-13 10:50:18,399 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 82252
+2022-10-13 10:50:18,410 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 41239
+2022-10-13 10:50:18,411 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 25906
+2022-10-13 10:50:18,415 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 90955
+2022-10-13 10:50:18,416 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 89117
+2022-10-13 10:50:18,425 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 61868
+2022-10-13 10:50:18,436 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 24440
+2022-10-13 10:50:18,441 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 88828
+2022-10-13 10:50:18,454 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 21789
+2022-10-13 10:50:18,471 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 85537
+2022-10-13 10:50:18,473 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 54607
+2022-10-13 10:50:18,483 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 11939
+2022-10-13 10:50:18,499 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 71300
+2022-10-13 10:50:18,501 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 77949
+2022-10-13 10:50:18,503 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 15368
+2022-10-13 10:50:18,515 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 44846
+2022-10-13 10:50:18,517 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 66820
+2022-10-13 10:50:18,519 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 64704
+2022-10-13 10:50:18,532 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 23433
+2022-10-13 10:50:18,533 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 60451
+2022-10-13 10:50:18,535 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 39464
+2022-10-13 10:50:18,538 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 77469
+2022-10-13 10:50:18,549 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 29935
+2022-10-13 10:50:18,554 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 14763
+2022-10-13 10:50:18,559 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 84139
+2022-10-13 10:50:18,568 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 88289
+2022-10-13 10:50:18,569 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 91332
+2022-10-13 10:50:18,569 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 33583
+2022-10-13 10:50:18,577 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 20051
+2022-10-13 10:50:18,583 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 53487
+2022-10-13 10:50:18,593 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 61824
+2022-10-13 10:50:18,593 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 64256
+2022-10-13 10:50:18,597 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 19636
+2022-10-13 10:50:18,603 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 59978
+2022-10-13 10:50:18,606 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 76108
+2022-10-13 10:50:18,611 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 64847
+2022-10-13 10:50:18,612 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 11186
+2022-10-13 10:50:18,626 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 60150
+2022-10-13 10:50:18,633 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 15249
+2022-10-13 10:50:18,636 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 57715
+2022-10-13 10:50:18,636 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 85801
+2022-10-13 10:50:18,640 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 30445
+2022-10-13 10:50:18,642 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 83785
+2022-10-13 10:50:18,643 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 73115
+2022-10-13 10:50:18,646 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 54575
+2022-10-13 10:50:18,657 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 77723
+2022-10-13 10:50:18,661 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 95122
+2022-10-13 10:50:18,716 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 35437
+2022-10-13 10:50:18,717 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 47084
+2022-10-13 10:50:18,717 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 14753
+2022-10-13 10:50:18,718 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 62651
+2022-10-13 10:50:18,728 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 93608
+2022-10-13 10:50:18,732 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 53803
+2022-10-13 10:50:18,732 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 56924
+2022-10-13 10:50:18,742 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 16205
+2022-10-13 10:50:18,744 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 53894
+2022-10-13 10:50:18,748 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 30151
+2022-10-13 10:50:18,749 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 30831
+2022-10-13 10:50:18,754 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 86611
+2022-10-13 10:50:18,763 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 73471
+2022-10-13 10:50:18,764 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 54794
+2022-10-13 10:50:18,771 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 46493
+2022-10-13 10:50:18,776 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 12564
+2022-10-13 10:50:18,785 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 10929
+2022-10-13 10:50:18,790 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 37880
+2022-10-13 10:50:18,791 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 12221
+2022-10-13 10:50:18,800 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 46276
+2022-10-13 10:50:18,807 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 40806
+2022-10-13 10:50:18,809 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 95338
+2022-10-13 10:50:18,810 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 93712
+2022-10-13 10:50:18,816 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 46228
+2022-10-13 10:50:18,828 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 51812
+2022-10-13 10:50:18,828 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 29973
+2022-10-13 10:50:18,833 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 14020
+2022-10-13 10:50:18,834 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 38801
+2022-10-13 10:50:18,839 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 10640
+2022-10-13 10:50:18,847 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 54809
+2022-10-13 10:50:18,852 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 74082
+2022-10-13 10:50:18,858 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 74464
+2022-10-13 10:50:18,866 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 21382
+2022-10-13 10:50:18,872 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 96102
+2022-10-13 10:50:18,878 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 22688
+2022-10-13 10:50:18,878 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 95737
+2022-10-13 10:50:18,888 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 29807
+2022-10-13 10:50:18,892 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 80212
+2022-10-13 10:50:18,893 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 92800
+2022-10-13 10:50:18,898 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 29561
+2022-10-13 10:50:18,902 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 28342
+2022-10-13 10:50:18,909 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 83532
+2022-10-13 10:50:18,916 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 20790
+2022-10-13 10:50:18,920 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 73364
+2022-10-13 10:50:18,921 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 15664
+2022-10-13 10:50:18,926 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 19918
+2022-10-13 10:50:18,929 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 78017
+2022-10-13 10:50:18,934 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 60881
+2022-10-13 10:50:18,937 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 82798
+2022-10-13 10:50:18,941 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 84705
+2022-10-13 10:50:18,948 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 77209
+2022-10-13 10:50:18,951 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 67877
+2022-10-13 10:50:18,955 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 17497
+2022-10-13 10:50:18,957 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 79857
+2022-10-13 10:50:18,966 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 91961
+2022-10-13 10:50:18,969 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 32357
+2022-10-13 10:50:18,971 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 30730
+2022-10-13 10:50:18,972 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 71696
+2022-10-13 10:50:18,975 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 70642
+2022-10-13 10:50:18,986 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 53763
+2022-10-13 10:50:18,987 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 36778
+2022-10-13 10:50:18,992 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 57287
+2022-10-13 10:50:18,992 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 85327
+2022-10-13 10:50:19,005 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 97509
+2022-10-13 10:50:19,005 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 62728
+2022-10-13 10:50:19,016 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 94280
+2022-10-13 10:50:19,018 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 66065
+2022-10-13 10:50:19,019 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 77482
+2022-10-13 10:50:19,025 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 35807
+2022-10-13 10:50:19,029 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 65107
+2022-10-13 10:50:19,037 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 18650
+2022-10-13 10:50:19,037 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 63611
+2022-10-13 10:50:19,047 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 33075
+2022-10-13 10:50:19,048 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 88003
+2022-10-13 10:50:19,048 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 22316
+2022-10-13 10:50:19,060 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 26346
+2022-10-13 10:50:19,063 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 31879
+2022-10-13 10:50:19,063 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 56343
+2022-10-13 10:50:19,068 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 88104
+2022-10-13 10:50:19,077 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 99997
+2022-10-13 10:50:19,080 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 54162
+2022-10-13 10:50:19,084 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 13066
+2022-10-13 10:50:19,087 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 67654
+2022-10-13 10:50:19,094 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 14669
+2022-10-13 10:50:19,094 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 87942
+2022-10-13 10:50:19,100 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 87465
+2022-10-13 10:50:19,101 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 76687
+2022-10-13 10:50:19,105 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 27697
+2022-10-13 10:50:19,111 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 30454
+2022-10-13 10:50:19,118 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 62060
+2022-10-13 10:50:19,124 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 26569
+2022-10-13 10:50:19,129 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 10715
+2022-10-13 10:50:19,129 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 13516
+2022-10-13 10:50:19,136 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 10625
+2022-10-13 10:50:19,144 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 10029
+2022-10-13 10:50:19,146 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 17961
+2022-10-13 10:50:19,150 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 33265
+2022-10-13 10:50:19,159 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 87705
+2022-10-13 10:50:19,160 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 25566
+2022-10-13 10:50:19,164 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 81150
+2022-10-13 10:50:19,175 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 98679
+2022-10-13 10:50:19,175 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 68914
+2022-10-13 10:50:19,180 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 37033
+2022-10-13 10:50:19,181 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 56937
+2022-10-13 10:50:19,184 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 24631
+2022-10-13 10:50:19,193 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 41471
+2022-10-13 10:50:19,198 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 31356
+2022-10-13 10:50:19,198 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 98720
+2022-10-13 10:50:19,202 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 18919
+2022-10-13 10:50:19,210 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 68038
+2022-10-13 10:50:19,219 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 11597
+2022-10-13 10:50:19,220 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 58419
+2022-10-13 10:50:19,223 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 74936
+2022-10-13 10:50:19,225 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 56629
+2022-10-13 10:50:19,230 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 71966
+2022-10-13 10:50:19,234 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 14702
+2022-10-13 10:50:19,242 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 25180
+2022-10-13 10:50:19,413 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 96452
+2022-10-13 10:50:19,415 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 94281
+2022-10-13 10:50:19,429 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 26760
+2022-10-13 10:50:19,460 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 10946
+2022-10-13 10:50:19,472 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 11198
+2022-10-13 10:50:19,488 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 22499
+2022-10-13 10:50:19,504 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 43529
+2022-10-13 10:50:19,505 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 46432
+2022-10-13 10:50:19,522 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 88334
+2022-10-13 10:50:19,523 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 73121
+2022-10-13 10:50:19,525 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 33098
+2022-10-13 10:50:19,530 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 71896
+2022-10-13 10:50:19,534 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 50166
+2022-10-13 10:50:19,537 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 65855
+2022-10-13 10:50:19,557 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 20511
+2022-10-13 10:50:19,562 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 71363
+2022-10-13 10:50:19,563 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 44371
+2022-10-13 10:50:19,564 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 59807
+2022-10-13 10:50:19,566 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 52970
+2022-10-13 10:50:19,568 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 92374
+2022-10-13 10:50:19,603 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 11440
+2022-10-13 10:50:19,671 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 58640
+2022-10-13 10:50:19,749 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 98114
+2022-10-13 10:50:19,826 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 30387
+2022-10-13 10:50:19,842 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 55638
+2022-10-13 10:50:19,844 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 53271
+2022-10-13 10:50:19,848 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 63321
+2022-10-13 10:50:19,851 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 13837
+2022-10-13 10:50:19,863 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 42530
+2022-10-13 10:50:19,868 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 46448
+2022-10-13 10:50:19,870 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 53577
+2022-10-13 10:50:19,963 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 96330
+2022-10-13 10:50:19,986 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 14063
+2022-10-13 10:50:19,988 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 81255
+2022-10-13 10:50:20,004 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 66769
+2022-10-13 10:50:20,016 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 75014
+2022-10-13 10:50:20,102 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 49902
+2022-10-13 10:50:20,141 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 65806
+2022-10-13 10:50:20,153 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 31947
+2022-10-13 10:50:20,156 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 44500
+2022-10-13 10:50:20,181 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 36536
+2022-10-13 10:50:20,185 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 70125
+2022-10-13 10:50:20,187 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 47366
+2022-10-13 10:50:20,190 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 32751
+2022-10-13 10:50:20,233 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 67621
+2022-10-13 10:50:20,243 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 58629
+2022-10-13 10:50:20,259 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 46433
+2022-10-13 10:50:20,310 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 56087
+2022-10-13 10:50:20,444 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 15333
+2022-10-13 10:50:20,446 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 70718
+2022-10-13 10:50:20,460 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 43599
+2022-10-13 10:50:20,464 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 24132
+2022-10-13 10:50:20,471 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 28863
+2022-10-13 10:50:20,471 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:50:15Z returns 133 results
+2022-10-13 10:50:20,494 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 12849
+2022-10-13 10:50:20,500 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 70560
+2022-10-13 10:50:20,500 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 58154
+2022-10-13 10:50:20,504 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 89411
+2022-10-13 10:50:20,506 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 27515
+2022-10-13 10:50:20,515 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 10955
+2022-10-13 10:50:20,515 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 52923
+2022-10-13 10:50:20,534 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 23192
+2022-10-13 10:50:20,537 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 61164
+2022-10-13 10:50:20,542 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 77041
+2022-10-13 10:50:20,543 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 99052
+2022-10-13 10:50:20,551 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 97377
+2022-10-13 10:50:20,561 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 14155
+2022-10-13 10:50:20,562 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 64177
+2022-10-13 10:50:20,570 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 32363
+2022-10-13 10:50:20,574 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 99284
+2022-10-13 10:50:20,578 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 70530
+2022-10-13 10:50:20,589 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 59399
+2022-10-13 10:50:20,592 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 93442
+2022-10-13 10:50:20,597 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 31850
+2022-10-13 10:50:20,602 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 41554
+2022-10-13 10:50:20,618 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 28599
+2022-10-13 10:50:20,621 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 34864
+2022-10-13 10:50:20,623 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 49913
+2022-10-13 10:50:20,632 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 60873
+2022-10-13 10:50:20,649 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 61788
+2022-10-13 10:50:20,653 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 25326
+2022-10-13 10:50:20,656 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 50484
+2022-10-13 10:50:20,659 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 11470
+2022-10-13 10:50:20,662 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 69159
+2022-10-13 10:50:20,665 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 21933
+2022-10-13 10:50:20,677 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 41746
+2022-10-13 10:50:20,679 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 94525
+2022-10-13 10:50:20,691 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 84407
+2022-10-13 10:50:20,708 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 88919
+2022-10-13 10:50:20,711 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 32330
+2022-10-13 10:50:20,752 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 72624
+2022-10-13 10:50:20,769 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 25975
+2022-10-13 10:50:20,786 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 90233
+2022-10-13 10:50:20,803 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 94039
+2022-10-13 10:50:20,810 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 23453
+2022-10-13 10:50:20,810 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 17460
+2022-10-13 10:50:20,815 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 99407
+2022-10-13 10:50:20,819 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 27315
+2022-10-13 10:50:20,823 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 55503
+2022-10-13 10:50:20,825 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 79651
+2022-10-13 10:50:20,830 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 10061
+2022-10-13 10:50:20,834 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 33817
+2022-10-13 10:50:20,838 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 48430
+2022-10-13 10:50:20,865 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 16639
+2022-10-13 10:50:20,867 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 20366
+2022-10-13 10:50:20,881 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 20810
+2022-10-13 10:50:20,882 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 16850
+2022-10-13 10:50:20,885 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 53019
+2022-10-13 10:50:20,910 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 39454
+2022-10-13 10:50:20,913 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 92722
+2022-10-13 10:50:20,927 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 53563
+2022-10-13 10:50:20,930 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 78848
+2022-10-13 10:50:20,942 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 49867
+2022-10-13 10:50:20,944 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 91906
+2022-10-13 10:50:20,958 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 37757
+2022-10-13 10:50:20,976 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 97473
+2022-10-13 10:50:20,980 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 74230
+2022-10-13 10:50:20,981 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 79931
+2022-10-13 10:50:20,983 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 19935
+2022-10-13 10:50:20,988 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 75317
+2022-10-13 10:50:20,994 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 60700
+2022-10-13 10:50:20,996 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 53425
+2022-10-13 10:50:21,006 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 87932
+2022-10-13 10:50:21,008 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 54276
+2022-10-13 10:50:21,010 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 55850
+2022-10-13 10:50:21,036 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 84269
+2022-10-13 10:50:21,038 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 48454
+2022-10-13 10:50:21,040 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 95905
+2022-10-13 10:50:21,053 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 16747
+2022-10-13 10:50:21,055 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 32054
+2022-10-13 10:50:21,057 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 82993
+2022-10-13 10:50:21,069 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 22728
+2022-10-13 10:50:21,071 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 38155
+2022-10-13 10:50:21,083 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 77476
+2022-10-13 10:50:21,085 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 77430
+2022-10-13 10:50:21,099 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 20547
+2022-10-13 10:50:21,116 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 23394
+2022-10-13 10:50:21,120 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 47184
+2022-10-13 10:50:21,134 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 78190
+2022-10-13 10:50:21,136 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 28436
+2022-10-13 10:50:21,138 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 28937
+2022-10-13 10:50:21,152 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 84779
+2022-10-13 10:50:21,157 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 21806
+2022-10-13 10:50:21,176 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 98732
+2022-10-13 10:50:21,188 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 76337
+2022-10-13 10:50:21,199 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 50571
+2022-10-13 10:50:21,211 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 26326
+2022-10-13 10:50:21,231 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 84045
+2022-10-13 10:50:21,245 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 99583
+2022-10-13 10:50:21,265 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 62776
+2022-10-13 10:50:21,271 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 54114
+2022-10-13 10:50:21,288 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 47016
+2022-10-13 10:50:21,296 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 17169
+2022-10-13 10:50:21,297 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 72740
+2022-10-13 10:50:21,319 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 75172
+2022-10-13 10:50:21,320 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 63344
+2022-10-13 10:50:21,323 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 49623
+2022-10-13 10:50:21,338 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 56732
+2022-10-13 10:50:21,346 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 49398
+2022-10-13 10:50:21,355 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 40713
+2022-10-13 10:50:21,372 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 41552
+2022-10-13 10:50:21,383 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 20253
+2022-10-13 10:50:21,384 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 20775
+2022-10-13 10:50:21,410 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 43091
+2022-10-13 10:50:21,410 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 48393
+2022-10-13 10:50:21,422 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 32682
+2022-10-13 10:50:21,447 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 62368
+2022-10-13 10:50:21,448 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 31646
+2022-10-13 10:50:21,462 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 39579
+2022-10-13 10:50:21,476 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 47583
+2022-10-13 10:50:21,487 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 62513
+2022-10-13 10:50:21,488 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 51572
+2022-10-13 10:50:21,501 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 15074
+2022-10-13 10:50:21,511 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 12232
+2022-10-13 10:50:21,521 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 40895
+2022-10-13 10:50:21,538 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 37862
+2022-10-13 10:50:21,569 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 32891
+2022-10-13 10:50:21,573 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 65173
+2022-10-13 10:50:21,578 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 46698
+2022-10-13 10:50:21,588 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 76169
+2022-10-13 10:50:21,606 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 22320
+2022-10-13 10:50:21,628 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 91146
+2022-10-13 10:50:21,634 - basicLogger - DEBUG - Stored event "upload_delivery" request with a trace id of 17987
+2022-10-13 10:50:21,650 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 68331
+2022-10-13 10:50:21,664 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 59874
+2022-10-13 10:50:21,668 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 87647
+2022-10-13 10:50:21,682 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 81035
+2022-10-13 10:50:21,698 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 47028
+2022-10-13 10:50:21,700 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 58268
+2022-10-13 10:50:21,700 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 63766
+2022-10-13 10:50:21,705 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 79995
+2022-10-13 10:50:21,714 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 17687
+2022-10-13 10:50:21,717 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 91056
+2022-10-13 10:50:21,718 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 21431
+2022-10-13 10:50:21,723 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 17351
+2022-10-13 10:50:21,729 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 21717
+2022-10-13 10:50:21,732 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 45453
+2022-10-13 10:50:21,735 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 92023
+2022-10-13 10:50:21,739 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 67364
+2022-10-13 10:50:21,739 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 99616
+2022-10-13 10:50:21,744 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 27590
+2022-10-13 10:50:21,751 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 94735
+2022-10-13 10:50:21,760 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 23553
+2022-10-13 10:50:21,765 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 30545
+2022-10-13 10:50:21,766 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 65190
+2022-10-13 10:50:21,767 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 78916
+2022-10-13 10:50:21,768 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 56131
+2022-10-13 10:50:21,770 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 57003
+2022-10-13 10:50:21,774 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 98191
+2022-10-13 10:50:21,781 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 62330
+2022-10-13 10:50:21,783 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 83189
+2022-10-13 10:50:21,784 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 63538
+2022-10-13 10:50:21,789 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 22142
+2022-10-13 10:50:21,793 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 52665
+2022-10-13 10:50:21,797 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 63801
+2022-10-13 10:50:21,798 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 28456
+2022-10-13 10:50:21,805 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 17747
+2022-10-13 10:50:21,807 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 97030
+2022-10-13 10:50:21,814 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 90098
+2022-10-13 10:50:21,815 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 20484
+2022-10-13 10:50:21,821 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 41544
+2022-10-13 10:50:21,824 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 47856
+2022-10-13 10:50:21,827 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 86162
+2022-10-13 10:50:21,829 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 13298
+2022-10-13 10:50:21,830 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 92217
+2022-10-13 10:50:21,834 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 51157
+2022-10-13 10:50:21,835 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 86972
+2022-10-13 10:50:21,838 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 60730
+2022-10-13 10:50:21,844 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 55475
+2022-10-13 10:50:21,848 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 67786
+2022-10-13 10:50:21,850 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 90482
+2022-10-13 10:50:21,855 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 79547
+2022-10-13 10:50:21,859 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 18820
+2022-10-13 10:50:21,863 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 87177
+2022-10-13 10:50:21,866 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 74779
+2022-10-13 10:50:21,870 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 86642
+2022-10-13 10:50:21,873 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 99221
+2022-10-13 10:50:21,874 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 86365
+2022-10-13 10:50:21,877 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 72161
+2022-10-13 10:50:21,889 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 51736
+2022-10-13 10:50:21,914 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 52478
+2022-10-13 10:50:21,917 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 84968
+2022-10-13 10:50:21,931 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 30143
+2022-10-13 10:50:21,935 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 46193
+2022-10-13 10:50:21,940 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 99830
+2022-10-13 10:50:21,940 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 84661
+2022-10-13 10:50:21,943 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 74767
+2022-10-13 10:50:22,050 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 81082
+2022-10-13 10:50:22,114 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 85939
+2022-10-13 10:50:22,161 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 93136
+2022-10-13 10:50:22,177 - basicLogger - DEBUG - Stored event "upload_sales" request with a trace id of 13196
+2022-10-13 10:50:23,199 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:50:20Z returns 114 results
+2022-10-13 10:50:25,320 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:50:20Z returns 100 results
+2022-10-13 10:50:28,212 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:50:25Z returns 0 results
+2022-10-13 10:50:30,261 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:50:25Z returns 0 results
+2022-10-13 10:50:38,197 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:50:30Z returns 0 results
+2022-10-13 10:50:40,254 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:50:30Z returns 0 results
+2022-10-13 10:50:43,177 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:50:40Z returns 0 results
+2022-10-13 10:50:45,251 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:50:40Z returns 0 results
+2022-10-13 10:50:48,179 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:50:45Z returns 0 results
+2022-10-13 10:50:50,214 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:50:45Z returns 0 results
+2022-10-13 10:50:53,198 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:50:50Z returns 0 results
+2022-10-13 10:50:55,260 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:50:50Z returns 0 results
+2022-10-13 10:50:58,179 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:50:55Z returns 0 results
+2022-10-13 10:51:00,241 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:50:55Z returns 0 results
+2022-10-13 10:51:03,193 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:51:00Z returns 0 results
+2022-10-13 10:51:05,236 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:51:00Z returns 0 results
+2022-10-13 10:51:08,169 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:51:05Z returns 0 results
+2022-10-13 10:51:10,218 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:51:05Z returns 0 results
+2022-10-13 10:51:13,215 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:51:10Z returns 0 results
+2022-10-13 10:51:15,268 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:51:10Z returns 0 results
+2022-10-13 10:51:18,169 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:51:15Z returns 0 results
+2022-10-13 10:51:20,214 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:51:15Z returns 0 results
+2022-10-13 10:51:23,164 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:51:20Z returns 0 results
+2022-10-13 10:51:25,212 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:51:20Z returns 0 results
+2022-10-13 10:51:28,173 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:51:25Z returns 0 results
+2022-10-13 10:51:30,235 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:51:25Z returns 0 results
+2022-10-13 10:51:33,154 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:51:30Z returns 0 results
+2022-10-13 10:51:35,246 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:51:30Z returns 0 results
+2022-10-13 10:51:38,179 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:51:35Z returns 0 results
+2022-10-13 10:51:40,227 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:51:35Z returns 0 results
+2022-10-13 10:51:43,180 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:51:40Z returns 0 results
+2022-10-13 10:51:45,257 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:51:40Z returns 0 results
+2022-10-13 10:51:48,193 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:51:45Z returns 0 results
+2022-10-13 10:51:50,240 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:51:45Z returns 0 results
+2022-10-13 10:51:53,202 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:51:50Z returns 0 results
+2022-10-13 10:51:55,274 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:51:50Z returns 0 results
+2022-10-13 10:51:58,192 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:51:55Z returns 0 results
+2022-10-13 10:52:00,250 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:51:55Z returns 0 results
+2022-10-13 10:52:03,190 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:52:00Z returns 0 results
+2022-10-13 10:52:05,249 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:52:00Z returns 0 results
+2022-10-13 10:52:08,197 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:52:05Z returns 0 results
+2022-10-13 10:52:10,240 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:52:05Z returns 0 results
+2022-10-13 10:52:13,179 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:52:10Z returns 0 results
+2022-10-13 10:52:15,221 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:52:10Z returns 0 results
+2022-10-13 10:52:18,143 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:52:15Z returns 0 results
+2022-10-13 10:52:20,190 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:52:15Z returns 0 results
+2022-10-13 10:52:23,155 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:52:20Z returns 0 results
+2022-10-13 10:52:25,207 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:52:20Z returns 0 results
+2022-10-13 10:52:28,163 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:52:25Z returns 0 results
+2022-10-13 10:52:30,220 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:52:25Z returns 0 results
+2022-10-13 10:52:33,170 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:52:30Z returns 0 results
+2022-10-13 10:52:35,212 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:52:30Z returns 0 results
+2022-10-13 10:52:38,159 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:52:35Z returns 0 results
+2022-10-13 10:52:40,218 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:52:35Z returns 0 results
+2022-10-13 10:52:43,168 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:52:40Z returns 0 results
+2022-10-13 10:52:45,197 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:52:40Z returns 0 results
+2022-10-13 10:52:53,159 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:52:45Z returns 0 results
+2022-10-13 10:52:55,214 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:52:45Z returns 0 results
+2022-10-13 10:52:58,155 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:52:55Z returns 0 results
+2022-10-13 10:53:00,208 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:52:55Z returns 0 results
+2022-10-13 10:53:03,148 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:53:00Z returns 0 results
+2022-10-13 10:53:05,202 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:53:00Z returns 0 results
+2022-10-13 10:53:08,174 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:53:05Z returns 0 results
+2022-10-13 10:53:10,227 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:53:05Z returns 0 results
+2022-10-13 10:53:13,167 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:53:10Z returns 0 results
+2022-10-13 10:53:15,217 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:53:10Z returns 0 results
+2022-10-13 10:53:18,171 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:53:15Z returns 0 results
+2022-10-13 10:53:20,225 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:53:15Z returns 0 results
+2022-10-13 10:53:23,181 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:53:20Z returns 0 results
+2022-10-13 10:53:25,218 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:53:20Z returns 0 results
+2022-10-13 10:53:28,143 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:53:25Z returns 0 results
+2022-10-13 10:53:30,191 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:53:25Z returns 0 results
+2022-10-13 10:53:33,137 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:53:30Z returns 0 results
+2022-10-13 10:53:35,170 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:53:30Z returns 0 results
+2022-10-13 10:53:38,141 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:53:35Z returns 0 results
+2022-10-13 10:53:40,175 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:53:35Z returns 0 results
+2022-10-13 10:53:48,170 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:53:40Z returns 0 results
+2022-10-13 10:53:50,219 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:53:40Z returns 0 results
+2022-10-13 10:53:53,164 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:53:50Z returns 0 results
+2022-10-13 10:53:55,209 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:53:50Z returns 0 results
+2022-10-13 10:53:58,167 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:53:55Z returns 0 results
+2022-10-13 10:54:00,214 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:53:55Z returns 0 results
+2022-10-13 10:54:03,164 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:54:00Z returns 0 results
+2022-10-13 10:54:05,199 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:54:00Z returns 0 results
+2022-10-13 10:54:08,156 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:54:05Z returns 0 results
+2022-10-13 10:54:10,206 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:54:05Z returns 0 results
+2022-10-13 10:54:13,165 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:54:10Z returns 0 results
+2022-10-13 10:54:15,224 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:54:10Z returns 0 results
+2022-10-13 10:54:18,146 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:54:15Z returns 0 results
+2022-10-13 10:54:20,190 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:54:15Z returns 0 results
+2022-10-13 10:54:23,152 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:54:20Z returns 0 results
+2022-10-13 10:54:25,205 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:54:20Z returns 0 results
+2022-10-13 10:54:28,143 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:54:25Z returns 0 results
+2022-10-13 10:54:30,183 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:54:25Z returns 0 results
+2022-10-13 10:54:33,161 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:54:30Z returns 0 results
+2022-10-13 10:54:35,202 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:54:30Z returns 0 results
+2022-10-13 10:54:38,184 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:54:35Z returns 0 results
+2022-10-13 10:54:40,233 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:54:35Z returns 0 results
+2022-10-13 10:54:43,146 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:54:40Z returns 0 results
+2022-10-13 10:54:45,194 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:54:40Z returns 0 results
+2022-10-13 10:54:48,151 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:54:45Z returns 0 results
+2022-10-13 10:54:50,209 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:54:45Z returns 0 results
+2022-10-13 10:54:53,169 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:54:50Z returns 0 results
+2022-10-13 10:54:55,223 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:54:50Z returns 0 results
+2022-10-13 10:54:58,158 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:54:55Z returns 0 results
+2022-10-13 10:55:00,189 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:54:55Z returns 0 results
+2022-10-13 10:55:03,167 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:55:00Z returns 0 results
+2022-10-13 10:55:05,223 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:55:00Z returns 0 results
+2022-10-13 10:55:08,142 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:55:05Z returns 0 results
+2022-10-13 10:55:10,197 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:55:05Z returns 0 results
+2022-10-13 10:55:13,173 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:55:10Z returns 0 results
+2022-10-13 10:55:15,225 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:55:10Z returns 0 results
+2022-10-13 10:55:18,169 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:55:15Z returns 0 results
+2022-10-13 10:55:20,226 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:55:15Z returns 0 results
+2022-10-13 10:55:23,152 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:55:20Z returns 0 results
+2022-10-13 10:55:25,209 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:55:20Z returns 0 results
+2022-10-13 10:55:28,169 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:55:25Z returns 0 results
+2022-10-13 10:55:30,223 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:55:25Z returns 0 results
+2022-10-13 10:55:33,166 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:55:30Z returns 0 results
+2022-10-13 10:55:35,223 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:55:30Z returns 0 results
+2022-10-13 10:55:38,158 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:55:35Z returns 0 results
+2022-10-13 10:55:40,199 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:55:35Z returns 0 results
+2022-10-13 10:55:43,176 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:55:40Z returns 0 results
+2022-10-13 10:55:45,227 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:55:40Z returns 0 results
+2022-10-13 10:55:48,153 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:55:45Z returns 0 results
+2022-10-13 10:55:50,195 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:55:45Z returns 0 results
+2022-10-13 10:55:53,166 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:55:50Z returns 0 results
+2022-10-13 10:55:55,224 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:55:50Z returns 0 results
+2022-10-13 10:55:58,156 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:55:55Z returns 0 results
+2022-10-13 10:56:00,197 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:55:55Z returns 0 results
+2022-10-13 10:56:03,176 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:56:00Z returns 0 results
+2022-10-13 10:56:05,217 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:56:00Z returns 0 results
+2022-10-13 10:56:08,174 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:56:05Z returns 0 results
+2022-10-13 10:56:10,217 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:56:05Z returns 0 results
+2022-10-13 10:56:13,163 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:56:10Z returns 0 results
+2022-10-13 10:56:15,202 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:56:10Z returns 0 results
+2022-10-13 10:56:18,143 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:56:15Z returns 0 results
+2022-10-13 10:56:20,179 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:56:15Z returns 0 results
+2022-10-13 10:56:23,168 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:56:20Z returns 0 results
+2022-10-13 10:56:25,224 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:56:20Z returns 0 results
+2022-10-13 10:56:28,179 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:56:25Z returns 0 results
+2022-10-13 10:56:30,233 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:56:25Z returns 0 results
+2022-10-13 10:56:33,176 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:56:30Z returns 0 results
+2022-10-13 10:56:35,216 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:56:30Z returns 0 results
+2022-10-13 10:56:38,157 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:56:35Z returns 0 results
+2022-10-13 10:56:40,201 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:56:35Z returns 0 results
+2022-10-13 10:56:43,157 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:56:40Z returns 0 results
+2022-10-13 10:56:45,200 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:56:40Z returns 0 results
+2022-10-13 10:56:48,158 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:56:45Z returns 0 results
+2022-10-13 10:56:50,197 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:56:45Z returns 0 results
+2022-10-13 10:56:53,179 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:56:50Z returns 0 results
+2022-10-13 10:56:55,221 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:56:50Z returns 0 results
+2022-10-13 10:56:58,156 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:56:55Z returns 0 results
+2022-10-13 10:57:00,192 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:56:55Z returns 0 results
+2022-10-13 10:57:03,167 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:57:00Z returns 0 results
+2022-10-13 10:57:05,228 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:57:00Z returns 0 results
+2022-10-13 10:57:08,167 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:57:05Z returns 0 results
+2022-10-13 10:57:10,210 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:57:05Z returns 0 results
+2022-10-13 10:57:13,147 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:57:10Z returns 0 results
+2022-10-13 10:57:15,188 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:57:10Z returns 0 results
+2022-10-13 10:57:18,138 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:57:15Z returns 0 results
+2022-10-13 10:57:20,170 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:57:15Z returns 0 results
+2022-10-13 10:57:23,152 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:57:20Z returns 0 results
+2022-10-13 10:57:25,205 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:57:20Z returns 0 results
+2022-10-13 10:57:28,146 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:57:25Z returns 0 results
+2022-10-13 10:57:30,201 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:57:25Z returns 0 results
+2022-10-13 10:57:33,165 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:57:30Z returns 0 results
+2022-10-13 10:57:35,206 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:57:30Z returns 0 results
+2022-10-13 10:57:38,158 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:57:35Z returns 0 results
+2022-10-13 10:57:40,204 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:57:35Z returns 0 results
+2022-10-13 10:57:43,127 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:57:40Z returns 0 results
+2022-10-13 10:57:45,154 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:57:40Z returns 0 results
+2022-10-13 10:57:48,161 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:57:45Z returns 0 results
+2022-10-13 10:57:50,190 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:57:45Z returns 0 results
+2022-10-13 10:57:53,140 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:57:50Z returns 0 results
+2022-10-13 10:57:55,173 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:57:50Z returns 0 results
+2022-10-13 10:57:58,163 - basicLogger - INFO - Query for Daily Sales after 2022-10-13T10:57:55Z returns 0 results
+2022-10-13 10:58:00,203 - basicLogger - INFO - Query for Delivery after 2022-10-13T10:57:55Z returns 0 results

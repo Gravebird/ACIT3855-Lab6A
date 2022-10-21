@@ -1,0 +1,834 @@
+2022-10-13 10:50:01,109 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:50:05,263 - basicLogger - INFO - Total events since None: 0
+2022-10-13 10:50:05,264 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 0, max_cheeseburgers_sold: 0, max_fry_servings_sold: 0, max_hamburgers_sold: 0, num_delivery_events: 0, max_bun_trays_received: 0, max_fry_boxes_received: 0
+2022-10-13 10:50:05,266 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:50:06,123 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:50:10,270 - basicLogger - INFO - Total events since 2022-10-13T10:50:05Z: 0
+2022-10-13 10:50:10,272 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 0, max_cheeseburgers_sold: 0, max_fry_servings_sold: 0, max_hamburgers_sold: 0, num_delivery_events: 0, max_bun_trays_received: 0, max_fry_boxes_received: 0
+2022-10-13 10:50:10,273 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:50:11,112 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:50:15,300 - basicLogger - INFO - Total events since 2022-10-13T10:50:10Z: 0
+2022-10-13 10:50:15,301 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 0, max_cheeseburgers_sold: 0, max_fry_servings_sold: 0, max_hamburgers_sold: 0, num_delivery_events: 0, max_bun_trays_received: 0, max_fry_boxes_received: 0
+2022-10-13 10:50:15,302 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:50:16,144 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:50:20,491 - basicLogger - INFO - Total events since 2022-10-13T10:50:15Z: 248
+2022-10-13 10:50:20,496 - basicLogger - DEBUG - Processed event with trace ID: 71332
+2022-10-13 10:50:20,496 - basicLogger - DEBUG - Processed event with trace ID: 69623
+2022-10-13 10:50:20,496 - basicLogger - DEBUG - Processed event with trace ID: 45143
+2022-10-13 10:50:20,497 - basicLogger - DEBUG - Processed event with trace ID: 43594
+2022-10-13 10:50:20,497 - basicLogger - DEBUG - Processed event with trace ID: 56271
+2022-10-13 10:50:20,498 - basicLogger - DEBUG - Processed event with trace ID: 90019
+2022-10-13 10:50:20,498 - basicLogger - DEBUG - Processed event with trace ID: 53569
+2022-10-13 10:50:20,499 - basicLogger - DEBUG - Processed event with trace ID: 14752
+2022-10-13 10:50:20,499 - basicLogger - DEBUG - Processed event with trace ID: 95157
+2022-10-13 10:50:20,500 - basicLogger - DEBUG - Processed event with trace ID: 21119
+2022-10-13 10:50:20,500 - basicLogger - DEBUG - Processed event with trace ID: 39526
+2022-10-13 10:50:20,500 - basicLogger - DEBUG - Processed event with trace ID: 92313
+2022-10-13 10:50:20,501 - basicLogger - DEBUG - Processed event with trace ID: 99735
+2022-10-13 10:50:20,501 - basicLogger - DEBUG - Processed event with trace ID: 26242
+2022-10-13 10:50:20,502 - basicLogger - DEBUG - Processed event with trace ID: 17283
+2022-10-13 10:50:20,502 - basicLogger - DEBUG - Processed event with trace ID: 34257
+2022-10-13 10:50:20,503 - basicLogger - DEBUG - Processed event with trace ID: 72214
+2022-10-13 10:50:20,503 - basicLogger - DEBUG - Processed event with trace ID: 88674
+2022-10-13 10:50:20,504 - basicLogger - DEBUG - Processed event with trace ID: 58318
+2022-10-13 10:50:20,504 - basicLogger - DEBUG - Processed event with trace ID: 32662
+2022-10-13 10:50:20,504 - basicLogger - DEBUG - Processed event with trace ID: 77932
+2022-10-13 10:50:20,505 - basicLogger - DEBUG - Processed event with trace ID: 34067
+2022-10-13 10:50:20,505 - basicLogger - DEBUG - Processed event with trace ID: 31737
+2022-10-13 10:50:20,505 - basicLogger - DEBUG - Processed event with trace ID: 93427
+2022-10-13 10:50:20,506 - basicLogger - DEBUG - Processed event with trace ID: 28204
+2022-10-13 10:50:20,506 - basicLogger - DEBUG - Processed event with trace ID: 36101
+2022-10-13 10:50:20,506 - basicLogger - DEBUG - Processed event with trace ID: 39736
+2022-10-13 10:50:20,507 - basicLogger - DEBUG - Processed event with trace ID: 56267
+2022-10-13 10:50:20,507 - basicLogger - DEBUG - Processed event with trace ID: 55412
+2022-10-13 10:50:20,507 - basicLogger - DEBUG - Processed event with trace ID: 71256
+2022-10-13 10:50:20,508 - basicLogger - DEBUG - Processed event with trace ID: 68620
+2022-10-13 10:50:20,508 - basicLogger - DEBUG - Processed event with trace ID: 39556
+2022-10-13 10:50:20,509 - basicLogger - DEBUG - Processed event with trace ID: 40046
+2022-10-13 10:50:20,509 - basicLogger - DEBUG - Processed event with trace ID: 68628
+2022-10-13 10:50:20,509 - basicLogger - DEBUG - Processed event with trace ID: 62380
+2022-10-13 10:50:20,510 - basicLogger - DEBUG - Processed event with trace ID: 90018
+2022-10-13 10:50:20,510 - basicLogger - DEBUG - Processed event with trace ID: 90773
+2022-10-13 10:50:20,511 - basicLogger - DEBUG - Processed event with trace ID: 17078
+2022-10-13 10:50:20,511 - basicLogger - DEBUG - Processed event with trace ID: 25968
+2022-10-13 10:50:20,512 - basicLogger - DEBUG - Processed event with trace ID: 20613
+2022-10-13 10:50:20,512 - basicLogger - DEBUG - Processed event with trace ID: 26077
+2022-10-13 10:50:20,513 - basicLogger - DEBUG - Processed event with trace ID: 36699
+2022-10-13 10:50:20,513 - basicLogger - DEBUG - Processed event with trace ID: 90854
+2022-10-13 10:50:20,514 - basicLogger - DEBUG - Processed event with trace ID: 53641
+2022-10-13 10:50:20,514 - basicLogger - DEBUG - Processed event with trace ID: 47585
+2022-10-13 10:50:20,515 - basicLogger - DEBUG - Processed event with trace ID: 89136
+2022-10-13 10:50:20,515 - basicLogger - DEBUG - Processed event with trace ID: 53312
+2022-10-13 10:50:20,516 - basicLogger - DEBUG - Processed event with trace ID: 48140
+2022-10-13 10:50:20,517 - basicLogger - DEBUG - Processed event with trace ID: 82846
+2022-10-13 10:50:20,518 - basicLogger - DEBUG - Processed event with trace ID: 84594
+2022-10-13 10:50:20,519 - basicLogger - DEBUG - Processed event with trace ID: 56988
+2022-10-13 10:50:20,519 - basicLogger - DEBUG - Processed event with trace ID: 93237
+2022-10-13 10:50:20,520 - basicLogger - DEBUG - Processed event with trace ID: 29517
+2022-10-13 10:50:20,521 - basicLogger - DEBUG - Processed event with trace ID: 77425
+2022-10-13 10:50:20,521 - basicLogger - DEBUG - Processed event with trace ID: 96143
+2022-10-13 10:50:20,521 - basicLogger - DEBUG - Processed event with trace ID: 80048
+2022-10-13 10:50:20,522 - basicLogger - DEBUG - Processed event with trace ID: 53619
+2022-10-13 10:50:20,522 - basicLogger - DEBUG - Processed event with trace ID: 94243
+2022-10-13 10:50:20,523 - basicLogger - DEBUG - Processed event with trace ID: 28672
+2022-10-13 10:50:20,523 - basicLogger - DEBUG - Processed event with trace ID: 47074
+2022-10-13 10:50:20,524 - basicLogger - DEBUG - Processed event with trace ID: 35011
+2022-10-13 10:50:20,524 - basicLogger - DEBUG - Processed event with trace ID: 22751
+2022-10-13 10:50:20,525 - basicLogger - DEBUG - Processed event with trace ID: 55089
+2022-10-13 10:50:20,525 - basicLogger - DEBUG - Processed event with trace ID: 18567
+2022-10-13 10:50:20,526 - basicLogger - DEBUG - Processed event with trace ID: 28220
+2022-10-13 10:50:20,526 - basicLogger - DEBUG - Processed event with trace ID: 78369
+2022-10-13 10:50:20,527 - basicLogger - DEBUG - Processed event with trace ID: 43720
+2022-10-13 10:50:20,527 - basicLogger - DEBUG - Processed event with trace ID: 23874
+2022-10-13 10:50:20,527 - basicLogger - DEBUG - Processed event with trace ID: 45794
+2022-10-13 10:50:20,528 - basicLogger - DEBUG - Processed event with trace ID: 17458
+2022-10-13 10:50:20,528 - basicLogger - DEBUG - Processed event with trace ID: 74148
+2022-10-13 10:50:20,529 - basicLogger - DEBUG - Processed event with trace ID: 30205
+2022-10-13 10:50:20,529 - basicLogger - DEBUG - Processed event with trace ID: 33146
+2022-10-13 10:50:20,531 - basicLogger - DEBUG - Processed event with trace ID: 42291
+2022-10-13 10:50:20,533 - basicLogger - DEBUG - Processed event with trace ID: 60097
+2022-10-13 10:50:20,534 - basicLogger - DEBUG - Processed event with trace ID: 31421
+2022-10-13 10:50:20,535 - basicLogger - DEBUG - Processed event with trace ID: 11821
+2022-10-13 10:50:20,535 - basicLogger - DEBUG - Processed event with trace ID: 34833
+2022-10-13 10:50:20,536 - basicLogger - DEBUG - Processed event with trace ID: 65729
+2022-10-13 10:50:20,537 - basicLogger - DEBUG - Processed event with trace ID: 31328
+2022-10-13 10:50:20,537 - basicLogger - DEBUG - Processed event with trace ID: 98784
+2022-10-13 10:50:20,538 - basicLogger - DEBUG - Processed event with trace ID: 57672
+2022-10-13 10:50:20,538 - basicLogger - DEBUG - Processed event with trace ID: 54005
+2022-10-13 10:50:20,539 - basicLogger - DEBUG - Processed event with trace ID: 49343
+2022-10-13 10:50:20,540 - basicLogger - DEBUG - Processed event with trace ID: 34034
+2022-10-13 10:50:20,540 - basicLogger - DEBUG - Processed event with trace ID: 38192
+2022-10-13 10:50:20,541 - basicLogger - DEBUG - Processed event with trace ID: 31827
+2022-10-13 10:50:20,541 - basicLogger - DEBUG - Processed event with trace ID: 69678
+2022-10-13 10:50:20,542 - basicLogger - DEBUG - Processed event with trace ID: 51235
+2022-10-13 10:50:20,542 - basicLogger - DEBUG - Processed event with trace ID: 49082
+2022-10-13 10:50:20,543 - basicLogger - DEBUG - Processed event with trace ID: 49902
+2022-10-13 10:50:20,543 - basicLogger - DEBUG - Processed event with trace ID: 46706
+2022-10-13 10:50:20,544 - basicLogger - DEBUG - Processed event with trace ID: 47667
+2022-10-13 10:50:20,545 - basicLogger - DEBUG - Processed event with trace ID: 48109
+2022-10-13 10:50:20,545 - basicLogger - DEBUG - Processed event with trace ID: 39574
+2022-10-13 10:50:20,547 - basicLogger - DEBUG - Processed event with trace ID: 96616
+2022-10-13 10:50:20,548 - basicLogger - DEBUG - Processed event with trace ID: 74001
+2022-10-13 10:50:20,549 - basicLogger - DEBUG - Processed event with trace ID: 29744
+2022-10-13 10:50:20,550 - basicLogger - DEBUG - Processed event with trace ID: 80387
+2022-10-13 10:50:20,550 - basicLogger - DEBUG - Processed event with trace ID: 72609
+2022-10-13 10:50:20,551 - basicLogger - DEBUG - Processed event with trace ID: 79506
+2022-10-13 10:50:20,551 - basicLogger - DEBUG - Processed event with trace ID: 75450
+2022-10-13 10:50:20,552 - basicLogger - DEBUG - Processed event with trace ID: 18364
+2022-10-13 10:50:20,553 - basicLogger - DEBUG - Processed event with trace ID: 14189
+2022-10-13 10:50:20,554 - basicLogger - DEBUG - Processed event with trace ID: 43299
+2022-10-13 10:50:20,554 - basicLogger - DEBUG - Processed event with trace ID: 59122
+2022-10-13 10:50:20,555 - basicLogger - DEBUG - Processed event with trace ID: 48390
+2022-10-13 10:50:20,555 - basicLogger - DEBUG - Processed event with trace ID: 53557
+2022-10-13 10:50:20,556 - basicLogger - DEBUG - Processed event with trace ID: 26268
+2022-10-13 10:50:20,556 - basicLogger - DEBUG - Processed event with trace ID: 77053
+2022-10-13 10:50:20,557 - basicLogger - DEBUG - Processed event with trace ID: 25322
+2022-10-13 10:50:20,557 - basicLogger - DEBUG - Processed event with trace ID: 67249
+2022-10-13 10:50:20,557 - basicLogger - DEBUG - Processed event with trace ID: 77136
+2022-10-13 10:50:20,558 - basicLogger - DEBUG - Processed event with trace ID: 38286
+2022-10-13 10:50:20,558 - basicLogger - DEBUG - Processed event with trace ID: 49082
+2022-10-13 10:50:20,558 - basicLogger - DEBUG - Processed event with trace ID: 29935
+2022-10-13 10:50:20,559 - basicLogger - DEBUG - Processed event with trace ID: 14763
+2022-10-13 10:50:20,559 - basicLogger - DEBUG - Processed event with trace ID: 84139
+2022-10-13 10:50:20,559 - basicLogger - DEBUG - Processed event with trace ID: 88289
+2022-10-13 10:50:20,560 - basicLogger - DEBUG - Processed event with trace ID: 33583
+2022-10-13 10:50:20,560 - basicLogger - DEBUG - Processed event with trace ID: 53487
+2022-10-13 10:50:20,560 - basicLogger - DEBUG - Processed event with trace ID: 61824
+2022-10-13 10:50:20,560 - basicLogger - DEBUG - Processed event with trace ID: 64256
+2022-10-13 10:50:20,563 - basicLogger - DEBUG - Processed event with trace ID: 59978
+2022-10-13 10:50:20,563 - basicLogger - DEBUG - Processed event with trace ID: 57715
+2022-10-13 10:50:20,564 - basicLogger - DEBUG - Processed event with trace ID: 30445
+2022-10-13 10:50:20,564 - basicLogger - DEBUG - Processed event with trace ID: 77723
+2022-10-13 10:50:20,564 - basicLogger - DEBUG - Processed event with trace ID: 35437
+2022-10-13 10:50:20,565 - basicLogger - DEBUG - Processed event with trace ID: 56924
+2022-10-13 10:50:20,565 - basicLogger - DEBUG - Processed event with trace ID: 16205
+2022-10-13 10:50:20,566 - basicLogger - DEBUG - Processed event with trace ID: 53894
+2022-10-13 10:50:20,566 - basicLogger - DEBUG - Processed event with trace ID: 30831
+2022-10-13 10:50:20,566 - basicLogger - DEBUG - Processed event with trace ID: 54794
+2022-10-13 10:50:20,567 - basicLogger - DEBUG - Processed event with trace ID: 46493
+2022-10-13 10:50:20,567 - basicLogger - DEBUG - Processed event with trace ID: 10929
+2022-10-13 10:50:20,567 - basicLogger - DEBUG - Processed event with trace ID: 37880
+2022-10-13 10:50:20,568 - basicLogger - DEBUG - Processed event with trace ID: 95338
+2022-10-13 10:50:20,568 - basicLogger - DEBUG - Processed event with trace ID: 14020
+2022-10-13 10:50:20,568 - basicLogger - DEBUG - Processed event with trace ID: 10640
+2022-10-13 10:50:20,568 - basicLogger - DEBUG - Processed event with trace ID: 21382
+2022-10-13 10:50:20,569 - basicLogger - DEBUG - Processed event with trace ID: 96102
+2022-10-13 10:50:20,569 - basicLogger - DEBUG - Processed event with trace ID: 95737
+2022-10-13 10:50:20,569 - basicLogger - DEBUG - Processed event with trace ID: 22688
+2022-10-13 10:50:20,569 - basicLogger - DEBUG - Processed event with trace ID: 80212
+2022-10-13 10:50:20,570 - basicLogger - DEBUG - Processed event with trace ID: 29561
+2022-10-13 10:50:20,570 - basicLogger - DEBUG - Processed event with trace ID: 83532
+2022-10-13 10:50:20,570 - basicLogger - DEBUG - Processed event with trace ID: 73364
+2022-10-13 10:50:20,570 - basicLogger - DEBUG - Processed event with trace ID: 15664
+2022-10-13 10:50:20,571 - basicLogger - DEBUG - Processed event with trace ID: 19918
+2022-10-13 10:50:20,571 - basicLogger - DEBUG - Processed event with trace ID: 78017
+2022-10-13 10:50:20,571 - basicLogger - DEBUG - Processed event with trace ID: 17497
+2022-10-13 10:50:20,571 - basicLogger - DEBUG - Processed event with trace ID: 53763
+2022-10-13 10:50:20,572 - basicLogger - DEBUG - Processed event with trace ID: 36778
+2022-10-13 10:50:20,572 - basicLogger - DEBUG - Processed event with trace ID: 57287
+2022-10-13 10:50:20,572 - basicLogger - DEBUG - Processed event with trace ID: 97509
+2022-10-13 10:50:20,572 - basicLogger - DEBUG - Processed event with trace ID: 62728
+2022-10-13 10:50:20,572 - basicLogger - DEBUG - Processed event with trace ID: 77482
+2022-10-13 10:50:20,573 - basicLogger - DEBUG - Processed event with trace ID: 35807
+2022-10-13 10:50:20,573 - basicLogger - DEBUG - Processed event with trace ID: 65107
+2022-10-13 10:50:20,573 - basicLogger - DEBUG - Processed event with trace ID: 33075
+2022-10-13 10:50:20,573 - basicLogger - DEBUG - Processed event with trace ID: 26346
+2022-10-13 10:50:20,574 - basicLogger - DEBUG - Processed event with trace ID: 88104
+2022-10-13 10:50:20,574 - basicLogger - DEBUG - Processed event with trace ID: 54162
+2022-10-13 10:50:20,574 - basicLogger - DEBUG - Processed event with trace ID: 13066
+2022-10-13 10:50:20,575 - basicLogger - DEBUG - Processed event with trace ID: 14669
+2022-10-13 10:50:20,575 - basicLogger - DEBUG - Processed event with trace ID: 87942
+2022-10-13 10:50:20,575 - basicLogger - DEBUG - Processed event with trace ID: 76687
+2022-10-13 10:50:20,575 - basicLogger - DEBUG - Processed event with trace ID: 87465
+2022-10-13 10:50:20,576 - basicLogger - DEBUG - Processed event with trace ID: 27697
+2022-10-13 10:50:20,576 - basicLogger - DEBUG - Processed event with trace ID: 30454
+2022-10-13 10:50:20,576 - basicLogger - DEBUG - Processed event with trace ID: 62060
+2022-10-13 10:50:20,577 - basicLogger - DEBUG - Processed event with trace ID: 13516
+2022-10-13 10:50:20,577 - basicLogger - DEBUG - Processed event with trace ID: 26569
+2022-10-13 10:50:20,577 - basicLogger - DEBUG - Processed event with trace ID: 10715
+2022-10-13 10:50:20,578 - basicLogger - DEBUG - Processed event with trace ID: 10625
+2022-10-13 10:50:20,578 - basicLogger - DEBUG - Processed event with trace ID: 10029
+2022-10-13 10:50:20,578 - basicLogger - DEBUG - Processed event with trace ID: 17961
+2022-10-13 10:50:20,578 - basicLogger - DEBUG - Processed event with trace ID: 25566
+2022-10-13 10:50:20,579 - basicLogger - DEBUG - Processed event with trace ID: 33265
+2022-10-13 10:50:20,579 - basicLogger - DEBUG - Processed event with trace ID: 87705
+2022-10-13 10:50:20,579 - basicLogger - DEBUG - Processed event with trace ID: 81150
+2022-10-13 10:50:20,580 - basicLogger - DEBUG - Processed event with trace ID: 68914
+2022-10-13 10:50:20,580 - basicLogger - DEBUG - Processed event with trace ID: 98679
+2022-10-13 10:50:20,580 - basicLogger - DEBUG - Processed event with trace ID: 56937
+2022-10-13 10:50:20,581 - basicLogger - DEBUG - Processed event with trace ID: 37033
+2022-10-13 10:50:20,581 - basicLogger - DEBUG - Processed event with trace ID: 24631
+2022-10-13 10:50:20,581 - basicLogger - DEBUG - Processed event with trace ID: 41471
+2022-10-13 10:50:20,582 - basicLogger - DEBUG - Processed event with trace ID: 31356
+2022-10-13 10:50:20,582 - basicLogger - DEBUG - Processed event with trace ID: 98720
+2022-10-13 10:50:20,582 - basicLogger - DEBUG - Processed event with trace ID: 18919
+2022-10-13 10:50:20,582 - basicLogger - DEBUG - Processed event with trace ID: 68038
+2022-10-13 10:50:20,583 - basicLogger - DEBUG - Processed event with trace ID: 58419
+2022-10-13 10:50:20,583 - basicLogger - DEBUG - Processed event with trace ID: 11597
+2022-10-13 10:50:20,583 - basicLogger - DEBUG - Processed event with trace ID: 56629
+2022-10-13 10:50:20,583 - basicLogger - DEBUG - Processed event with trace ID: 74936
+2022-10-13 10:50:20,584 - basicLogger - DEBUG - Processed event with trace ID: 71966
+2022-10-13 10:50:20,584 - basicLogger - DEBUG - Processed event with trace ID: 14702
+2022-10-13 10:50:20,584 - basicLogger - DEBUG - Processed event with trace ID: 25180
+2022-10-13 10:50:20,585 - basicLogger - DEBUG - Processed event with trace ID: 96452
+2022-10-13 10:50:20,585 - basicLogger - DEBUG - Processed event with trace ID: 94281
+2022-10-13 10:50:20,585 - basicLogger - DEBUG - Processed event with trace ID: 26760
+2022-10-13 10:50:20,585 - basicLogger - DEBUG - Processed event with trace ID: 10946
+2022-10-13 10:50:20,586 - basicLogger - DEBUG - Processed event with trace ID: 11198
+2022-10-13 10:50:20,586 - basicLogger - DEBUG - Processed event with trace ID: 22499
+2022-10-13 10:50:20,586 - basicLogger - DEBUG - Processed event with trace ID: 43529
+2022-10-13 10:50:20,587 - basicLogger - DEBUG - Processed event with trace ID: 46432
+2022-10-13 10:50:20,587 - basicLogger - DEBUG - Processed event with trace ID: 88334
+2022-10-13 10:50:20,587 - basicLogger - DEBUG - Processed event with trace ID: 73121
+2022-10-13 10:50:20,588 - basicLogger - DEBUG - Processed event with trace ID: 33098
+2022-10-13 10:50:20,588 - basicLogger - DEBUG - Processed event with trace ID: 71896
+2022-10-13 10:50:20,588 - basicLogger - DEBUG - Processed event with trace ID: 50166
+2022-10-13 10:50:20,588 - basicLogger - DEBUG - Processed event with trace ID: 65855
+2022-10-13 10:50:20,589 - basicLogger - DEBUG - Processed event with trace ID: 20511
+2022-10-13 10:50:20,589 - basicLogger - DEBUG - Processed event with trace ID: 52970
+2022-10-13 10:50:20,589 - basicLogger - DEBUG - Processed event with trace ID: 71363
+2022-10-13 10:50:20,590 - basicLogger - DEBUG - Processed event with trace ID: 44371
+2022-10-13 10:50:20,590 - basicLogger - DEBUG - Processed event with trace ID: 59807
+2022-10-13 10:50:20,590 - basicLogger - DEBUG - Processed event with trace ID: 92374
+2022-10-13 10:50:20,590 - basicLogger - DEBUG - Processed event with trace ID: 11440
+2022-10-13 10:50:20,590 - basicLogger - DEBUG - Processed event with trace ID: 58640
+2022-10-13 10:50:20,590 - basicLogger - DEBUG - Processed event with trace ID: 98114
+2022-10-13 10:50:20,591 - basicLogger - DEBUG - Processed event with trace ID: 30387
+2022-10-13 10:50:20,591 - basicLogger - DEBUG - Processed event with trace ID: 55638
+2022-10-13 10:50:20,591 - basicLogger - DEBUG - Processed event with trace ID: 53271
+2022-10-13 10:50:20,591 - basicLogger - DEBUG - Processed event with trace ID: 63321
+2022-10-13 10:50:20,592 - basicLogger - DEBUG - Processed event with trace ID: 13837
+2022-10-13 10:50:20,592 - basicLogger - DEBUG - Processed event with trace ID: 42530
+2022-10-13 10:50:20,593 - basicLogger - DEBUG - Processed event with trace ID: 53577
+2022-10-13 10:50:20,593 - basicLogger - DEBUG - Processed event with trace ID: 46448
+2022-10-13 10:50:20,593 - basicLogger - DEBUG - Processed event with trace ID: 96330
+2022-10-13 10:50:20,594 - basicLogger - DEBUG - Processed event with trace ID: 14063
+2022-10-13 10:50:20,594 - basicLogger - DEBUG - Processed event with trace ID: 81255
+2022-10-13 10:50:20,594 - basicLogger - DEBUG - Processed event with trace ID: 66769
+2022-10-13 10:50:20,594 - basicLogger - DEBUG - Processed event with trace ID: 75014
+2022-10-13 10:50:20,595 - basicLogger - DEBUG - Processed event with trace ID: 49902
+2022-10-13 10:50:20,595 - basicLogger - DEBUG - Processed event with trace ID: 65806
+2022-10-13 10:50:20,595 - basicLogger - DEBUG - Processed event with trace ID: 31947
+2022-10-13 10:50:20,596 - basicLogger - DEBUG - Processed event with trace ID: 44500
+2022-10-13 10:50:20,596 - basicLogger - DEBUG - Processed event with trace ID: 36536
+2022-10-13 10:50:20,596 - basicLogger - DEBUG - Processed event with trace ID: 70125
+2022-10-13 10:50:20,597 - basicLogger - DEBUG - Processed event with trace ID: 47366
+2022-10-13 10:50:20,597 - basicLogger - DEBUG - Processed event with trace ID: 32751
+2022-10-13 10:50:20,597 - basicLogger - DEBUG - Processed event with trace ID: 67621
+2022-10-13 10:50:20,597 - basicLogger - DEBUG - Processed event with trace ID: 58629
+2022-10-13 10:50:20,598 - basicLogger - DEBUG - Processed event with trace ID: 46433
+2022-10-13 10:50:20,598 - basicLogger - DEBUG - Processed event with trace ID: 56087
+2022-10-13 10:50:20,598 - basicLogger - DEBUG - Processed event with trace ID: 15333
+2022-10-13 10:50:20,599 - basicLogger - DEBUG - Processed event with trace ID: 70718
+2022-10-13 10:50:20,599 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 115, max_cheeseburgers_sold: 992, max_fry_servings_sold: 998, max_hamburgers_sold: 980, num_delivery_events: 133, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:50:20,599 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:50:21,109 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:50:25,392 - basicLogger - INFO - Total events since 2022-10-13T10:50:20Z: 214
+2022-10-13 10:50:25,400 - basicLogger - DEBUG - Processed event with trace ID: 28599
+2022-10-13 10:50:25,401 - basicLogger - DEBUG - Processed event with trace ID: 61788
+2022-10-13 10:50:25,402 - basicLogger - DEBUG - Processed event with trace ID: 25326
+2022-10-13 10:50:25,403 - basicLogger - DEBUG - Processed event with trace ID: 50484
+2022-10-13 10:50:25,403 - basicLogger - DEBUG - Processed event with trace ID: 69159
+2022-10-13 10:50:25,404 - basicLogger - DEBUG - Processed event with trace ID: 41746
+2022-10-13 10:50:25,405 - basicLogger - DEBUG - Processed event with trace ID: 94525
+2022-10-13 10:50:25,405 - basicLogger - DEBUG - Processed event with trace ID: 84407
+2022-10-13 10:50:25,406 - basicLogger - DEBUG - Processed event with trace ID: 88919
+2022-10-13 10:50:25,407 - basicLogger - DEBUG - Processed event with trace ID: 94039
+2022-10-13 10:50:25,408 - basicLogger - DEBUG - Processed event with trace ID: 23453
+2022-10-13 10:50:25,408 - basicLogger - DEBUG - Processed event with trace ID: 48430
+2022-10-13 10:50:25,409 - basicLogger - DEBUG - Processed event with trace ID: 16639
+2022-10-13 10:50:25,410 - basicLogger - DEBUG - Processed event with trace ID: 92722
+2022-10-13 10:50:25,411 - basicLogger - DEBUG - Processed event with trace ID: 53563
+2022-10-13 10:50:25,411 - basicLogger - DEBUG - Processed event with trace ID: 78848
+2022-10-13 10:50:25,412 - basicLogger - DEBUG - Processed event with trace ID: 49867
+2022-10-13 10:50:25,413 - basicLogger - DEBUG - Processed event with trace ID: 97473
+2022-10-13 10:50:25,414 - basicLogger - DEBUG - Processed event with trace ID: 79931
+2022-10-13 10:50:25,414 - basicLogger - DEBUG - Processed event with trace ID: 75317
+2022-10-13 10:50:25,415 - basicLogger - DEBUG - Processed event with trace ID: 55850
+2022-10-13 10:50:25,416 - basicLogger - DEBUG - Processed event with trace ID: 32054
+2022-10-13 10:50:25,417 - basicLogger - DEBUG - Processed event with trace ID: 82993
+2022-10-13 10:50:25,417 - basicLogger - DEBUG - Processed event with trace ID: 77430
+2022-10-13 10:50:25,418 - basicLogger - DEBUG - Processed event with trace ID: 20547
+2022-10-13 10:50:25,419 - basicLogger - DEBUG - Processed event with trace ID: 23394
+2022-10-13 10:50:25,420 - basicLogger - DEBUG - Processed event with trace ID: 47184
+2022-10-13 10:50:25,420 - basicLogger - DEBUG - Processed event with trace ID: 78190
+2022-10-13 10:50:25,421 - basicLogger - DEBUG - Processed event with trace ID: 84779
+2022-10-13 10:50:25,422 - basicLogger - DEBUG - Processed event with trace ID: 98732
+2022-10-13 10:50:25,423 - basicLogger - DEBUG - Processed event with trace ID: 76337
+2022-10-13 10:50:25,423 - basicLogger - DEBUG - Processed event with trace ID: 26326
+2022-10-13 10:50:25,424 - basicLogger - DEBUG - Processed event with trace ID: 84045
+2022-10-13 10:50:25,425 - basicLogger - DEBUG - Processed event with trace ID: 62776
+2022-10-13 10:50:25,426 - basicLogger - DEBUG - Processed event with trace ID: 54114
+2022-10-13 10:50:25,426 - basicLogger - DEBUG - Processed event with trace ID: 40713
+2022-10-13 10:50:25,427 - basicLogger - DEBUG - Processed event with trace ID: 48393
+2022-10-13 10:50:25,428 - basicLogger - DEBUG - Processed event with trace ID: 32682
+2022-10-13 10:50:25,429 - basicLogger - DEBUG - Processed event with trace ID: 62368
+2022-10-13 10:50:25,429 - basicLogger - DEBUG - Processed event with trace ID: 39579
+2022-10-13 10:50:25,430 - basicLogger - DEBUG - Processed event with trace ID: 47583
+2022-10-13 10:50:25,430 - basicLogger - DEBUG - Processed event with trace ID: 15074
+2022-10-13 10:50:25,431 - basicLogger - DEBUG - Processed event with trace ID: 40895
+2022-10-13 10:50:25,431 - basicLogger - DEBUG - Processed event with trace ID: 65173
+2022-10-13 10:50:25,431 - basicLogger - DEBUG - Processed event with trace ID: 76169
+2022-10-13 10:50:25,432 - basicLogger - DEBUG - Processed event with trace ID: 22320
+2022-10-13 10:50:25,432 - basicLogger - DEBUG - Processed event with trace ID: 59874
+2022-10-13 10:50:25,432 - basicLogger - DEBUG - Processed event with trace ID: 68331
+2022-10-13 10:50:25,433 - basicLogger - DEBUG - Processed event with trace ID: 87647
+2022-10-13 10:50:25,433 - basicLogger - DEBUG - Processed event with trace ID: 81035
+2022-10-13 10:50:25,433 - basicLogger - DEBUG - Processed event with trace ID: 47028
+2022-10-13 10:50:25,434 - basicLogger - DEBUG - Processed event with trace ID: 63766
+2022-10-13 10:50:25,434 - basicLogger - DEBUG - Processed event with trace ID: 58268
+2022-10-13 10:50:25,434 - basicLogger - DEBUG - Processed event with trace ID: 79995
+2022-10-13 10:50:25,435 - basicLogger - DEBUG - Processed event with trace ID: 17687
+2022-10-13 10:50:25,435 - basicLogger - DEBUG - Processed event with trace ID: 91056
+2022-10-13 10:50:25,435 - basicLogger - DEBUG - Processed event with trace ID: 21431
+2022-10-13 10:50:25,436 - basicLogger - DEBUG - Processed event with trace ID: 17351
+2022-10-13 10:50:25,436 - basicLogger - DEBUG - Processed event with trace ID: 21717
+2022-10-13 10:50:25,436 - basicLogger - DEBUG - Processed event with trace ID: 45453
+2022-10-13 10:50:25,437 - basicLogger - DEBUG - Processed event with trace ID: 92023
+2022-10-13 10:50:25,437 - basicLogger - DEBUG - Processed event with trace ID: 99616
+2022-10-13 10:50:25,437 - basicLogger - DEBUG - Processed event with trace ID: 67364
+2022-10-13 10:50:25,437 - basicLogger - DEBUG - Processed event with trace ID: 27590
+2022-10-13 10:50:25,438 - basicLogger - DEBUG - Processed event with trace ID: 94735
+2022-10-13 10:50:25,438 - basicLogger - DEBUG - Processed event with trace ID: 23553
+2022-10-13 10:50:25,438 - basicLogger - DEBUG - Processed event with trace ID: 65190
+2022-10-13 10:50:25,438 - basicLogger - DEBUG - Processed event with trace ID: 78916
+2022-10-13 10:50:25,439 - basicLogger - DEBUG - Processed event with trace ID: 30545
+2022-10-13 10:50:25,439 - basicLogger - DEBUG - Processed event with trace ID: 56131
+2022-10-13 10:50:25,439 - basicLogger - DEBUG - Processed event with trace ID: 57003
+2022-10-13 10:50:25,439 - basicLogger - DEBUG - Processed event with trace ID: 98191
+2022-10-13 10:50:25,439 - basicLogger - DEBUG - Processed event with trace ID: 62330
+2022-10-13 10:50:25,440 - basicLogger - DEBUG - Processed event with trace ID: 83189
+2022-10-13 10:50:25,440 - basicLogger - DEBUG - Processed event with trace ID: 63538
+2022-10-13 10:50:25,440 - basicLogger - DEBUG - Processed event with trace ID: 22142
+2022-10-13 10:50:25,440 - basicLogger - DEBUG - Processed event with trace ID: 52665
+2022-10-13 10:50:25,440 - basicLogger - DEBUG - Processed event with trace ID: 63801
+2022-10-13 10:50:25,441 - basicLogger - DEBUG - Processed event with trace ID: 28456
+2022-10-13 10:50:25,441 - basicLogger - DEBUG - Processed event with trace ID: 17747
+2022-10-13 10:50:25,442 - basicLogger - DEBUG - Processed event with trace ID: 97030
+2022-10-13 10:50:25,442 - basicLogger - DEBUG - Processed event with trace ID: 20484
+2022-10-13 10:50:25,443 - basicLogger - DEBUG - Processed event with trace ID: 90098
+2022-10-13 10:50:25,443 - basicLogger - DEBUG - Processed event with trace ID: 41544
+2022-10-13 10:50:25,443 - basicLogger - DEBUG - Processed event with trace ID: 47856
+2022-10-13 10:50:25,444 - basicLogger - DEBUG - Processed event with trace ID: 86162
+2022-10-13 10:50:25,444 - basicLogger - DEBUG - Processed event with trace ID: 92217
+2022-10-13 10:50:25,444 - basicLogger - DEBUG - Processed event with trace ID: 13298
+2022-10-13 10:50:25,445 - basicLogger - DEBUG - Processed event with trace ID: 51157
+2022-10-13 10:50:25,445 - basicLogger - DEBUG - Processed event with trace ID: 86972
+2022-10-13 10:50:25,445 - basicLogger - DEBUG - Processed event with trace ID: 60730
+2022-10-13 10:50:25,446 - basicLogger - DEBUG - Processed event with trace ID: 55475
+2022-10-13 10:50:25,446 - basicLogger - DEBUG - Processed event with trace ID: 67786
+2022-10-13 10:50:25,446 - basicLogger - DEBUG - Processed event with trace ID: 90482
+2022-10-13 10:50:25,447 - basicLogger - DEBUG - Processed event with trace ID: 79547
+2022-10-13 10:50:25,447 - basicLogger - DEBUG - Processed event with trace ID: 18820
+2022-10-13 10:50:25,447 - basicLogger - DEBUG - Processed event with trace ID: 74779
+2022-10-13 10:50:25,447 - basicLogger - DEBUG - Processed event with trace ID: 87177
+2022-10-13 10:50:25,448 - basicLogger - DEBUG - Processed event with trace ID: 86642
+2022-10-13 10:50:25,448 - basicLogger - DEBUG - Processed event with trace ID: 99221
+2022-10-13 10:50:25,448 - basicLogger - DEBUG - Processed event with trace ID: 86365
+2022-10-13 10:50:25,448 - basicLogger - DEBUG - Processed event with trace ID: 72161
+2022-10-13 10:50:25,449 - basicLogger - DEBUG - Processed event with trace ID: 51736
+2022-10-13 10:50:25,449 - basicLogger - DEBUG - Processed event with trace ID: 52478
+2022-10-13 10:50:25,449 - basicLogger - DEBUG - Processed event with trace ID: 84968
+2022-10-13 10:50:25,449 - basicLogger - DEBUG - Processed event with trace ID: 30143
+2022-10-13 10:50:25,450 - basicLogger - DEBUG - Processed event with trace ID: 46193
+2022-10-13 10:50:25,450 - basicLogger - DEBUG - Processed event with trace ID: 99830
+2022-10-13 10:50:25,450 - basicLogger - DEBUG - Processed event with trace ID: 84661
+2022-10-13 10:50:25,451 - basicLogger - DEBUG - Processed event with trace ID: 74767
+2022-10-13 10:50:25,451 - basicLogger - DEBUG - Processed event with trace ID: 81082
+2022-10-13 10:50:25,451 - basicLogger - DEBUG - Processed event with trace ID: 85939
+2022-10-13 10:50:25,451 - basicLogger - DEBUG - Processed event with trace ID: 93136
+2022-10-13 10:50:25,451 - basicLogger - DEBUG - Processed event with trace ID: 13196
+2022-10-13 10:50:25,452 - basicLogger - DEBUG - Processed event with trace ID: 49902
+2022-10-13 10:50:25,452 - basicLogger - DEBUG - Processed event with trace ID: 65806
+2022-10-13 10:50:25,452 - basicLogger - DEBUG - Processed event with trace ID: 31947
+2022-10-13 10:50:25,452 - basicLogger - DEBUG - Processed event with trace ID: 44500
+2022-10-13 10:50:25,452 - basicLogger - DEBUG - Processed event with trace ID: 36536
+2022-10-13 10:50:25,452 - basicLogger - DEBUG - Processed event with trace ID: 70125
+2022-10-13 10:50:25,452 - basicLogger - DEBUG - Processed event with trace ID: 47366
+2022-10-13 10:50:25,452 - basicLogger - DEBUG - Processed event with trace ID: 32751
+2022-10-13 10:50:25,452 - basicLogger - DEBUG - Processed event with trace ID: 67621
+2022-10-13 10:50:25,453 - basicLogger - DEBUG - Processed event with trace ID: 58629
+2022-10-13 10:50:25,453 - basicLogger - DEBUG - Processed event with trace ID: 46433
+2022-10-13 10:50:25,453 - basicLogger - DEBUG - Processed event with trace ID: 56087
+2022-10-13 10:50:25,453 - basicLogger - DEBUG - Processed event with trace ID: 15333
+2022-10-13 10:50:25,453 - basicLogger - DEBUG - Processed event with trace ID: 70718
+2022-10-13 10:50:25,453 - basicLogger - DEBUG - Processed event with trace ID: 43599
+2022-10-13 10:50:25,453 - basicLogger - DEBUG - Processed event with trace ID: 28863
+2022-10-13 10:50:25,454 - basicLogger - DEBUG - Processed event with trace ID: 24132
+2022-10-13 10:50:25,454 - basicLogger - DEBUG - Processed event with trace ID: 12849
+2022-10-13 10:50:25,454 - basicLogger - DEBUG - Processed event with trace ID: 70560
+2022-10-13 10:50:25,454 - basicLogger - DEBUG - Processed event with trace ID: 58154
+2022-10-13 10:50:25,454 - basicLogger - DEBUG - Processed event with trace ID: 89411
+2022-10-13 10:50:25,454 - basicLogger - DEBUG - Processed event with trace ID: 27515
+2022-10-13 10:50:25,454 - basicLogger - DEBUG - Processed event with trace ID: 10955
+2022-10-13 10:50:25,455 - basicLogger - DEBUG - Processed event with trace ID: 52923
+2022-10-13 10:50:25,455 - basicLogger - DEBUG - Processed event with trace ID: 23192
+2022-10-13 10:50:25,455 - basicLogger - DEBUG - Processed event with trace ID: 77041
+2022-10-13 10:50:25,455 - basicLogger - DEBUG - Processed event with trace ID: 61164
+2022-10-13 10:50:25,455 - basicLogger - DEBUG - Processed event with trace ID: 99052
+2022-10-13 10:50:25,455 - basicLogger - DEBUG - Processed event with trace ID: 97377
+2022-10-13 10:50:25,455 - basicLogger - DEBUG - Processed event with trace ID: 14155
+2022-10-13 10:50:25,455 - basicLogger - DEBUG - Processed event with trace ID: 64177
+2022-10-13 10:50:25,455 - basicLogger - DEBUG - Processed event with trace ID: 32363
+2022-10-13 10:50:25,456 - basicLogger - DEBUG - Processed event with trace ID: 99284
+2022-10-13 10:50:25,456 - basicLogger - DEBUG - Processed event with trace ID: 70530
+2022-10-13 10:50:25,456 - basicLogger - DEBUG - Processed event with trace ID: 93442
+2022-10-13 10:50:25,456 - basicLogger - DEBUG - Processed event with trace ID: 59399
+2022-10-13 10:50:25,456 - basicLogger - DEBUG - Processed event with trace ID: 31850
+2022-10-13 10:50:25,456 - basicLogger - DEBUG - Processed event with trace ID: 41554
+2022-10-13 10:50:25,456 - basicLogger - DEBUG - Processed event with trace ID: 34864
+2022-10-13 10:50:25,456 - basicLogger - DEBUG - Processed event with trace ID: 49913
+2022-10-13 10:50:25,456 - basicLogger - DEBUG - Processed event with trace ID: 60873
+2022-10-13 10:50:25,456 - basicLogger - DEBUG - Processed event with trace ID: 11470
+2022-10-13 10:50:25,457 - basicLogger - DEBUG - Processed event with trace ID: 21933
+2022-10-13 10:50:25,457 - basicLogger - DEBUG - Processed event with trace ID: 32330
+2022-10-13 10:50:25,457 - basicLogger - DEBUG - Processed event with trace ID: 72624
+2022-10-13 10:50:25,457 - basicLogger - DEBUG - Processed event with trace ID: 25975
+2022-10-13 10:50:25,457 - basicLogger - DEBUG - Processed event with trace ID: 90233
+2022-10-13 10:50:25,457 - basicLogger - DEBUG - Processed event with trace ID: 17460
+2022-10-13 10:50:25,457 - basicLogger - DEBUG - Processed event with trace ID: 99407
+2022-10-13 10:50:25,458 - basicLogger - DEBUG - Processed event with trace ID: 27315
+2022-10-13 10:50:25,458 - basicLogger - DEBUG - Processed event with trace ID: 55503
+2022-10-13 10:50:25,458 - basicLogger - DEBUG - Processed event with trace ID: 10061
+2022-10-13 10:50:25,458 - basicLogger - DEBUG - Processed event with trace ID: 79651
+2022-10-13 10:50:25,458 - basicLogger - DEBUG - Processed event with trace ID: 33817
+2022-10-13 10:50:25,459 - basicLogger - DEBUG - Processed event with trace ID: 20366
+2022-10-13 10:50:25,459 - basicLogger - DEBUG - Processed event with trace ID: 20810
+2022-10-13 10:50:25,459 - basicLogger - DEBUG - Processed event with trace ID: 16850
+2022-10-13 10:50:25,459 - basicLogger - DEBUG - Processed event with trace ID: 53019
+2022-10-13 10:50:25,459 - basicLogger - DEBUG - Processed event with trace ID: 39454
+2022-10-13 10:50:25,459 - basicLogger - DEBUG - Processed event with trace ID: 91906
+2022-10-13 10:50:25,459 - basicLogger - DEBUG - Processed event with trace ID: 37757
+2022-10-13 10:50:25,460 - basicLogger - DEBUG - Processed event with trace ID: 74230
+2022-10-13 10:50:25,460 - basicLogger - DEBUG - Processed event with trace ID: 19935
+2022-10-13 10:50:25,460 - basicLogger - DEBUG - Processed event with trace ID: 60700
+2022-10-13 10:50:25,460 - basicLogger - DEBUG - Processed event with trace ID: 53425
+2022-10-13 10:50:25,460 - basicLogger - DEBUG - Processed event with trace ID: 87932
+2022-10-13 10:50:25,460 - basicLogger - DEBUG - Processed event with trace ID: 54276
+2022-10-13 10:50:25,460 - basicLogger - DEBUG - Processed event with trace ID: 84269
+2022-10-13 10:50:25,461 - basicLogger - DEBUG - Processed event with trace ID: 48454
+2022-10-13 10:50:25,461 - basicLogger - DEBUG - Processed event with trace ID: 95905
+2022-10-13 10:50:25,461 - basicLogger - DEBUG - Processed event with trace ID: 16747
+2022-10-13 10:50:25,461 - basicLogger - DEBUG - Processed event with trace ID: 22728
+2022-10-13 10:50:25,461 - basicLogger - DEBUG - Processed event with trace ID: 38155
+2022-10-13 10:50:25,461 - basicLogger - DEBUG - Processed event with trace ID: 77476
+2022-10-13 10:50:25,461 - basicLogger - DEBUG - Processed event with trace ID: 28436
+2022-10-13 10:50:25,462 - basicLogger - DEBUG - Processed event with trace ID: 28937
+2022-10-13 10:50:25,462 - basicLogger - DEBUG - Processed event with trace ID: 21806
+2022-10-13 10:50:25,462 - basicLogger - DEBUG - Processed event with trace ID: 50571
+2022-10-13 10:50:25,462 - basicLogger - DEBUG - Processed event with trace ID: 99583
+2022-10-13 10:50:25,462 - basicLogger - DEBUG - Processed event with trace ID: 17169
+2022-10-13 10:50:25,462 - basicLogger - DEBUG - Processed event with trace ID: 47016
+2022-10-13 10:50:25,463 - basicLogger - DEBUG - Processed event with trace ID: 72740
+2022-10-13 10:50:25,463 - basicLogger - DEBUG - Processed event with trace ID: 75172
+2022-10-13 10:50:25,463 - basicLogger - DEBUG - Processed event with trace ID: 63344
+2022-10-13 10:50:25,463 - basicLogger - DEBUG - Processed event with trace ID: 49623
+2022-10-13 10:50:25,463 - basicLogger - DEBUG - Processed event with trace ID: 56732
+2022-10-13 10:50:25,464 - basicLogger - DEBUG - Processed event with trace ID: 49398
+2022-10-13 10:50:25,464 - basicLogger - DEBUG - Processed event with trace ID: 20253
+2022-10-13 10:50:25,464 - basicLogger - DEBUG - Processed event with trace ID: 41552
+2022-10-13 10:50:25,464 - basicLogger - DEBUG - Processed event with trace ID: 20775
+2022-10-13 10:50:25,464 - basicLogger - DEBUG - Processed event with trace ID: 43091
+2022-10-13 10:50:25,464 - basicLogger - DEBUG - Processed event with trace ID: 31646
+2022-10-13 10:50:25,464 - basicLogger - DEBUG - Processed event with trace ID: 62513
+2022-10-13 10:50:25,464 - basicLogger - DEBUG - Processed event with trace ID: 51572
+2022-10-13 10:50:25,465 - basicLogger - DEBUG - Processed event with trace ID: 12232
+2022-10-13 10:50:25,465 - basicLogger - DEBUG - Processed event with trace ID: 37862
+2022-10-13 10:50:25,465 - basicLogger - DEBUG - Processed event with trace ID: 32891
+2022-10-13 10:50:25,465 - basicLogger - DEBUG - Processed event with trace ID: 46698
+2022-10-13 10:50:25,465 - basicLogger - DEBUG - Processed event with trace ID: 91146
+2022-10-13 10:50:25,465 - basicLogger - DEBUG - Processed event with trace ID: 17987
+2022-10-13 10:50:25,465 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:50:25,466 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:50:26,153 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:50:30,268 - basicLogger - INFO - Total events since 2022-10-13T10:50:25Z: 0
+2022-10-13 10:50:30,270 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:50:30,272 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:50:36,114 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:50:40,256 - basicLogger - INFO - Total events since 2022-10-13T10:50:30Z: 0
+2022-10-13 10:50:40,257 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:50:40,257 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:50:41,108 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:50:45,258 - basicLogger - INFO - Total events since 2022-10-13T10:50:40Z: 0
+2022-10-13 10:50:45,261 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:50:45,263 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:50:46,125 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:50:50,221 - basicLogger - INFO - Total events since 2022-10-13T10:50:45Z: 0
+2022-10-13 10:50:50,223 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:50:50,225 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:50:51,123 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:50:55,267 - basicLogger - INFO - Total events since 2022-10-13T10:50:50Z: 0
+2022-10-13 10:50:55,269 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:50:55,271 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:50:56,107 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:51:00,243 - basicLogger - INFO - Total events since 2022-10-13T10:50:55Z: 0
+2022-10-13 10:51:00,244 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:51:00,244 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:51:01,115 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:51:05,239 - basicLogger - INFO - Total events since 2022-10-13T10:51:00Z: 0
+2022-10-13 10:51:05,240 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:51:05,240 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:51:06,114 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:51:10,225 - basicLogger - INFO - Total events since 2022-10-13T10:51:05Z: 0
+2022-10-13 10:51:10,227 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:51:10,229 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:51:11,119 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:51:15,276 - basicLogger - INFO - Total events since 2022-10-13T10:51:10Z: 0
+2022-10-13 10:51:15,278 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:51:15,280 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:51:16,116 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:51:20,215 - basicLogger - INFO - Total events since 2022-10-13T10:51:15Z: 0
+2022-10-13 10:51:20,216 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:51:20,217 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:51:21,104 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:51:25,214 - basicLogger - INFO - Total events since 2022-10-13T10:51:20Z: 0
+2022-10-13 10:51:25,214 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:51:25,215 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:51:26,105 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:51:30,236 - basicLogger - INFO - Total events since 2022-10-13T10:51:25Z: 0
+2022-10-13 10:51:30,237 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:51:30,238 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:51:31,117 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:51:35,254 - basicLogger - INFO - Total events since 2022-10-13T10:51:30Z: 0
+2022-10-13 10:51:35,255 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:51:35,257 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:51:36,110 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:51:40,229 - basicLogger - INFO - Total events since 2022-10-13T10:51:35Z: 0
+2022-10-13 10:51:40,230 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:51:40,230 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:51:41,122 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:51:45,264 - basicLogger - INFO - Total events since 2022-10-13T10:51:40Z: 0
+2022-10-13 10:51:45,266 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:51:45,267 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:51:46,113 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:51:50,248 - basicLogger - INFO - Total events since 2022-10-13T10:51:45Z: 0
+2022-10-13 10:51:50,250 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:51:50,252 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:51:51,123 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:51:55,280 - basicLogger - INFO - Total events since 2022-10-13T10:51:50Z: 0
+2022-10-13 10:51:55,282 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:51:55,284 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:51:56,111 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:52:00,258 - basicLogger - INFO - Total events since 2022-10-13T10:51:55Z: 0
+2022-10-13 10:52:00,260 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:52:00,262 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:52:01,112 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:52:05,251 - basicLogger - INFO - Total events since 2022-10-13T10:52:00Z: 0
+2022-10-13 10:52:05,251 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:52:05,252 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:52:06,117 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:52:10,242 - basicLogger - INFO - Total events since 2022-10-13T10:52:05Z: 0
+2022-10-13 10:52:10,242 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:52:10,242 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:52:11,124 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:52:15,222 - basicLogger - INFO - Total events since 2022-10-13T10:52:10Z: 0
+2022-10-13 10:52:15,223 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:52:15,223 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:52:16,105 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:52:20,192 - basicLogger - INFO - Total events since 2022-10-13T10:52:15Z: 0
+2022-10-13 10:52:20,192 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:52:20,192 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:52:21,102 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:52:25,209 - basicLogger - INFO - Total events since 2022-10-13T10:52:20Z: 0
+2022-10-13 10:52:25,209 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:52:25,209 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:52:26,111 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:52:30,222 - basicLogger - INFO - Total events since 2022-10-13T10:52:25Z: 0
+2022-10-13 10:52:30,222 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:52:30,222 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:52:31,118 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:52:35,214 - basicLogger - INFO - Total events since 2022-10-13T10:52:30Z: 0
+2022-10-13 10:52:35,214 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:52:35,215 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:52:36,104 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:52:40,220 - basicLogger - INFO - Total events since 2022-10-13T10:52:35Z: 0
+2022-10-13 10:52:40,220 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:52:40,221 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:52:41,107 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:52:45,199 - basicLogger - INFO - Total events since 2022-10-13T10:52:40Z: 0
+2022-10-13 10:52:45,199 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:52:45,200 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:52:51,117 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:52:55,215 - basicLogger - INFO - Total events since 2022-10-13T10:52:45Z: 0
+2022-10-13 10:52:55,215 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:52:55,216 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:52:56,113 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:53:00,209 - basicLogger - INFO - Total events since 2022-10-13T10:52:55Z: 0
+2022-10-13 10:53:00,209 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:53:00,210 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:53:01,109 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:53:05,203 - basicLogger - INFO - Total events since 2022-10-13T10:53:00Z: 0
+2022-10-13 10:53:05,203 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:53:05,204 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:53:06,117 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:53:10,228 - basicLogger - INFO - Total events since 2022-10-13T10:53:05Z: 0
+2022-10-13 10:53:10,229 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:53:10,229 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:53:11,112 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:53:15,219 - basicLogger - INFO - Total events since 2022-10-13T10:53:10Z: 0
+2022-10-13 10:53:15,220 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:53:15,220 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:53:16,114 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:53:20,226 - basicLogger - INFO - Total events since 2022-10-13T10:53:15Z: 0
+2022-10-13 10:53:20,227 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:53:20,227 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:53:21,123 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:53:25,219 - basicLogger - INFO - Total events since 2022-10-13T10:53:20Z: 0
+2022-10-13 10:53:25,220 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:53:25,220 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:53:26,101 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:53:30,192 - basicLogger - INFO - Total events since 2022-10-13T10:53:25Z: 0
+2022-10-13 10:53:30,194 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:53:30,194 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:53:31,102 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:53:35,171 - basicLogger - INFO - Total events since 2022-10-13T10:53:30Z: 0
+2022-10-13 10:53:35,171 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:53:35,172 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:53:36,102 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:53:40,177 - basicLogger - INFO - Total events since 2022-10-13T10:53:35Z: 0
+2022-10-13 10:53:40,177 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:53:40,178 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:53:46,116 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:53:50,220 - basicLogger - INFO - Total events since 2022-10-13T10:53:40Z: 0
+2022-10-13 10:53:50,220 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:53:50,220 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:53:51,112 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:53:55,210 - basicLogger - INFO - Total events since 2022-10-13T10:53:50Z: 0
+2022-10-13 10:53:55,210 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:53:55,211 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:53:56,118 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:54:00,215 - basicLogger - INFO - Total events since 2022-10-13T10:53:55Z: 0
+2022-10-13 10:54:00,216 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:54:00,216 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:54:01,111 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:54:05,201 - basicLogger - INFO - Total events since 2022-10-13T10:54:00Z: 0
+2022-10-13 10:54:05,201 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:54:05,202 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:54:06,112 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:54:10,207 - basicLogger - INFO - Total events since 2022-10-13T10:54:05Z: 0
+2022-10-13 10:54:10,208 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:54:10,208 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:54:11,120 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:54:15,226 - basicLogger - INFO - Total events since 2022-10-13T10:54:10Z: 0
+2022-10-13 10:54:15,226 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:54:15,227 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:54:16,105 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:54:20,192 - basicLogger - INFO - Total events since 2022-10-13T10:54:15Z: 0
+2022-10-13 10:54:20,192 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:54:20,192 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:54:21,101 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:54:25,206 - basicLogger - INFO - Total events since 2022-10-13T10:54:20Z: 0
+2022-10-13 10:54:25,207 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:54:25,207 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:54:26,101 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:54:30,184 - basicLogger - INFO - Total events since 2022-10-13T10:54:25Z: 0
+2022-10-13 10:54:30,185 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:54:30,185 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:54:31,102 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:54:35,203 - basicLogger - INFO - Total events since 2022-10-13T10:54:30Z: 0
+2022-10-13 10:54:35,204 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:54:35,204 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:54:36,123 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:54:40,234 - basicLogger - INFO - Total events since 2022-10-13T10:54:35Z: 0
+2022-10-13 10:54:40,234 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:54:40,235 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:54:41,103 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:54:45,196 - basicLogger - INFO - Total events since 2022-10-13T10:54:40Z: 0
+2022-10-13 10:54:45,196 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:54:45,196 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:54:46,109 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:54:50,211 - basicLogger - INFO - Total events since 2022-10-13T10:54:45Z: 0
+2022-10-13 10:54:50,211 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:54:50,211 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:54:51,111 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:54:55,224 - basicLogger - INFO - Total events since 2022-10-13T10:54:50Z: 0
+2022-10-13 10:54:55,225 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:54:55,225 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:54:56,111 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:55:00,190 - basicLogger - INFO - Total events since 2022-10-13T10:54:55Z: 0
+2022-10-13 10:55:00,190 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:55:00,191 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:55:01,121 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:55:05,224 - basicLogger - INFO - Total events since 2022-10-13T10:55:00Z: 0
+2022-10-13 10:55:05,224 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:55:05,224 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:55:06,109 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:55:10,199 - basicLogger - INFO - Total events since 2022-10-13T10:55:05Z: 0
+2022-10-13 10:55:10,199 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:55:10,199 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:55:11,115 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:55:15,226 - basicLogger - INFO - Total events since 2022-10-13T10:55:10Z: 0
+2022-10-13 10:55:15,227 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:55:15,227 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:55:16,110 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:55:20,227 - basicLogger - INFO - Total events since 2022-10-13T10:55:15Z: 0
+2022-10-13 10:55:20,227 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:55:20,228 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:55:21,110 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:55:25,210 - basicLogger - INFO - Total events since 2022-10-13T10:55:20Z: 0
+2022-10-13 10:55:25,210 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:55:25,210 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:55:26,114 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:55:30,224 - basicLogger - INFO - Total events since 2022-10-13T10:55:25Z: 0
+2022-10-13 10:55:30,225 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:55:30,225 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:55:31,109 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:55:35,224 - basicLogger - INFO - Total events since 2022-10-13T10:55:30Z: 0
+2022-10-13 10:55:35,225 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:55:35,225 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:55:36,110 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:55:40,200 - basicLogger - INFO - Total events since 2022-10-13T10:55:35Z: 0
+2022-10-13 10:55:40,201 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:55:40,201 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:55:41,116 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:55:45,228 - basicLogger - INFO - Total events since 2022-10-13T10:55:40Z: 0
+2022-10-13 10:55:45,229 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:55:45,229 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:55:46,110 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:55:50,196 - basicLogger - INFO - Total events since 2022-10-13T10:55:45Z: 0
+2022-10-13 10:55:50,197 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:55:50,197 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:55:51,111 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:55:55,225 - basicLogger - INFO - Total events since 2022-10-13T10:55:50Z: 0
+2022-10-13 10:55:55,225 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:55:55,226 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:55:56,110 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:56:00,199 - basicLogger - INFO - Total events since 2022-10-13T10:55:55Z: 0
+2022-10-13 10:56:00,200 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:56:00,200 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:56:01,113 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:56:05,219 - basicLogger - INFO - Total events since 2022-10-13T10:56:00Z: 0
+2022-10-13 10:56:05,219 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:56:05,219 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:56:06,119 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:56:10,219 - basicLogger - INFO - Total events since 2022-10-13T10:56:05Z: 0
+2022-10-13 10:56:10,220 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:56:10,220 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:56:11,105 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:56:15,203 - basicLogger - INFO - Total events since 2022-10-13T10:56:10Z: 0
+2022-10-13 10:56:15,203 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:56:15,204 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:56:16,103 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:56:20,180 - basicLogger - INFO - Total events since 2022-10-13T10:56:15Z: 0
+2022-10-13 10:56:20,181 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:56:20,181 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:56:21,113 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:56:25,225 - basicLogger - INFO - Total events since 2022-10-13T10:56:20Z: 0
+2022-10-13 10:56:25,225 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:56:25,225 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:56:26,124 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:56:30,234 - basicLogger - INFO - Total events since 2022-10-13T10:56:25Z: 0
+2022-10-13 10:56:30,235 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:56:30,235 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:56:31,119 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:56:35,217 - basicLogger - INFO - Total events since 2022-10-13T10:56:30Z: 0
+2022-10-13 10:56:35,218 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:56:35,218 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:56:36,101 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:56:40,203 - basicLogger - INFO - Total events since 2022-10-13T10:56:35Z: 0
+2022-10-13 10:56:40,203 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:56:40,204 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:56:41,104 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:56:45,201 - basicLogger - INFO - Total events since 2022-10-13T10:56:40Z: 0
+2022-10-13 10:56:45,201 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:56:45,202 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:56:46,112 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:56:50,198 - basicLogger - INFO - Total events since 2022-10-13T10:56:45Z: 0
+2022-10-13 10:56:50,198 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:56:50,198 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:56:51,120 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:56:55,222 - basicLogger - INFO - Total events since 2022-10-13T10:56:50Z: 0
+2022-10-13 10:56:55,223 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:56:55,223 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:56:56,107 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:57:00,194 - basicLogger - INFO - Total events since 2022-10-13T10:56:55Z: 0
+2022-10-13 10:57:00,194 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:57:00,194 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:57:01,114 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:57:05,229 - basicLogger - INFO - Total events since 2022-10-13T10:57:00Z: 0
+2022-10-13 10:57:05,230 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:57:05,230 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:57:06,110 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:57:10,211 - basicLogger - INFO - Total events since 2022-10-13T10:57:05Z: 0
+2022-10-13 10:57:10,212 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:57:10,212 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:57:11,108 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:57:15,190 - basicLogger - INFO - Total events since 2022-10-13T10:57:10Z: 0
+2022-10-13 10:57:15,190 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:57:15,190 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:57:16,113 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:57:20,172 - basicLogger - INFO - Total events since 2022-10-13T10:57:15Z: 0
+2022-10-13 10:57:20,172 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:57:20,172 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:57:21,119 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:57:25,207 - basicLogger - INFO - Total events since 2022-10-13T10:57:20Z: 0
+2022-10-13 10:57:25,207 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:57:25,207 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:57:26,103 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:57:30,202 - basicLogger - INFO - Total events since 2022-10-13T10:57:25Z: 0
+2022-10-13 10:57:30,203 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:57:30,203 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:57:31,105 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:57:35,208 - basicLogger - INFO - Total events since 2022-10-13T10:57:30Z: 0
+2022-10-13 10:57:35,208 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:57:35,208 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:57:36,108 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:57:40,206 - basicLogger - INFO - Total events since 2022-10-13T10:57:35Z: 0
+2022-10-13 10:57:40,206 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:57:40,206 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:57:41,110 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:57:45,155 - basicLogger - INFO - Total events since 2022-10-13T10:57:40Z: 0
+2022-10-13 10:57:45,155 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:57:45,155 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:57:46,123 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:57:50,192 - basicLogger - INFO - Total events since 2022-10-13T10:57:45Z: 0
+2022-10-13 10:57:50,194 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:57:50,194 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:57:51,106 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:57:55,174 - basicLogger - INFO - Total events since 2022-10-13T10:57:50Z: 0
+2022-10-13 10:57:55,175 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:57:55,175 - basicLogger - INFO - Finished Periodic Processing
+2022-10-13 10:57:56,105 - basicLogger - INFO - Start Periodic Processing
+2022-10-13 10:58:00,205 - basicLogger - INFO - Total events since 2022-10-13T10:57:55Z: 0
+2022-10-13 10:58:00,206 - basicLogger - DEBUG - Updated statistics --- num_daily_sales_events: 229, max_cheeseburgers_sold: 996, max_fry_servings_sold: 998, max_hamburgers_sold: 985, num_delivery_events: 233, max_bun_trays_received: 30, max_fry_boxes_received: 30
+2022-10-13 10:58:00,207 - basicLogger - INFO - Finished Periodic Processing

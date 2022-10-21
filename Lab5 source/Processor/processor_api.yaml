@@ -1,0 +1,68 @@
+---
+openapi: 3.0.0
+info:
+  title: Stats API
+  description: This API provides event stats
+  version: "1.0.0"
+  contact:
+    email: brainbow@my.bcit.ca
+
+paths:
+  /stats:
+    get:
+      summary: Gets the event stats
+      operationId: app.get_stats
+      description: Gets upload_sales and upload_delivery statistics
+      responses:
+        '200':
+          description: Successfully returned a list of statistics
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/ReadingStats'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+components:
+  schemas:
+    ReadingStats:
+      required:
+        - num_daily_sales_events
+        - max_cheeseburgers_sold
+        - max_fry_servings_sold
+        - max_hamburgers_sold
+        - num_delivery_events
+        - max_bun_trays_received
+        - max_fry_boxes_received
+      properties:
+        num_daily_sales_events:
+          type: integer
+          example: 500000
+        max_cheeseburgers_sold:
+          type: integer
+          example: 200
+        max_fry_servings_sold:
+          type: integer
+          example: 200
+        max_hamburgers_sold:
+          type: integer
+          example: 100
+        num_delivery_events:
+          type: integer
+          example: 500000
+        max_bun_trays_received:
+          type: integer
+          example: 100
+        max_fry_boxes_received:
+          type: integer
+          example: 100
+      type: object

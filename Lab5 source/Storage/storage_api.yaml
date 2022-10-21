@@ -1,0 +1,190 @@
+---
+openapi: 3.0.0
+info:
+  title: Simple Inventory API
+  description: A simple API to track inventory of a chain of fast food restaurants
+  contact:
+    email: brainbow@my.bcit.ca
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+servers:
+- url: http://localhost:8080
+tags:
+- name: admins
+  description: Secured Admin-only calls
+- name: developers
+  description: Operations available to regular developers
+paths:
+  /upload_sales:
+    post:
+      tags:
+      - admins
+      summary: uploads items sold from the previous day
+      description: uploads items sold from the previous day and splits it into parts. These parts are stored to track how much of each component was sold that day.
+      operationId: app.upload_sales
+      requestBody:
+        description: Number of food items sold for one day
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Daily_Sales'
+      responses:
+        "201":
+          description: items stored in database
+        "400":
+          description: invalid input, object invalid
+        "409":
+          description: an existing sale count for this day exists
+  /get_daily_sales:
+    get:
+      tags:
+        - devices
+      summary: gets new daily sales
+      operationId: app.get_daily_sales
+      description: Gets daily sales added after a timestamp
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        '200':
+          description: Successfully returned a list of daily sales
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Daily_Sales'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /upload_delivery:
+    post:
+      tags:
+      - admins
+      summary: uploads items received from a delivery
+      description: uploads items received from a delivery. These items received are parts of a food item, not an entire cheeseburger for example.
+      operationId: app.upload_delivery
+      requestBody:
+        description: Number of items received in a delivery
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Delivery'
+      responses:
+        "201":
+          description: item created
+        "400":
+          description: invalid input, object invalid
+        "409":
+          description: an existing delivery already exists for this day
+  /get_deliveries:
+    get:
+      tags:
+        - devices
+      summary: gets new deliveries
+      operationId: app.get_deliveries
+      description: Gets deliveries added after a timestamp
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        '200':
+          description: Successfully returned a list of deliveries
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Delivery'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    Daily_Sales:
+      required:
+      - cheeseburgers_sold
+      - fry_servings_sold
+      - hamburgers_sold
+      - inventory_datetime
+      - restaurant_id
+      - trace_id
+      type: object
+      properties:
+        restaurant_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        inventory_datetime:
+          type: string
+          format: date
+          example: 2022-06-20
+        cheeseburgers_sold:
+          type: integer
+          format: int32
+        hamburgers_sold:
+          type: integer
+          format: int32
+        fry_servings_sold:
+          type: integer
+          format: int32
+        trace_id:
+          type: integer
+          format: int32
+    Delivery:
+      required:
+      - bun_trays_received
+      - cheese_boxes_received
+      - delivery_id
+      - fry_boxes_received
+      - patty_boxes_received
+      - restaurant_id
+      - trace_id
+      type: object
+      properties:
+        restaurant_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        delivery_id:
+          type: integer
+          format: int64
+        bun_trays_received:
+          type: integer
+          format: int32
+        patty_boxes_received:
+          type: integer
+          format: int32
+        cheese_boxes_received:
+          type: integer
+          format: int32
+        fry_boxes_received:
+          type: integer
+          format: int32
+        trace_id:
+          type: integer
+          format: int32
