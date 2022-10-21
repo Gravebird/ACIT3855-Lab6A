@@ -28,8 +28,8 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: 'ACIT3855_Events'
-      MYSQL_USER: 'root'
-      MYSQL_PASSWORD: 'A00768125'
+      MYSQL_USER: 'events_user'
+      MYSQL_PASSWORD: 'events_password'
       MYSQL_ROOT_PASSWORD: 'A00768125'
     ports:
       - '3306:3306'
