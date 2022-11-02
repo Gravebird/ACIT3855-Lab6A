@@ -1,0 +1,152 @@
+openapi: 3.0.0
+info:
+  description: This API provides audit info
+  version: "1.0.0"
+  title: Audit API
+  contact:
+    email: Brainbow@my.bcit.ca
+
+paths:
+  /daily_sales:
+    get:
+      summary: Gets a daily sales event from history
+      operationId: app.get_daily_sales
+      description: Gets daily sales readings from the event store
+      parameters:
+        - name: index
+          in: query
+          description: Gets the daily sales event at the index in the event store
+          schema:
+            type: integer
+            example: 100
+      responses:
+        '200':
+          description: Successfully returned a daily sales event
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/DailySalesEvent'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /delivery:
+    get:
+      summary: Gets a delivery event from history
+      operationId: app.get_delivery
+      description: Gets delivery reading from the event store
+      parameters:
+        - name: index
+          in: query
+          description: Gets the delivery at the index in the event store
+          schema:
+            type: integer
+            example: 100
+      responses:
+        '200':
+          description: Successfully returned a delivery event
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/DeliveryEvent'
+        '400':
+          description: Incalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    DailySalesEvent:
+      required:
+      - cheeseburgers_sold
+      - fry_servings_sold
+      - hamburgers_sold
+      - inventory_datetime
+      - restaurant_id
+      - trace_id
+      type: object
+      properties:
+        restaurant_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        inventory_datetime:
+          type: string
+          format: date
+          example: 2022-06-20
+        cheeseburgers_sold:
+          type: integer
+          format: int32
+        hamburgers_sold:
+          type: integer
+          format: int32
+        fry_servings_sold:
+          type: integer
+          format: int32
+        trace_id:
+          type: integer
+          format: int32
+    DeliveryEvent:
+      required:
+      - bun_trays_received
+      - cheese_boxes_received
+      - delivery_id
+      - fry_boxes_received
+      - patty_boxes_received
+      - restaurant_id
+      - trace_id
+      type: object
+      properties:
+        restaurant_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        delivery_id:
+          type: integer
+          format: int64
+        bun_trays_received:
+          type: integer
+          format: int32
+        patty_boxes_received:
+          type: integer
+          format: int32
+        cheese_boxes_received:
+          type: integer
+          format: int32
+        fry_boxes_received:
+          type: integer
+          format: int32
+        trace_id:
+          type: integer
+          format: int32

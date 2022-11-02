@@ -17,26 +17,6 @@ tags:
 - name: developers
   description: Operations available to regular developers
 paths:
-  /upload_sales:
-    post:
-      tags:
-      - admins
-      summary: uploads items sold from the previous day
-      description: uploads items sold from the previous day and splits it into parts. These parts are stored to track how much of each component was sold that day.
-      operationId: app.upload_sales
-      requestBody:
-        description: Number of food items sold for one day
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/Daily_Sales'
-      responses:
-        "201":
-          description: items stored in database
-        "400":
-          description: invalid input, object invalid
-        "409":
-          description: an existing sale count for this day exists
   /get_daily_sales:
     get:
       tags:
@@ -70,26 +50,6 @@ paths:
                 properties:
                   message:
                     type: string
-  /upload_delivery:
-    post:
-      tags:
-      - admins
-      summary: uploads items received from a delivery
-      description: uploads items received from a delivery. These items received are parts of a food item, not an entire cheeseburger for example.
-      operationId: app.upload_delivery
-      requestBody:
-        description: Number of items received in a delivery
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/Delivery'
-      responses:
-        "201":
-          description: item created
-        "400":
-          description: invalid input, object invalid
-        "409":
-          description: an existing delivery already exists for this day
   /get_deliveries:
     get:
       tags:

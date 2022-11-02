@@ -1,0 +1,11 @@
+version: 1
+datastore:
+    user: 'root'
+    password: 'A00768125'
+    hostname: 'localhost'
+    port: '3306'
+    db: 'ACIT3855_Events'
+events:
+    hostname: bryan-rainbow-lab6a-acit3855.eastus.cloudapp.azure.com
+    port: 9092
+    topic: events

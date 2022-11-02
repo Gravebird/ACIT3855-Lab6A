@@ -1,0 +1,9 @@
+version: 1
+eventstore1:
+    url: http://localhost:8090/upload_sales
+eventstore2:
+    url: http://localhost:8090/upload_delivery
+events:
+    hostname: bryan-rainbow-lab6a-acit3855.eastus.cloudapp.azure.com
+    port: 9092
+    topic: events

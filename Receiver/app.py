@@ -2,6 +2,9 @@ import swagger_ui_bundle
 import connexion
 import yaml
 import logging, logging.config
+import datetime
+import json
+from pykafka import KafkaClient
 from random import randint
 from connexion import NoContent
 
@@ -24,12 +27,23 @@ def upload_sales(body):
         'fry_servings_sold' : body["fry_servings_sold"],
         'trace_id' : trace_id
         }
-    
-    x = requests.post(SALES_URL, json=json_payload)
-    
-    logger.info(f'Returned event "upload_sales" response (Id: {trace_id}) with status {x.status_code}')
 
-    return NoContent, x.status_code
+    client = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_PORT}')
+    topic = client.topics[str.encode(KAFKA_TOPIC)]
+    producer = topic.get_sync_producer()
+    msg = {
+        "type": "daily_sales",
+        "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+        "payload": json_payload
+    }
+    msg_str = json.dumps(msg)
+    producer.produce(msg_str.encode('utf-8'))
+
+    #x = requests.post(SALES_URL, json=json_payload)
+    
+    logger.info(f'Returned event "upload_sales" response (Id: {trace_id}) with status 201')
+
+    return NoContent, 201
 
 
 def upload_delivery(body):
@@ -50,11 +64,22 @@ def upload_delivery(body):
         'trace_id' : trace_id
     }
 
-    x = requests.post(DELIVERY_URL, json=json_payload)
+    client = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_PORT}')
+    topic = client.topics[str.encode(KAFKA_TOPIC)]
+    producer = topic.get_sync_producer()
+    msg = {
+        "type": "delivery",
+        "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+        "payload": json_payload
+    }
+    msg_str = json.dumps(msg)
+    producer.produce(msg_str.encode('utf-8'))
+
+    #x = requests.post(DELIVERY_URL, json=json_payload)
     
-    logger.info(f'Returned event "upload_delivery" response (Id: {trace_id}) with status {x.status_code}')
+    logger.info(f'Returned event "upload_delivery" response (Id: {trace_id}) with status 201')
     
-    return NoContent, x.status_code
+    return NoContent, 201
 
 
 
@@ -72,6 +97,9 @@ with open('app_conf.yml', 'r') as f:
 
 SALES_URL = app_config['eventstore1']['url']
 DELIVERY_URL = app_config['eventstore2']['url']
+KAFKA_HOST = app_config['events']['hostname']
+KAFKA_PORT = app_config['events']['port']
+KAFKA_TOPIC = app_config['events']['topic']
 
 with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())

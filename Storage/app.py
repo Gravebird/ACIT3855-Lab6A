@@ -2,6 +2,10 @@ import swagger_ui_bundle
 import connexion
 import yaml
 import logging, logging.config
+import json
+from pykafka import KafkaClient
+from pykafka.common import OffsetType
+from threading import Thread
 from connexion import NoContent
 
 from sqlalchemy import create_engine
@@ -18,42 +22,6 @@ with open('app_conf.yml', 'r') as f:
 DB_ENGINE = create_engine(f'mysql+pymysql://{db_info["user"]}:{db_info["password"]}@{db_info["hostname"]}:{db_info["port"]}/{db_info["db"]}')
 Base.metadata.bind = DB_ENGINE
 DB_SESSION = sessionmaker(bind=DB_ENGINE)
-
-def upload_sales(body):
-    """ Receives an upload sales event """
-
-    session = DB_SESSION()
-
-    daily_sales = DailySales(body['restaurant_id'], body['cheeseburgers_sold'],
-                body['hamburgers_sold'], body['fry_servings_sold'], body['trace_id'])
-    
-    session.add(daily_sales)
-
-    session.commit()
-    session.close()
-
-    logger.debug(f'Stored event "upload_sales" request with a trace id of {body["trace_id"]}')
-
-    return NoContent, 201
-
-
-def upload_delivery(body):
-    """ Receives an upload delivery event """
-
-    session = DB_SESSION()
-
-    delivery = Delivery(body['restaurant_id'], body['delivery_id'],
-                body['bun_trays_received'], body['cheese_boxes_received'],
-                body['fry_boxes_received'], body['patty_boxes_received'], body['trace_id'])
-
-    session.add(delivery)
-
-    session.commit()
-    session.close()
-
-    logger.debug(f'Stored event "upload_delivery" request with a trace id of {body["trace_id"]}')
-
-    return NoContent, 201
 
 
 def get_daily_sales(timestamp):
@@ -104,6 +72,53 @@ def get_deliveries(timestamp):
     return results_list, 200
 
 
+def process_messages():
+    """ Process event messages """
+    hostname = "%s:%d" % (app_config['events']['hostname'],
+                          app_config['events']['port'])
+    client = KafkaClient(hosts=hostname)
+    topic = client.topics[str.encode(app_config['events']['topic'])]
+
+    # Create a consume on consumer group, that only reads new messages
+    # (uncommitted messages) when the service re-starts (i.e., it doesn't
+    # read all the old messages from the history in the message queue).
+    consumer = topic.get_simple_consumer(consumer_group=b'event_group',
+                                         reset_offset_on_start=False,
+                                         auto_offset_reset=OffsetType.LATEST)
+
+    # This is blocking - it will wait for a new message
+    for msg in consumer:
+        msg_str = msg.value.decode('utf-8')
+        msg = json.loads(msg_str)
+        logger.info("Message: %s" % msg)
+
+        payload = msg["payload"]
+
+        if msg["type"] == "daily_sales":
+            # Store the daily sales event (i.e., the payload) to the DB
+            session = DB_SESSION()
+            daily_sales = DailySales(payload['restaurant_id'], payload['cheeseburgers_sold'],
+                payload['hamburgers_sold'], payload['fry_servings_sold'], payload['trace_id'])
+            session.add(daily_sales)
+            session.commit()
+            session.close()
+            logger.debug(f'Stored event "upload_sales" request with a trace id of {payload["trace_id"]}')
+        
+        elif msg["type"] == "delivery":
+            # Store the delivery event (i.e., the payload) to the DB
+            session = DB_SESSION()
+            delivery = Delivery(payload['restaurant_id'], payload['delivery_id'],
+                payload['bun_trays_received'], payload['cheese_boxes_received'],
+                payload['fry_boxes_received'], payload['patty_boxes_received'], payload['trace_id'])
+            session.add(delivery)
+            session.commit()
+            session.close()
+            logger.debug(f'Stored event "upload_delivery" request with a trace id of {payload["trace_id"]}')
+            
+        # Commit the new message as being read
+        consumer.commit_offsets()
+
+
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("storage_api.yaml",
             strict_validation=True,
@@ -117,4 +132,7 @@ logger = logging.getLogger('basicLogger')
 
 
 if __name__ == "__main__":
+    t1 = Thread(target=process_messages)
+    t1.setDaemon(True)
+    t1.start()
     app.run(port=8090)

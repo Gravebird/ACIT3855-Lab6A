@@ -1,0 +1,872 @@
+2022-10-27 09:30:40,617 - basicLogger - INFO - Retrieving Daily Sales at index 3
+2022-10-27 09:30:53,894 - basicLogger - INFO - Retrieving Daily Sales at index 9999
+2022-10-27 09:30:55,199 - basicLogger - ERROR - Could not find Daily Sales at index 9999
+2022-10-27 09:31:25,716 - basicLogger - INFO - Retreiving Delivery at index 9999
+2022-10-27 09:31:27,010 - basicLogger - ERROR - Could not find Delivery at index 9999
+2022-10-27 09:31:33,777 - basicLogger - INFO - Retreiving Delivery at index 16
+2022-10-27 09:31:35,194 - basicLogger - ERROR - Could not find Delivery at index 16
+2022-10-27 09:31:42,992 - basicLogger - INFO - Retreiving Delivery at index 3
+2022-10-27 09:31:44,229 - basicLogger - ERROR - Could not find Delivery at index 3
+2022-10-27 09:32:03,554 - basicLogger - INFO - Retrieving Daily Sales at index 3
+2022-10-27 09:32:07,856 - basicLogger - INFO - Retrieving Daily Sales at index 3
+2022-10-27 09:32:21,271 - basicLogger - INFO - Retreiving Delivery at index 1
+2022-10-27 09:32:22,502 - basicLogger - ERROR - Could not find Delivery at index 1
+2022-10-27 09:33:23,003 - basicLogger - INFO - Retreiving Delivery at index 0
+2022-10-27 09:33:24,285 - basicLogger - ERROR - Could not find Delivery at index 0
+2022-10-27 09:36:04,147 - basicLogger - INFO - Retreiving Delivery at index 0
+2022-10-27 09:36:04,376 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,376 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,377 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,377 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,377 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,377 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,377 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,377 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,377 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,377 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,378 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,378 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,378 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,378 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,378 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,378 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,379 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,379 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,379 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,379 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,379 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,379 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,379 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,379 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,379 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,379 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,380 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,380 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,380 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,380 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,380 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,380 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,380 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,380 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,380 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,381 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,381 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,381 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,381 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,381 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,381 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,381 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,381 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,381 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,383 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,383 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,383 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,383 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,383 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,384 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,384 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,384 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,384 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,385 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,385 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,385 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,385 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,385 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,385 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,385 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,386 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,386 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,386 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,386 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,386 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,386 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,386 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,386 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,387 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,387 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,387 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,387 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,387 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,387 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,387 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,388 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,388 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,388 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,388 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,388 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,388 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,388 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,388 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,388 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,389 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,389 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,389 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,389 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,389 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,389 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,389 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,390 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,390 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,390 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,390 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,390 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,390 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,390 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,390 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,391 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,391 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,391 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,391 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,391 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,391 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,391 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,391 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,391 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,392 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,392 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,392 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,392 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,392 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,392 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,392 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,392 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,393 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,393 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,393 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,393 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,393 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,393 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,393 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,393 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,393 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,394 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,394 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,394 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,394 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,394 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,394 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,394 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,394 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,394 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,395 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,395 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,395 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,395 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,395 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,395 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,395 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,396 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,396 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,396 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,396 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,396 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,396 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,396 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,396 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,396 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,397 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,397 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,397 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,397 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,397 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,397 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,397 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,397 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,397 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,398 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,399 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,399 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,399 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,399 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,399 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,399 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,399 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,400 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,400 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,400 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,401 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,401 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,401 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,401 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,401 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,401 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,401 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,402 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,402 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,402 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,402 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,402 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,402 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,402 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,402 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,402 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,403 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,403 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,403 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,403 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,403 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,403 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,403 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,403 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,404 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,404 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,404 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,404 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,404 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,404 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,404 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,404 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,405 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,405 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,405 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,405 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,405 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,405 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,406 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,406 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,406 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,406 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,406 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,406 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,407 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,407 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,407 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,407 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,407 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,407 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,407 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,407 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,407 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,408 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,408 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,408 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,408 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,408 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,408 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,408 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,408 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,408 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,409 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,409 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,409 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,409 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,409 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,409 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,409 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,410 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,410 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,410 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,410 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,410 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,410 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,410 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,411 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,411 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,411 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,411 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,411 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,411 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,411 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,411 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,411 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,412 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,412 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,412 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,412 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,412 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,412 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,412 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,413 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,413 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,413 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,413 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,413 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,413 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,413 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,413 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,413 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,414 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,414 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,415 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,415 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,415 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,416 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,416 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,416 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,416 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:04,417 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:05,432 - basicLogger - ERROR - Could not find Delivery at index 0
+2022-10-27 09:36:48,340 - basicLogger - INFO - Retreiving Delivery at index 0
+2022-10-27 09:36:48,588 - basicLogger - DEBUG - loop index 0
+2022-10-27 09:36:48,588 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,588 - basicLogger - DEBUG - loop index 1
+2022-10-27 09:36:48,588 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,589 - basicLogger - DEBUG - loop index 2
+2022-10-27 09:36:48,589 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,589 - basicLogger - DEBUG - loop index 3
+2022-10-27 09:36:48,589 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,589 - basicLogger - DEBUG - loop index 4
+2022-10-27 09:36:48,589 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,589 - basicLogger - DEBUG - loop index 5
+2022-10-27 09:36:48,589 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,590 - basicLogger - DEBUG - loop index 6
+2022-10-27 09:36:48,590 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,590 - basicLogger - DEBUG - loop index 7
+2022-10-27 09:36:48,590 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,590 - basicLogger - DEBUG - loop index 8
+2022-10-27 09:36:48,590 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,590 - basicLogger - DEBUG - loop index 9
+2022-10-27 09:36:48,590 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,591 - basicLogger - DEBUG - loop index 10
+2022-10-27 09:36:48,591 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,591 - basicLogger - DEBUG - loop index 11
+2022-10-27 09:36:48,591 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,591 - basicLogger - DEBUG - loop index 12
+2022-10-27 09:36:48,591 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,591 - basicLogger - DEBUG - loop index 13
+2022-10-27 09:36:48,591 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,592 - basicLogger - DEBUG - loop index 14
+2022-10-27 09:36:48,592 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,592 - basicLogger - DEBUG - loop index 15
+2022-10-27 09:36:48,592 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,592 - basicLogger - DEBUG - loop index 16
+2022-10-27 09:36:48,592 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,592 - basicLogger - DEBUG - loop index 17
+2022-10-27 09:36:48,592 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,592 - basicLogger - DEBUG - loop index 18
+2022-10-27 09:36:48,593 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,593 - basicLogger - DEBUG - loop index 19
+2022-10-27 09:36:48,593 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,593 - basicLogger - DEBUG - loop index 20
+2022-10-27 09:36:48,593 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,593 - basicLogger - DEBUG - loop index 21
+2022-10-27 09:36:48,593 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,593 - basicLogger - DEBUG - loop index 22
+2022-10-27 09:36:48,594 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,594 - basicLogger - DEBUG - loop index 23
+2022-10-27 09:36:48,594 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,594 - basicLogger - DEBUG - loop index 24
+2022-10-27 09:36:48,594 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,594 - basicLogger - DEBUG - loop index 25
+2022-10-27 09:36:48,594 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,594 - basicLogger - DEBUG - loop index 26
+2022-10-27 09:36:48,594 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,594 - basicLogger - DEBUG - loop index 27
+2022-10-27 09:36:48,594 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,595 - basicLogger - DEBUG - loop index 28
+2022-10-27 09:36:48,595 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,595 - basicLogger - DEBUG - loop index 29
+2022-10-27 09:36:48,595 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,595 - basicLogger - DEBUG - loop index 30
+2022-10-27 09:36:48,595 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,595 - basicLogger - DEBUG - loop index 31
+2022-10-27 09:36:48,595 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,595 - basicLogger - DEBUG - loop index 32
+2022-10-27 09:36:48,596 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,596 - basicLogger - DEBUG - loop index 33
+2022-10-27 09:36:48,596 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,596 - basicLogger - DEBUG - loop index 34
+2022-10-27 09:36:48,596 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,596 - basicLogger - DEBUG - loop index 35
+2022-10-27 09:36:48,597 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,597 - basicLogger - DEBUG - loop index 36
+2022-10-27 09:36:48,597 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,597 - basicLogger - DEBUG - loop index 37
+2022-10-27 09:36:48,597 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,597 - basicLogger - DEBUG - loop index 38
+2022-10-27 09:36:48,597 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,597 - basicLogger - DEBUG - loop index 39
+2022-10-27 09:36:48,597 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,598 - basicLogger - DEBUG - loop index 40
+2022-10-27 09:36:48,598 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,598 - basicLogger - DEBUG - loop index 41
+2022-10-27 09:36:48,598 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,598 - basicLogger - DEBUG - loop index 42
+2022-10-27 09:36:48,598 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,598 - basicLogger - DEBUG - loop index 43
+2022-10-27 09:36:48,598 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,599 - basicLogger - DEBUG - loop index 44
+2022-10-27 09:36:48,599 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,599 - basicLogger - DEBUG - loop index 45
+2022-10-27 09:36:48,599 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,599 - basicLogger - DEBUG - loop index 46
+2022-10-27 09:36:48,599 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,599 - basicLogger - DEBUG - loop index 47
+2022-10-27 09:36:48,599 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,600 - basicLogger - DEBUG - loop index 48
+2022-10-27 09:36:48,600 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,600 - basicLogger - DEBUG - loop index 49
+2022-10-27 09:36:48,600 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,600 - basicLogger - DEBUG - loop index 50
+2022-10-27 09:36:48,600 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,600 - basicLogger - DEBUG - loop index 51
+2022-10-27 09:36:48,600 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,600 - basicLogger - DEBUG - loop index 52
+2022-10-27 09:36:48,600 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,601 - basicLogger - DEBUG - loop index 53
+2022-10-27 09:36:48,601 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,601 - basicLogger - DEBUG - loop index 54
+2022-10-27 09:36:48,601 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,601 - basicLogger - DEBUG - loop index 55
+2022-10-27 09:36:48,601 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,601 - basicLogger - DEBUG - loop index 56
+2022-10-27 09:36:48,601 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,601 - basicLogger - DEBUG - loop index 57
+2022-10-27 09:36:48,601 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,602 - basicLogger - DEBUG - loop index 58
+2022-10-27 09:36:48,602 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,602 - basicLogger - DEBUG - loop index 59
+2022-10-27 09:36:48,602 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,602 - basicLogger - DEBUG - loop index 60
+2022-10-27 09:36:48,602 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,602 - basicLogger - DEBUG - loop index 61
+2022-10-27 09:36:48,603 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,603 - basicLogger - DEBUG - loop index 62
+2022-10-27 09:36:48,603 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,603 - basicLogger - DEBUG - loop index 63
+2022-10-27 09:36:48,603 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,603 - basicLogger - DEBUG - loop index 64
+2022-10-27 09:36:48,603 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,604 - basicLogger - DEBUG - loop index 65
+2022-10-27 09:36:48,604 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,604 - basicLogger - DEBUG - loop index 66
+2022-10-27 09:36:48,605 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,605 - basicLogger - DEBUG - loop index 67
+2022-10-27 09:36:48,605 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,605 - basicLogger - DEBUG - loop index 68
+2022-10-27 09:36:48,605 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,605 - basicLogger - DEBUG - loop index 69
+2022-10-27 09:36:48,605 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,606 - basicLogger - DEBUG - loop index 70
+2022-10-27 09:36:48,606 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,606 - basicLogger - DEBUG - loop index 71
+2022-10-27 09:36:48,606 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,606 - basicLogger - DEBUG - loop index 72
+2022-10-27 09:36:48,606 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,606 - basicLogger - DEBUG - loop index 73
+2022-10-27 09:36:48,607 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,607 - basicLogger - DEBUG - loop index 74
+2022-10-27 09:36:48,607 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,607 - basicLogger - DEBUG - loop index 75
+2022-10-27 09:36:48,607 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,607 - basicLogger - DEBUG - loop index 76
+2022-10-27 09:36:48,608 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,608 - basicLogger - DEBUG - loop index 77
+2022-10-27 09:36:48,608 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,608 - basicLogger - DEBUG - loop index 78
+2022-10-27 09:36:48,608 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,608 - basicLogger - DEBUG - loop index 79
+2022-10-27 09:36:48,608 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,608 - basicLogger - DEBUG - loop index 80
+2022-10-27 09:36:48,609 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,609 - basicLogger - DEBUG - loop index 81
+2022-10-27 09:36:48,609 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,609 - basicLogger - DEBUG - loop index 82
+2022-10-27 09:36:48,609 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,609 - basicLogger - DEBUG - loop index 83
+2022-10-27 09:36:48,609 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,609 - basicLogger - DEBUG - loop index 84
+2022-10-27 09:36:48,609 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,610 - basicLogger - DEBUG - loop index 85
+2022-10-27 09:36:48,610 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,610 - basicLogger - DEBUG - loop index 86
+2022-10-27 09:36:48,610 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,610 - basicLogger - DEBUG - loop index 87
+2022-10-27 09:36:48,610 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,610 - basicLogger - DEBUG - loop index 88
+2022-10-27 09:36:48,610 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,610 - basicLogger - DEBUG - loop index 89
+2022-10-27 09:36:48,610 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,611 - basicLogger - DEBUG - loop index 90
+2022-10-27 09:36:48,611 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,611 - basicLogger - DEBUG - loop index 91
+2022-10-27 09:36:48,611 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,611 - basicLogger - DEBUG - loop index 92
+2022-10-27 09:36:48,611 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,611 - basicLogger - DEBUG - loop index 93
+2022-10-27 09:36:48,611 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,611 - basicLogger - DEBUG - loop index 94
+2022-10-27 09:36:48,612 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,612 - basicLogger - DEBUG - loop index 95
+2022-10-27 09:36:48,612 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,612 - basicLogger - DEBUG - loop index 96
+2022-10-27 09:36:48,612 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,612 - basicLogger - DEBUG - loop index 97
+2022-10-27 09:36:48,612 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,613 - basicLogger - DEBUG - loop index 98
+2022-10-27 09:36:48,613 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,613 - basicLogger - DEBUG - loop index 99
+2022-10-27 09:36:48,613 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,613 - basicLogger - DEBUG - loop index 100
+2022-10-27 09:36:48,614 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,614 - basicLogger - DEBUG - loop index 101
+2022-10-27 09:36:48,614 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,614 - basicLogger - DEBUG - loop index 102
+2022-10-27 09:36:48,614 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,614 - basicLogger - DEBUG - loop index 103
+2022-10-27 09:36:48,614 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,614 - basicLogger - DEBUG - loop index 104
+2022-10-27 09:36:48,615 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,615 - basicLogger - DEBUG - loop index 105
+2022-10-27 09:36:48,615 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,615 - basicLogger - DEBUG - loop index 106
+2022-10-27 09:36:48,615 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,615 - basicLogger - DEBUG - loop index 107
+2022-10-27 09:36:48,615 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,615 - basicLogger - DEBUG - loop index 108
+2022-10-27 09:36:48,615 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,615 - basicLogger - DEBUG - loop index 109
+2022-10-27 09:36:48,616 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,616 - basicLogger - DEBUG - loop index 110
+2022-10-27 09:36:48,616 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,616 - basicLogger - DEBUG - loop index 111
+2022-10-27 09:36:48,616 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,616 - basicLogger - DEBUG - loop index 112
+2022-10-27 09:36:48,616 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,617 - basicLogger - DEBUG - loop index 113
+2022-10-27 09:36:48,617 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,617 - basicLogger - DEBUG - loop index 114
+2022-10-27 09:36:48,617 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,617 - basicLogger - DEBUG - loop index 115
+2022-10-27 09:36:48,617 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,617 - basicLogger - DEBUG - loop index 116
+2022-10-27 09:36:48,617 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,617 - basicLogger - DEBUG - loop index 117
+2022-10-27 09:36:48,618 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,618 - basicLogger - DEBUG - loop index 118
+2022-10-27 09:36:48,618 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,618 - basicLogger - DEBUG - loop index 119
+2022-10-27 09:36:48,618 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,618 - basicLogger - DEBUG - loop index 120
+2022-10-27 09:36:48,618 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,618 - basicLogger - DEBUG - loop index 121
+2022-10-27 09:36:48,618 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,618 - basicLogger - DEBUG - loop index 122
+2022-10-27 09:36:48,619 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,619 - basicLogger - DEBUG - loop index 123
+2022-10-27 09:36:48,619 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,619 - basicLogger - DEBUG - loop index 124
+2022-10-27 09:36:48,619 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,619 - basicLogger - DEBUG - loop index 125
+2022-10-27 09:36:48,619 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,619 - basicLogger - DEBUG - loop index 126
+2022-10-27 09:36:48,620 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,620 - basicLogger - DEBUG - loop index 127
+2022-10-27 09:36:48,620 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,620 - basicLogger - DEBUG - loop index 128
+2022-10-27 09:36:48,621 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,621 - basicLogger - DEBUG - loop index 129
+2022-10-27 09:36:48,621 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,621 - basicLogger - DEBUG - loop index 130
+2022-10-27 09:36:48,622 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,622 - basicLogger - DEBUG - loop index 131
+2022-10-27 09:36:48,622 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,622 - basicLogger - DEBUG - loop index 132
+2022-10-27 09:36:48,623 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,623 - basicLogger - DEBUG - loop index 133
+2022-10-27 09:36:48,623 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,623 - basicLogger - DEBUG - loop index 134
+2022-10-27 09:36:48,623 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,623 - basicLogger - DEBUG - loop index 135
+2022-10-27 09:36:48,624 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,624 - basicLogger - DEBUG - loop index 136
+2022-10-27 09:36:48,624 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,624 - basicLogger - DEBUG - loop index 137
+2022-10-27 09:36:48,624 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,624 - basicLogger - DEBUG - loop index 138
+2022-10-27 09:36:48,624 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,625 - basicLogger - DEBUG - loop index 139
+2022-10-27 09:36:48,625 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,625 - basicLogger - DEBUG - loop index 140
+2022-10-27 09:36:48,625 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,625 - basicLogger - DEBUG - loop index 141
+2022-10-27 09:36:48,625 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,625 - basicLogger - DEBUG - loop index 142
+2022-10-27 09:36:48,625 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,626 - basicLogger - DEBUG - loop index 143
+2022-10-27 09:36:48,626 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,626 - basicLogger - DEBUG - loop index 144
+2022-10-27 09:36:48,626 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,626 - basicLogger - DEBUG - loop index 145
+2022-10-27 09:36:48,626 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,626 - basicLogger - DEBUG - loop index 146
+2022-10-27 09:36:48,626 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,627 - basicLogger - DEBUG - loop index 147
+2022-10-27 09:36:48,627 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,627 - basicLogger - DEBUG - loop index 148
+2022-10-27 09:36:48,627 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,627 - basicLogger - DEBUG - loop index 149
+2022-10-27 09:36:48,627 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,627 - basicLogger - DEBUG - loop index 150
+2022-10-27 09:36:48,627 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,628 - basicLogger - DEBUG - loop index 151
+2022-10-27 09:36:48,628 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,628 - basicLogger - DEBUG - loop index 152
+2022-10-27 09:36:48,628 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,628 - basicLogger - DEBUG - loop index 153
+2022-10-27 09:36:48,628 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,628 - basicLogger - DEBUG - loop index 154
+2022-10-27 09:36:48,628 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,628 - basicLogger - DEBUG - loop index 155
+2022-10-27 09:36:48,628 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,629 - basicLogger - DEBUG - loop index 156
+2022-10-27 09:36:48,629 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,629 - basicLogger - DEBUG - loop index 157
+2022-10-27 09:36:48,629 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,629 - basicLogger - DEBUG - loop index 158
+2022-10-27 09:36:48,629 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,629 - basicLogger - DEBUG - loop index 159
+2022-10-27 09:36:48,629 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,630 - basicLogger - DEBUG - loop index 160
+2022-10-27 09:36:48,630 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,630 - basicLogger - DEBUG - loop index 161
+2022-10-27 09:36:48,630 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,630 - basicLogger - DEBUG - loop index 162
+2022-10-27 09:36:48,630 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,630 - basicLogger - DEBUG - loop index 163
+2022-10-27 09:36:48,630 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,630 - basicLogger - DEBUG - loop index 164
+2022-10-27 09:36:48,631 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,631 - basicLogger - DEBUG - loop index 165
+2022-10-27 09:36:48,631 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,631 - basicLogger - DEBUG - loop index 166
+2022-10-27 09:36:48,631 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,631 - basicLogger - DEBUG - loop index 167
+2022-10-27 09:36:48,631 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,632 - basicLogger - DEBUG - loop index 168
+2022-10-27 09:36:48,632 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,632 - basicLogger - DEBUG - loop index 169
+2022-10-27 09:36:48,632 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,632 - basicLogger - DEBUG - loop index 170
+2022-10-27 09:36:48,632 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,632 - basicLogger - DEBUG - loop index 171
+2022-10-27 09:36:48,632 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,632 - basicLogger - DEBUG - loop index 172
+2022-10-27 09:36:48,633 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,633 - basicLogger - DEBUG - loop index 173
+2022-10-27 09:36:48,633 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,633 - basicLogger - DEBUG - loop index 174
+2022-10-27 09:36:48,633 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,633 - basicLogger - DEBUG - loop index 175
+2022-10-27 09:36:48,633 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,633 - basicLogger - DEBUG - loop index 176
+2022-10-27 09:36:48,633 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,634 - basicLogger - DEBUG - loop index 177
+2022-10-27 09:36:48,634 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,634 - basicLogger - DEBUG - loop index 178
+2022-10-27 09:36:48,634 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,634 - basicLogger - DEBUG - loop index 179
+2022-10-27 09:36:48,634 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,634 - basicLogger - DEBUG - loop index 180
+2022-10-27 09:36:48,634 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,634 - basicLogger - DEBUG - loop index 181
+2022-10-27 09:36:48,634 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,635 - basicLogger - DEBUG - loop index 182
+2022-10-27 09:36:48,635 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,635 - basicLogger - DEBUG - loop index 183
+2022-10-27 09:36:48,635 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,636 - basicLogger - DEBUG - loop index 184
+2022-10-27 09:36:48,636 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,636 - basicLogger - DEBUG - loop index 185
+2022-10-27 09:36:48,636 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,636 - basicLogger - DEBUG - loop index 186
+2022-10-27 09:36:48,636 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,636 - basicLogger - DEBUG - loop index 187
+2022-10-27 09:36:48,636 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,637 - basicLogger - DEBUG - loop index 188
+2022-10-27 09:36:48,637 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,637 - basicLogger - DEBUG - loop index 189
+2022-10-27 09:36:48,637 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,637 - basicLogger - DEBUG - loop index 190
+2022-10-27 09:36:48,637 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,637 - basicLogger - DEBUG - loop index 191
+2022-10-27 09:36:48,637 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,637 - basicLogger - DEBUG - loop index 192
+2022-10-27 09:36:48,638 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,638 - basicLogger - DEBUG - loop index 193
+2022-10-27 09:36:48,638 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,638 - basicLogger - DEBUG - loop index 194
+2022-10-27 09:36:48,638 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,638 - basicLogger - DEBUG - loop index 195
+2022-10-27 09:36:48,638 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,639 - basicLogger - DEBUG - loop index 196
+2022-10-27 09:36:48,639 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,639 - basicLogger - DEBUG - loop index 197
+2022-10-27 09:36:48,639 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,639 - basicLogger - DEBUG - loop index 198
+2022-10-27 09:36:48,639 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,639 - basicLogger - DEBUG - loop index 199
+2022-10-27 09:36:48,639 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,639 - basicLogger - DEBUG - loop index 200
+2022-10-27 09:36:48,640 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,640 - basicLogger - DEBUG - loop index 201
+2022-10-27 09:36:48,640 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,640 - basicLogger - DEBUG - loop index 202
+2022-10-27 09:36:48,640 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,640 - basicLogger - DEBUG - loop index 203
+2022-10-27 09:36:48,640 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,640 - basicLogger - DEBUG - loop index 204
+2022-10-27 09:36:48,641 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,641 - basicLogger - DEBUG - loop index 205
+2022-10-27 09:36:48,641 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,641 - basicLogger - DEBUG - loop index 206
+2022-10-27 09:36:48,641 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,641 - basicLogger - DEBUG - loop index 207
+2022-10-27 09:36:48,641 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,641 - basicLogger - DEBUG - loop index 208
+2022-10-27 09:36:48,641 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,641 - basicLogger - DEBUG - loop index 209
+2022-10-27 09:36:48,642 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,642 - basicLogger - DEBUG - loop index 210
+2022-10-27 09:36:48,642 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,642 - basicLogger - DEBUG - loop index 211
+2022-10-27 09:36:48,642 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,642 - basicLogger - DEBUG - loop index 212
+2022-10-27 09:36:48,642 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,642 - basicLogger - DEBUG - loop index 213
+2022-10-27 09:36:48,642 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,643 - basicLogger - DEBUG - loop index 214
+2022-10-27 09:36:48,643 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,643 - basicLogger - DEBUG - loop index 215
+2022-10-27 09:36:48,643 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,643 - basicLogger - DEBUG - loop index 216
+2022-10-27 09:36:48,643 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,643 - basicLogger - DEBUG - loop index 217
+2022-10-27 09:36:48,643 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,644 - basicLogger - DEBUG - loop index 218
+2022-10-27 09:36:48,644 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,644 - basicLogger - DEBUG - loop index 219
+2022-10-27 09:36:48,644 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,644 - basicLogger - DEBUG - loop index 220
+2022-10-27 09:36:48,644 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,644 - basicLogger - DEBUG - loop index 221
+2022-10-27 09:36:48,644 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,644 - basicLogger - DEBUG - loop index 222
+2022-10-27 09:36:48,644 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,644 - basicLogger - DEBUG - loop index 223
+2022-10-27 09:36:48,645 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,645 - basicLogger - DEBUG - loop index 224
+2022-10-27 09:36:48,645 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,645 - basicLogger - DEBUG - loop index 225
+2022-10-27 09:36:48,645 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,645 - basicLogger - DEBUG - loop index 226
+2022-10-27 09:36:48,645 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,645 - basicLogger - DEBUG - loop index 227
+2022-10-27 09:36:48,645 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,645 - basicLogger - DEBUG - loop index 228
+2022-10-27 09:36:48,646 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,646 - basicLogger - DEBUG - loop index 229
+2022-10-27 09:36:48,646 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,646 - basicLogger - DEBUG - loop index 230
+2022-10-27 09:36:48,646 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,646 - basicLogger - DEBUG - loop index 231
+2022-10-27 09:36:48,646 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,647 - basicLogger - DEBUG - loop index 232
+2022-10-27 09:36:48,647 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,647 - basicLogger - DEBUG - loop index 233
+2022-10-27 09:36:48,647 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,647 - basicLogger - DEBUG - loop index 234
+2022-10-27 09:36:48,647 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,647 - basicLogger - DEBUG - loop index 235
+2022-10-27 09:36:48,647 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,647 - basicLogger - DEBUG - loop index 236
+2022-10-27 09:36:48,647 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,648 - basicLogger - DEBUG - loop index 237
+2022-10-27 09:36:48,648 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,648 - basicLogger - DEBUG - loop index 238
+2022-10-27 09:36:48,648 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,648 - basicLogger - DEBUG - loop index 239
+2022-10-27 09:36:48,648 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,648 - basicLogger - DEBUG - loop index 240
+2022-10-27 09:36:48,648 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,648 - basicLogger - DEBUG - loop index 241
+2022-10-27 09:36:48,648 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,649 - basicLogger - DEBUG - loop index 242
+2022-10-27 09:36:48,649 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,649 - basicLogger - DEBUG - loop index 243
+2022-10-27 09:36:48,649 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,649 - basicLogger - DEBUG - loop index 244
+2022-10-27 09:36:48,649 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,649 - basicLogger - DEBUG - loop index 245
+2022-10-27 09:36:48,650 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,650 - basicLogger - DEBUG - loop index 246
+2022-10-27 09:36:48,650 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,650 - basicLogger - DEBUG - loop index 247
+2022-10-27 09:36:48,650 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,650 - basicLogger - DEBUG - loop index 248
+2022-10-27 09:36:48,650 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,650 - basicLogger - DEBUG - loop index 249
+2022-10-27 09:36:48,650 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,650 - basicLogger - DEBUG - loop index 250
+2022-10-27 09:36:48,650 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,651 - basicLogger - DEBUG - loop index 251
+2022-10-27 09:36:48,651 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,651 - basicLogger - DEBUG - loop index 252
+2022-10-27 09:36:48,651 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,651 - basicLogger - DEBUG - loop index 253
+2022-10-27 09:36:48,652 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,652 - basicLogger - DEBUG - loop index 254
+2022-10-27 09:36:48,652 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,652 - basicLogger - DEBUG - loop index 255
+2022-10-27 09:36:48,652 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,652 - basicLogger - DEBUG - loop index 256
+2022-10-27 09:36:48,652 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,653 - basicLogger - DEBUG - loop index 257
+2022-10-27 09:36:48,653 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,653 - basicLogger - DEBUG - loop index 258
+2022-10-27 09:36:48,653 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,653 - basicLogger - DEBUG - loop index 259
+2022-10-27 09:36:48,653 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,653 - basicLogger - DEBUG - loop index 260
+2022-10-27 09:36:48,653 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,654 - basicLogger - DEBUG - loop index 261
+2022-10-27 09:36:48,654 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,654 - basicLogger - DEBUG - loop index 262
+2022-10-27 09:36:48,654 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,654 - basicLogger - DEBUG - loop index 263
+2022-10-27 09:36:48,654 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,654 - basicLogger - DEBUG - loop index 264
+2022-10-27 09:36:48,655 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,655 - basicLogger - DEBUG - loop index 265
+2022-10-27 09:36:48,655 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,655 - basicLogger - DEBUG - loop index 266
+2022-10-27 09:36:48,655 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,655 - basicLogger - DEBUG - loop index 267
+2022-10-27 09:36:48,655 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,656 - basicLogger - DEBUG - loop index 268
+2022-10-27 09:36:48,656 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,656 - basicLogger - DEBUG - loop index 269
+2022-10-27 09:36:48,656 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,656 - basicLogger - DEBUG - loop index 270
+2022-10-27 09:36:48,656 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,656 - basicLogger - DEBUG - loop index 271
+2022-10-27 09:36:48,656 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,656 - basicLogger - DEBUG - loop index 272
+2022-10-27 09:36:48,656 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,657 - basicLogger - DEBUG - loop index 273
+2022-10-27 09:36:48,657 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,657 - basicLogger - DEBUG - loop index 274
+2022-10-27 09:36:48,657 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,657 - basicLogger - DEBUG - loop index 275
+2022-10-27 09:36:48,657 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,657 - basicLogger - DEBUG - loop index 276
+2022-10-27 09:36:48,657 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,657 - basicLogger - DEBUG - loop index 277
+2022-10-27 09:36:48,657 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,658 - basicLogger - DEBUG - loop index 278
+2022-10-27 09:36:48,658 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,658 - basicLogger - DEBUG - loop index 279
+2022-10-27 09:36:48,658 - basicLogger - DEBUG - daily_sales not equal to delivery
+2022-10-27 09:36:48,658 - basicLogger - DEBUG - loop index 280
+2022-10-27 09:36:48,658 - basicLogger - DEBUG - delivery not equal to delivery
+2022-10-27 09:36:49,666 - basicLogger - ERROR - Could not find Delivery at index 0
+2022-10-27 09:38:26,329 - basicLogger - INFO - Retreiving Delivery at index 0
+2022-10-27 09:38:33,196 - basicLogger - INFO - Retreiving Delivery at index 14
+2022-10-27 09:38:34,433 - basicLogger - ERROR - Could not find Delivery at index 14
+2022-10-27 09:38:38,558 - basicLogger - INFO - Retreiving Delivery at index 4
+2022-10-27 09:38:39,801 - basicLogger - ERROR - Could not find Delivery at index 4
+2022-10-27 09:38:45,407 - basicLogger - INFO - Retreiving Delivery at index 2
+2022-10-27 09:38:46,644 - basicLogger - ERROR - Could not find Delivery at index 2
+2022-10-27 09:38:50,708 - basicLogger - INFO - Retreiving Delivery at index 1
+2022-10-27 09:38:51,949 - basicLogger - ERROR - Could not find Delivery at index 1
+2022-10-27 09:39:11,789 - basicLogger - INFO - Retreiving Delivery at index 1

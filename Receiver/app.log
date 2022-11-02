@@ -1068,3 +1068,718 @@
 2022-10-13 10:50:22,115 - basicLogger - INFO - Returned event "upload_sales" response (Id: 85939) with status 201
 2022-10-13 10:50:22,162 - basicLogger - INFO - Returned event "upload_sales" response (Id: 93136) with status 201
 2022-10-13 10:50:22,179 - basicLogger - INFO - Returned event "upload_sales" response (Id: 13196) with status 201
+2022-10-26 17:03:44,499 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 61262
+2022-10-26 17:03:44,514 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 53016
+2022-10-26 17:03:44,520 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 24450
+2022-10-26 17:03:44,523 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 18865
+2022-10-26 17:03:44,528 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 25096
+2022-10-26 17:03:44,537 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 88795
+2022-10-26 17:03:44,543 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 99295
+2022-10-26 17:03:44,546 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 39659
+2022-10-26 17:03:44,552 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 58931
+2022-10-26 17:03:44,554 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 92387
+2022-10-26 17:03:44,587 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 82702
+2022-10-26 17:03:44,621 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 90810
+2022-10-26 17:03:44,631 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 53073
+2022-10-26 17:03:44,651 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 11305
+2022-10-26 17:03:44,672 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 50139
+2022-10-26 17:03:44,698 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 71747
+2022-10-26 17:03:44,729 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 40481
+2022-10-26 17:03:44,770 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 49490
+2022-10-26 17:03:44,811 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 36611
+2022-10-26 17:03:44,847 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 10257
+2022-10-26 17:03:44,899 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 15709
+2022-10-26 17:03:44,922 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 89659
+2022-10-26 17:03:44,931 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 35680
+2022-10-26 17:03:44,946 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 57860
+2022-10-26 17:03:44,964 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 79585
+2022-10-26 17:03:44,967 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 55493
+2022-10-26 17:03:44,969 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 20215
+2022-10-26 17:03:44,971 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 21969
+2022-10-26 17:03:44,974 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 99822
+2022-10-26 17:03:44,977 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 81816
+2022-10-26 17:03:44,979 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 10140
+2022-10-26 17:03:44,981 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 15034
+2022-10-26 17:03:44,983 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 72794
+2022-10-26 17:03:44,984 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 81433
+2022-10-26 17:03:44,988 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 68974
+2022-10-26 17:03:45,000 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 76835
+2022-10-26 17:03:45,036 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 27807
+2022-10-26 17:03:45,063 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 41390
+2022-10-26 17:03:45,065 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 45837
+2022-10-26 17:03:45,067 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 91661
+2022-10-26 17:03:45,068 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 34646
+2022-10-26 17:03:45,070 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 20354
+2022-10-26 17:03:45,072 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 84903
+2022-10-26 17:03:45,074 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 24917
+2022-10-26 17:03:45,075 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 25093
+2022-10-26 17:03:45,076 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 21968
+2022-10-26 17:03:45,078 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 16306
+2022-10-26 17:03:45,079 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 80922
+2022-10-26 17:03:45,081 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 87602
+2022-10-26 17:03:45,083 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 23343
+2022-10-26 17:03:45,085 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 27194
+2022-10-26 17:03:45,087 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 27139
+2022-10-26 17:03:45,089 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 76503
+2022-10-26 17:03:45,090 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 36604
+2022-10-26 17:03:45,093 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 28753
+2022-10-26 17:03:45,095 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 21560
+2022-10-26 17:03:45,097 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 42915
+2022-10-26 17:03:45,099 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 95241
+2022-10-26 17:03:45,101 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 85641
+2022-10-26 17:03:45,103 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 33319
+2022-10-26 17:03:45,105 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 21575
+2022-10-26 17:03:45,107 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 41941
+2022-10-26 17:03:45,109 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 19315
+2022-10-26 17:03:45,111 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 74703
+2022-10-26 17:03:45,113 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 10779
+2022-10-26 17:03:45,115 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 67086
+2022-10-26 17:03:45,116 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 63023
+2022-10-26 17:03:45,118 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 80413
+2022-10-26 17:03:45,121 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 10519
+2022-10-26 17:03:45,126 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 87440
+2022-10-26 17:03:45,152 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 96411
+2022-10-26 17:03:45,198 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 86903
+2022-10-26 17:03:45,224 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 86738
+2022-10-26 17:03:45,240 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 73737
+2022-10-26 17:03:45,282 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 54620
+2022-10-26 17:03:45,317 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 11188
+2022-10-26 17:03:45,335 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 38636
+2022-10-26 17:03:45,341 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 79098
+2022-10-26 17:03:45,342 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 94562
+2022-10-26 17:03:45,344 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 68844
+2022-10-26 17:03:45,346 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 86216
+2022-10-26 17:03:45,347 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 41729
+2022-10-26 17:03:45,349 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 59362
+2022-10-26 17:03:45,350 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 41635
+2022-10-26 17:03:45,351 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 42444
+2022-10-26 17:03:45,353 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 90523
+2022-10-26 17:03:45,354 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 14174
+2022-10-26 17:03:45,355 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 69196
+2022-10-26 17:03:45,390 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 60489
+2022-10-26 17:03:45,421 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 11765
+2022-10-26 17:03:45,462 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 34970
+2022-10-26 17:03:45,503 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 53086
+2022-10-26 17:03:45,546 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 41676
+2022-10-26 17:03:45,567 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 24661
+2022-10-26 17:03:45,569 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 70866
+2022-10-26 17:03:45,570 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 25283
+2022-10-26 17:03:45,572 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 98171
+2022-10-26 17:03:45,573 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 69917
+2022-10-26 17:03:45,575 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 27209
+2022-10-26 17:03:45,577 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 42149
+2022-10-26 17:03:45,579 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 44272
+2022-10-26 17:03:45,580 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 55785
+2022-10-26 17:03:45,582 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 25394
+2022-10-26 17:03:45,584 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 47564
+2022-10-26 17:03:45,585 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 13257
+2022-10-26 17:03:45,587 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 53471
+2022-10-26 17:03:45,588 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 38359
+2022-10-26 17:03:45,592 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 92090
+2022-10-26 17:03:45,600 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 86337
+2022-10-26 17:03:45,623 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 78773
+2022-10-26 17:03:45,672 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 23438
+2022-10-26 17:03:45,697 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 62732
+2022-10-26 17:03:45,702 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 73251
+2022-10-26 17:03:45,705 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 12571
+2022-10-26 17:03:45,713 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 56014
+2022-10-26 17:03:45,760 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 60736
+2022-10-26 17:03:45,803 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 54467
+2022-10-26 17:03:45,829 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 29535
+2022-10-26 17:03:45,876 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 62343
+2022-10-26 17:03:45,926 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 89659
+2022-10-26 17:03:45,955 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 43365
+2022-10-26 17:03:46,003 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 12279
+2022-10-26 17:03:46,048 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 52752
+2022-10-26 17:03:46,063 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 95482
+2022-10-26 17:03:46,067 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 10857
+2022-10-26 17:03:46,070 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 49478
+2022-10-26 17:03:46,072 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 35921
+2022-10-26 17:03:46,075 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 61573
+2022-10-26 17:03:46,077 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 14100
+2022-10-26 17:03:46,079 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 48849
+2022-10-26 17:03:46,082 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 98180
+2022-10-26 17:03:46,084 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 35318
+2022-10-26 17:03:46,086 - basicLogger - INFO - Received event "upload_delivery" request with a trace id of 50948
+2022-10-26 17:03:46,089 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 84309
+2022-10-26 17:03:46,091 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 96378
+2022-10-26 17:03:46,093 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 64536
+2022-10-26 17:03:46,096 - basicLogger - INFO - Received event "upload_delivery" request with a trace id of 22959
+2022-10-26 17:03:46,100 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 33793
+2022-10-26 17:03:46,103 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 39730
+2022-10-26 17:03:46,146 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 12598
+2022-10-26 17:03:46,174 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 67264
+2022-10-26 17:03:46,178 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 12839
+2022-10-26 17:03:46,184 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 33757
+2022-10-26 17:03:46,191 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 33732
+2022-10-26 17:03:46,209 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 56811
+2022-10-26 17:03:46,220 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 72746
+2022-10-26 17:03:46,229 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 87504
+2022-10-26 17:03:46,236 - basicLogger - INFO - Received event "upload_delivery" request with a trace id of 95007
+2022-10-26 17:03:46,243 - basicLogger - INFO - Received event "upload_delivery" request with a trace id of 34980
+2022-10-26 17:09:58,386 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 62019
+2022-10-26 17:09:58,389 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 67175
+2022-10-26 17:09:58,392 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 89151
+2022-10-26 17:09:58,394 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 89286
+2022-10-26 17:09:58,397 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 93298
+2022-10-26 17:09:58,400 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 60315
+2022-10-26 17:09:58,403 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 14634
+2022-10-26 17:09:58,407 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 30978
+2022-10-26 17:09:58,410 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 74521
+2022-10-26 17:09:58,412 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 17582
+2022-10-26 17:09:58,415 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 18873
+2022-10-26 17:09:58,418 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 64102
+2022-10-26 17:09:58,421 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 84682
+2022-10-26 17:09:58,425 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 80547
+2022-10-26 17:09:58,430 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 71928
+2022-10-26 17:09:58,433 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 12201
+2022-10-26 17:09:58,436 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 58095
+2022-10-26 17:09:58,439 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 44546
+2022-10-26 17:09:58,442 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 25751
+2022-10-26 17:09:58,445 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 86925
+2022-10-26 17:09:58,448 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 76310
+2022-10-26 17:09:58,450 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 54944
+2022-10-26 17:09:58,454 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 76304
+2022-10-26 17:09:58,457 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 47441
+2022-10-26 17:09:58,461 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 55730
+2022-10-26 17:09:58,463 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 91716
+2022-10-26 17:09:58,467 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 11611
+2022-10-26 17:09:58,470 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 20401
+2022-10-26 17:09:58,473 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 31057
+2022-10-26 17:09:58,474 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 57948
+2022-10-26 17:09:58,479 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 10986
+2022-10-26 17:09:58,487 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 43894
+2022-10-26 17:09:58,491 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 21372
+2022-10-26 17:09:58,495 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 84465
+2022-10-26 17:09:58,500 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 48229
+2022-10-26 17:09:58,503 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 63781
+2022-10-26 17:09:58,505 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 38564
+2022-10-26 17:09:58,507 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 98202
+2022-10-26 17:09:58,509 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 50955
+2022-10-26 17:09:58,513 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 75595
+2022-10-26 17:09:58,516 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 58916
+2022-10-26 17:09:58,518 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 80708
+2022-10-26 17:09:58,520 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 47992
+2022-10-26 17:09:58,525 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 85603
+2022-10-26 17:09:58,529 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 19084
+2022-10-26 17:09:58,532 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 56714
+2022-10-26 17:09:58,535 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 50447
+2022-10-26 17:09:58,539 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 94734
+2022-10-26 17:09:58,541 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 26243
+2022-10-26 17:09:58,544 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 97793
+2022-10-26 17:09:58,546 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 87053
+2022-10-26 17:09:58,550 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 77469
+2022-10-26 17:09:58,553 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 97044
+2022-10-26 17:09:58,556 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 50873
+2022-10-26 17:09:58,558 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 99876
+2022-10-26 17:09:58,561 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 64683
+2022-10-26 17:09:58,564 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 80677
+2022-10-26 17:09:58,566 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 48462
+2022-10-26 17:09:58,569 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 77921
+2022-10-26 17:09:58,572 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 62713
+2022-10-26 17:09:58,584 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 38501
+2022-10-26 17:09:58,601 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 35968
+2022-10-26 17:09:58,607 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 79702
+2022-10-26 17:09:58,623 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 37115
+2022-10-26 17:09:58,639 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 73502
+2022-10-26 17:09:58,687 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 37292
+2022-10-26 17:09:58,714 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 34113
+2022-10-26 17:09:58,745 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 52245
+2022-10-26 17:09:58,785 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 75710
+2022-10-26 17:09:58,814 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 43723
+2022-10-26 17:09:58,860 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 37450
+2022-10-26 17:09:58,891 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 24286
+2022-10-26 17:09:58,928 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 48862
+2022-10-26 17:09:58,993 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 67172
+2022-10-26 17:09:59,025 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 79563
+2022-10-26 17:09:59,037 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 48613
+2022-10-26 17:09:59,085 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 50635
+2022-10-26 17:09:59,132 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 12603
+2022-10-26 17:09:59,185 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 83418
+2022-10-26 17:09:59,261 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 54048
+2022-10-26 17:09:59,362 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 40103
+2022-10-26 17:09:59,374 - basicLogger - INFO - Returned event "upload_sales" response (Id: 62019) with status 201
+2022-10-26 17:09:59,379 - basicLogger - INFO - Returned event "upload_sales" response (Id: 31057) with status 201
+2022-10-26 17:09:59,404 - basicLogger - INFO - Returned event "upload_sales" response (Id: 84465) with status 201
+2022-10-26 17:09:59,407 - basicLogger - INFO - Returned event "upload_sales" response (Id: 86925) with status 201
+2022-10-26 17:09:59,412 - basicLogger - INFO - Returned event "upload_sales" response (Id: 91716) with status 201
+2022-10-26 17:09:59,413 - basicLogger - INFO - Returned event "upload_sales" response (Id: 80547) with status 201
+2022-10-26 17:09:59,413 - basicLogger - INFO - Returned event "upload_sales" response (Id: 76310) with status 201
+2022-10-26 17:09:59,415 - basicLogger - INFO - Returned event "upload_sales" response (Id: 76304) with status 201
+2022-10-26 17:09:59,418 - basicLogger - INFO - Returned event "upload_sales" response (Id: 58095) with status 201
+2022-10-26 17:09:59,424 - basicLogger - INFO - Returned event "upload_sales" response (Id: 55730) with status 201
+2022-10-26 17:09:59,425 - basicLogger - INFO - Returned event "upload_sales" response (Id: 57948) with status 201
+2022-10-26 17:09:59,430 - basicLogger - INFO - Returned event "upload_sales" response (Id: 47441) with status 201
+2022-10-26 17:09:59,434 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 31084
+2022-10-26 17:09:59,493 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 30939
+2022-10-26 17:09:59,499 - basicLogger - INFO - Returned event "upload_sales" response (Id: 63781) with status 201
+2022-10-26 17:09:59,500 - basicLogger - INFO - Returned event "upload_sales" response (Id: 50955) with status 201
+2022-10-26 17:09:59,505 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 57114
+2022-10-26 17:09:59,509 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 32948
+2022-10-26 17:09:59,509 - basicLogger - INFO - Returned event "upload_sales" response (Id: 21372) with status 201
+2022-10-26 17:09:59,514 - basicLogger - INFO - Returned event "upload_sales" response (Id: 48462) with status 201
+2022-10-26 17:09:59,515 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 27049
+2022-10-26 17:09:59,518 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 70512
+2022-10-26 17:09:59,518 - basicLogger - INFO - Returned event "upload_sales" response (Id: 19084) with status 201
+2022-10-26 17:09:59,519 - basicLogger - INFO - Returned event "upload_sales" response (Id: 48229) with status 201
+2022-10-26 17:09:59,519 - basicLogger - INFO - Returned event "upload_sales" response (Id: 10986) with status 201
+2022-10-26 17:09:59,521 - basicLogger - INFO - Returned event "upload_sales" response (Id: 43894) with status 201
+2022-10-26 17:09:59,524 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 69334
+2022-10-26 17:09:59,542 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 51416
+2022-10-26 17:09:59,559 - basicLogger - INFO - Returned event "upload_sales" response (Id: 47992) with status 201
+2022-10-26 17:09:59,563 - basicLogger - INFO - Returned event "upload_sales" response (Id: 77469) with status 201
+2022-10-26 17:09:59,597 - basicLogger - INFO - Returned event "upload_sales" response (Id: 87053) with status 201
+2022-10-26 17:09:59,603 - basicLogger - INFO - Returned event "upload_sales" response (Id: 64683) with status 201
+2022-10-26 17:09:59,613 - basicLogger - INFO - Returned event "upload_sales" response (Id: 97044) with status 201
+2022-10-26 17:09:59,623 - basicLogger - INFO - Returned event "upload_sales" response (Id: 58916) with status 201
+2022-10-26 17:09:59,624 - basicLogger - INFO - Returned event "upload_sales" response (Id: 94734) with status 201
+2022-10-26 17:09:59,624 - basicLogger - INFO - Returned event "upload_sales" response (Id: 89286) with status 201
+2022-10-26 17:09:59,625 - basicLogger - INFO - Returned event "upload_sales" response (Id: 77921) with status 201
+2022-10-26 17:09:59,631 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 54129
+2022-10-26 17:09:59,650 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 10498
+2022-10-26 17:09:59,655 - basicLogger - INFO - Returned event "upload_sales" response (Id: 38564) with status 201
+2022-10-26 17:09:59,655 - basicLogger - INFO - Returned event "upload_sales" response (Id: 44546) with status 201
+2022-10-26 17:09:59,669 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 45910
+2022-10-26 17:09:59,681 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 52352
+2022-10-26 17:09:59,683 - basicLogger - INFO - Returned event "upload_sales" response (Id: 17582) with status 201
+2022-10-26 17:09:59,685 - basicLogger - INFO - Returned event "upload_sales" response (Id: 30978) with status 201
+2022-10-26 17:09:59,707 - basicLogger - INFO - Returned event "upload_sales" response (Id: 74521) with status 201
+2022-10-26 17:09:59,717 - basicLogger - INFO - Returned event "upload_sales" response (Id: 71928) with status 201
+2022-10-26 17:09:59,733 - basicLogger - INFO - Returned event "upload_sales" response (Id: 20401) with status 201
+2022-10-26 17:09:59,741 - basicLogger - INFO - Returned event "upload_sales" response (Id: 84682) with status 201
+2022-10-26 17:09:59,742 - basicLogger - INFO - Returned event "upload_sales" response (Id: 18873) with status 201
+2022-10-26 17:09:59,758 - basicLogger - INFO - Returned event "upload_sales" response (Id: 54944) with status 201
+2022-10-26 17:09:59,779 - basicLogger - INFO - Returned event "upload_sales" response (Id: 64102) with status 201
+2022-10-26 17:09:59,813 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 68007
+2022-10-26 17:09:59,832 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 46900
+2022-10-26 17:09:59,843 - basicLogger - INFO - Returned event "upload_sales" response (Id: 25751) with status 201
+2022-10-26 17:09:59,848 - basicLogger - INFO - Returned event "upload_sales" response (Id: 75710) with status 201
+2022-10-26 17:09:59,859 - basicLogger - INFO - Returned event "upload_sales" response (Id: 12201) with status 201
+2022-10-26 17:09:59,862 - basicLogger - INFO - Returned event "upload_sales" response (Id: 50447) with status 201
+2022-10-26 17:09:59,872 - basicLogger - INFO - Returned event "upload_sales" response (Id: 37450) with status 201
+2022-10-26 17:09:59,874 - basicLogger - INFO - Returned event "upload_sales" response (Id: 48862) with status 201
+2022-10-26 17:09:59,875 - basicLogger - INFO - Returned event "upload_sales" response (Id: 79702) with status 201
+2022-10-26 17:09:59,879 - basicLogger - INFO - Returned event "upload_sales" response (Id: 24286) with status 201
+2022-10-26 17:09:59,887 - basicLogger - INFO - Returned event "upload_sales" response (Id: 43723) with status 201
+2022-10-26 17:09:59,888 - basicLogger - INFO - Returned event "upload_sales" response (Id: 37115) with status 201
+2022-10-26 17:09:59,914 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 96862
+2022-10-26 17:09:59,916 - basicLogger - INFO - Returned event "upload_sales" response (Id: 11611) with status 201
+2022-10-26 17:09:59,940 - basicLogger - INFO - Returned event "upload_sales" response (Id: 26243) with status 201
+2022-10-26 17:09:59,944 - basicLogger - INFO - Returned event "upload_sales" response (Id: 62713) with status 201
+2022-10-26 17:09:59,945 - basicLogger - INFO - Returned event "upload_sales" response (Id: 97793) with status 201
+2022-10-26 17:10:00,010 - basicLogger - INFO - Returned event "upload_sales" response (Id: 38501) with status 201
+2022-10-26 17:10:00,022 - basicLogger - INFO - Returned event "upload_sales" response (Id: 80708) with status 201
+2022-10-26 17:10:00,024 - basicLogger - INFO - Returned event "upload_sales" response (Id: 35968) with status 201
+2022-10-26 17:10:00,028 - basicLogger - INFO - Returned event "upload_sales" response (Id: 67172) with status 201
+2022-10-26 17:10:00,081 - basicLogger - INFO - Returned event "upload_sales" response (Id: 75595) with status 201
+2022-10-26 17:10:00,096 - basicLogger - INFO - Returned event "upload_sales" response (Id: 98202) with status 201
+2022-10-26 17:10:00,096 - basicLogger - INFO - Returned event "upload_sales" response (Id: 48613) with status 201
+2022-10-26 17:10:00,100 - basicLogger - INFO - Returned event "upload_sales" response (Id: 80677) with status 201
+2022-10-26 17:10:00,101 - basicLogger - INFO - Returned event "upload_sales" response (Id: 50873) with status 201
+2022-10-26 17:10:00,102 - basicLogger - INFO - Returned event "upload_sales" response (Id: 99876) with status 201
+2022-10-26 17:10:00,103 - basicLogger - INFO - Returned event "upload_sales" response (Id: 85603) with status 201
+2022-10-26 17:10:00,104 - basicLogger - INFO - Returned event "upload_sales" response (Id: 56714) with status 201
+2022-10-26 17:10:00,125 - basicLogger - INFO - Returned event "upload_sales" response (Id: 50635) with status 201
+2022-10-26 17:10:00,166 - basicLogger - INFO - Returned event "upload_sales" response (Id: 89151) with status 201
+2022-10-26 17:10:00,178 - basicLogger - INFO - Returned event "upload_sales" response (Id: 60315) with status 201
+2022-10-26 17:10:00,319 - basicLogger - INFO - Returned event "upload_sales" response (Id: 14634) with status 201
+2022-10-26 17:10:00,324 - basicLogger - INFO - Returned event "upload_sales" response (Id: 37292) with status 201
+2022-10-26 17:10:00,326 - basicLogger - INFO - Returned event "upload_sales" response (Id: 12603) with status 201
+2022-10-26 17:10:00,326 - basicLogger - INFO - Returned event "upload_sales" response (Id: 93298) with status 201
+2022-10-26 17:10:00,342 - basicLogger - INFO - Returned event "upload_sales" response (Id: 34113) with status 201
+2022-10-26 17:10:00,371 - basicLogger - INFO - Returned event "upload_sales" response (Id: 73502) with status 201
+2022-10-26 17:10:00,371 - basicLogger - INFO - Returned event "upload_sales" response (Id: 52245) with status 201
+2022-10-26 17:10:00,377 - basicLogger - INFO - Returned event "upload_sales" response (Id: 83418) with status 201
+2022-10-26 17:10:00,378 - basicLogger - INFO - Returned event "upload_sales" response (Id: 67175) with status 201
+2022-10-26 17:10:00,380 - basicLogger - INFO - Returned event "upload_sales" response (Id: 54048) with status 201
+2022-10-26 17:10:00,618 - basicLogger - INFO - Returned event "upload_sales" response (Id: 30939) with status 201
+2022-10-26 17:10:00,619 - basicLogger - INFO - Returned event "upload_sales" response (Id: 40103) with status 201
+2022-10-26 17:10:00,630 - basicLogger - INFO - Returned event "upload_sales" response (Id: 57114) with status 201
+2022-10-26 17:10:00,632 - basicLogger - INFO - Returned event "upload_sales" response (Id: 27049) with status 201
+2022-10-26 17:10:00,642 - basicLogger - INFO - Returned event "upload_sales" response (Id: 32948) with status 201
+2022-10-26 17:10:00,644 - basicLogger - INFO - Returned event "upload_sales" response (Id: 70512) with status 201
+2022-10-26 17:10:00,664 - basicLogger - INFO - Returned event "upload_sales" response (Id: 69334) with status 201
+2022-10-26 17:10:00,717 - basicLogger - INFO - Returned event "upload_sales" response (Id: 45910) with status 201
+2022-10-26 17:10:00,732 - basicLogger - INFO - Returned event "upload_sales" response (Id: 51416) with status 201
+2022-10-26 17:10:00,735 - basicLogger - INFO - Returned event "upload_sales" response (Id: 52352) with status 201
+2022-10-26 17:10:00,735 - basicLogger - INFO - Returned event "upload_sales" response (Id: 54129) with status 201
+2022-10-26 17:10:00,736 - basicLogger - INFO - Returned event "upload_sales" response (Id: 10498) with status 201
+2022-10-26 17:10:00,773 - basicLogger - INFO - Returned event "upload_sales" response (Id: 68007) with status 201
+2022-10-26 17:10:00,850 - basicLogger - INFO - Returned event "upload_sales" response (Id: 46900) with status 201
+2022-10-26 17:10:01,262 - basicLogger - INFO - Returned event "upload_sales" response (Id: 96862) with status 201
+2022-10-26 17:10:01,262 - basicLogger - INFO - Returned event "upload_sales" response (Id: 79563) with status 201
+2022-10-26 17:10:01,262 - basicLogger - INFO - Returned event "upload_sales" response (Id: 31084) with status 201
+2022-10-26 17:11:27,019 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 63341
+2022-10-26 17:11:27,031 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 54249
+2022-10-26 17:11:27,033 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 32186
+2022-10-26 17:11:27,036 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 20104
+2022-10-26 17:11:27,037 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 30644
+2022-10-26 17:11:27,040 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 54921
+2022-10-26 17:11:27,041 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 22942
+2022-10-26 17:11:27,047 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 70545
+2022-10-26 17:11:27,051 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 86871
+2022-10-26 17:11:27,053 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 33977
+2022-10-26 17:11:27,054 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 40216
+2022-10-26 17:11:27,056 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 53661
+2022-10-26 17:11:27,060 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 41350
+2022-10-26 17:11:27,062 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 86501
+2022-10-26 17:11:27,065 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 67700
+2022-10-26 17:11:27,068 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 40421
+2022-10-26 17:11:27,070 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 68790
+2022-10-26 17:11:27,071 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 79923
+2022-10-26 17:11:27,073 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 62170
+2022-10-26 17:11:27,078 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 91388
+2022-10-26 17:11:27,080 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 13101
+2022-10-26 17:11:27,083 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 44759
+2022-10-26 17:11:27,084 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 68129
+2022-10-26 17:11:27,086 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 28859
+2022-10-26 17:11:27,088 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 39769
+2022-10-26 17:11:27,093 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 59060
+2022-10-26 17:11:27,095 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 75147
+2022-10-26 17:11:27,098 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 82552
+2022-10-26 17:11:27,100 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 76560
+2022-10-26 17:11:27,101 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 10071
+2022-10-26 17:11:27,104 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 21417
+2022-10-26 17:11:27,109 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 81796
+2022-10-26 17:11:27,111 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 59973
+2022-10-26 17:11:27,112 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 12497
+2022-10-26 17:11:27,114 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 46624
+2022-10-26 17:11:27,116 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 10191
+2022-10-26 17:11:27,117 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 61430
+2022-10-26 17:11:27,119 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 11900
+2022-10-26 17:11:27,122 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 10119
+2022-10-26 17:11:27,125 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 10868
+2022-10-26 17:11:27,126 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 34508
+2022-10-26 17:11:27,128 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 75128
+2022-10-26 17:11:27,130 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 10174
+2022-10-26 17:11:27,132 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 15858
+2022-10-26 17:11:27,133 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 33915
+2022-10-26 17:11:27,134 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 96091
+2022-10-26 17:11:27,139 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 76248
+2022-10-26 17:11:27,141 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 94671
+2022-10-26 17:11:27,143 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 14903
+2022-10-26 17:11:27,145 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 21310
+2022-10-26 17:11:27,147 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 36926
+2022-10-26 17:11:27,148 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 59137
+2022-10-26 17:11:27,150 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 28127
+2022-10-26 17:11:27,153 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 25589
+2022-10-26 17:11:27,156 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 59440
+2022-10-26 17:11:27,158 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 35488
+2022-10-26 17:11:27,159 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 46636
+2022-10-26 17:11:27,161 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 49375
+2022-10-26 17:11:27,162 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 20131
+2022-10-26 17:11:27,164 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 86121
+2022-10-26 17:11:27,166 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 98154
+2022-10-26 17:11:27,169 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 31505
+2022-10-26 17:11:27,172 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 84107
+2022-10-26 17:11:27,173 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 77433
+2022-10-26 17:11:27,175 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 37779
+2022-10-26 17:11:27,177 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 20934
+2022-10-26 17:11:27,178 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 70165
+2022-10-26 17:11:27,180 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 63580
+2022-10-26 17:11:27,184 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 87858
+2022-10-26 17:11:27,185 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 16380
+2022-10-26 17:11:27,187 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 99134
+2022-10-26 17:11:27,189 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 80961
+2022-10-26 17:11:27,191 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 46268
+2022-10-26 17:11:27,193 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 92247
+2022-10-26 17:11:27,194 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 80876
+2022-10-26 17:11:27,198 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 73084
+2022-10-26 17:11:27,201 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 30254
+2022-10-26 17:11:27,203 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 39054
+2022-10-26 17:11:27,206 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 61210
+2022-10-26 17:11:27,208 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 73002
+2022-10-26 17:11:27,210 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 77173
+2022-10-26 17:11:27,213 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 97900
+2022-10-26 17:11:27,215 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 68338
+2022-10-26 17:11:27,218 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 84460
+2022-10-26 17:11:27,219 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 87236
+2022-10-26 17:11:27,221 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 53788
+2022-10-26 17:11:27,223 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 31485
+2022-10-26 17:11:27,225 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 51848
+2022-10-26 17:11:27,229 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 13939
+2022-10-26 17:11:27,233 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 18612
+2022-10-26 17:11:27,234 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 18262
+2022-10-26 17:11:27,236 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 35281
+2022-10-26 17:11:27,237 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 34497
+2022-10-26 17:11:27,238 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 16153
+2022-10-26 17:11:27,243 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 16543
+2022-10-26 17:11:27,246 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 17007
+2022-10-26 17:11:27,248 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 33179
+2022-10-26 17:11:27,250 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 18096
+2022-10-26 17:11:27,251 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 29410
+2022-10-26 17:11:27,253 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 59168
+2022-10-26 17:11:27,254 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 89911
+2022-10-26 17:11:27,261 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 95877
+2022-10-26 17:11:27,283 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 27424
+2022-10-26 17:11:27,299 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 41287
+2022-10-26 17:11:27,320 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 77734
+2022-10-26 17:11:27,331 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 91033
+2022-10-26 17:11:27,356 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 73561
+2022-10-26 17:11:27,361 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 42117
+2022-10-26 17:11:27,364 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 18583
+2022-10-26 17:11:27,368 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 52089
+2022-10-26 17:11:27,370 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 79471
+2022-10-26 17:11:27,372 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 64514
+2022-10-26 17:11:27,374 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 52559
+2022-10-26 17:11:27,376 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 52932
+2022-10-26 17:11:27,381 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 31504
+2022-10-26 17:11:27,385 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 54539
+2022-10-26 17:11:27,386 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 81608
+2022-10-26 17:11:27,388 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 94088
+2022-10-26 17:11:27,391 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 92612
+2022-10-26 17:11:27,406 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 31016
+2022-10-26 17:11:27,438 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 94162
+2022-10-26 17:11:27,469 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 62094
+2022-10-26 17:11:27,769 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 45500
+2022-10-26 17:11:27,854 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 38663
+2022-10-26 17:11:27,889 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 38287
+2022-10-26 17:11:27,895 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 36544
+2022-10-26 17:11:27,974 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 13534
+2022-10-26 17:11:28,043 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 92224
+2022-10-26 17:11:28,123 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 59011
+2022-10-26 17:11:28,191 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 84752
+2022-10-26 17:11:28,268 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 89649
+2022-10-26 17:11:28,323 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 45695
+2022-10-26 17:11:28,438 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 70643
+2022-10-26 17:11:28,461 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 90774
+2022-10-26 17:11:28,465 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 76647
+2022-10-26 17:11:28,484 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 48826
+2022-10-26 17:11:28,562 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 23178
+2022-10-26 17:11:28,628 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 82899
+2022-10-26 17:11:28,697 - basicLogger - INFO - Returned event "upload_sales" response (Id: 44759) with status 201
+2022-10-26 17:11:28,698 - basicLogger - INFO - Returned event "upload_sales" response (Id: 76560) with status 201
+2022-10-26 17:11:28,700 - basicLogger - INFO - Returned event "upload_sales" response (Id: 10174) with status 201
+2022-10-26 17:11:28,710 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 29988
+2022-10-26 17:11:28,781 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 57617
+2022-10-26 17:11:28,805 - basicLogger - INFO - Returned event "upload_sales" response (Id: 31505) with status 201
+2022-10-26 17:11:28,805 - basicLogger - INFO - Returned event "upload_sales" response (Id: 82552) with status 201
+2022-10-26 17:11:28,850 - basicLogger - INFO - Returned event "upload_sales" response (Id: 33915) with status 201
+2022-10-26 17:11:28,851 - basicLogger - INFO - Returned event "upload_sales" response (Id: 25589) with status 201
+2022-10-26 17:11:28,851 - basicLogger - INFO - Returned event "upload_sales" response (Id: 59973) with status 201
+2022-10-26 17:11:28,854 - basicLogger - INFO - Returned event "upload_sales" response (Id: 14903) with status 201
+2022-10-26 17:11:28,855 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 14544
+2022-10-26 17:11:28,855 - basicLogger - INFO - Returned event "upload_sales" response (Id: 70545) with status 201
+2022-10-26 17:11:28,911 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 43439
+2022-10-26 17:11:28,932 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 70609
+2022-10-26 17:11:28,943 - basicLogger - INFO - Returned event "upload_sales" response (Id: 59137) with status 201
+2022-10-26 17:11:28,944 - basicLogger - INFO - Returned event "upload_sales" response (Id: 98154) with status 201
+2022-10-26 17:11:28,947 - basicLogger - INFO - Returned event "upload_sales" response (Id: 30254) with status 201
+2022-10-26 17:11:28,952 - basicLogger - INFO - Returned event "upload_sales" response (Id: 54921) with status 201
+2022-10-26 17:11:28,969 - basicLogger - INFO - Returned event "upload_sales" response (Id: 16380) with status 201
+2022-10-26 17:11:28,969 - basicLogger - INFO - Returned event "upload_sales" response (Id: 59440) with status 201
+2022-10-26 17:11:28,977 - basicLogger - INFO - Returned event "upload_sales" response (Id: 13101) with status 201
+2022-10-26 17:11:28,987 - basicLogger - INFO - Returned event "upload_sales" response (Id: 77433) with status 201
+2022-10-26 17:11:28,994 - basicLogger - INFO - Returned event "upload_sales" response (Id: 30644) with status 201
+2022-10-26 17:11:28,996 - basicLogger - INFO - Returned event "upload_sales" response (Id: 21310) with status 201
+2022-10-26 17:11:28,996 - basicLogger - INFO - Returned event "upload_sales" response (Id: 63580) with status 201
+2022-10-26 17:11:28,997 - basicLogger - INFO - Returned event "upload_sales" response (Id: 46636) with status 201
+2022-10-26 17:11:28,998 - basicLogger - INFO - Returned event "upload_sales" response (Id: 92247) with status 201
+2022-10-26 17:11:28,999 - basicLogger - INFO - Returned event "upload_sales" response (Id: 86121) with status 201
+2022-10-26 17:11:28,999 - basicLogger - INFO - Returned event "upload_sales" response (Id: 46268) with status 201
+2022-10-26 17:11:29,000 - basicLogger - INFO - Returned event "upload_sales" response (Id: 28127) with status 201
+2022-10-26 17:11:29,001 - basicLogger - INFO - Returned event "upload_sales" response (Id: 51848) with status 201
+2022-10-26 17:11:29,001 - basicLogger - INFO - Returned event "upload_sales" response (Id: 73002) with status 201
+2022-10-26 17:11:29,002 - basicLogger - INFO - Returned event "upload_sales" response (Id: 20131) with status 201
+2022-10-26 17:11:29,002 - basicLogger - INFO - Returned event "upload_sales" response (Id: 49375) with status 201
+2022-10-26 17:11:29,007 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 36286
+2022-10-26 17:11:29,048 - basicLogger - INFO - Returned event "upload_sales" response (Id: 75147) with status 201
+2022-10-26 17:11:29,053 - basicLogger - INFO - Returned event "upload_sales" response (Id: 70165) with status 201
+2022-10-26 17:11:29,053 - basicLogger - INFO - Returned event "upload_sales" response (Id: 15858) with status 201
+2022-10-26 17:11:29,053 - basicLogger - INFO - Returned event "upload_sales" response (Id: 36926) with status 201
+2022-10-26 17:11:29,053 - basicLogger - INFO - Returned event "upload_sales" response (Id: 61210) with status 201
+2022-10-26 17:11:29,057 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 88723
+2022-10-26 17:11:29,102 - basicLogger - INFO - Returned event "upload_sales" response (Id: 37779) with status 201
+2022-10-26 17:11:29,102 - basicLogger - INFO - Returned event "upload_sales" response (Id: 18612) with status 201
+2022-10-26 17:11:29,103 - basicLogger - INFO - Returned event "upload_sales" response (Id: 75128) with status 201
+2022-10-26 17:11:29,103 - basicLogger - INFO - Returned event "upload_sales" response (Id: 33977) with status 201
+2022-10-26 17:11:29,106 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 83142
+2022-10-26 17:11:29,107 - basicLogger - INFO - Returned event "upload_sales" response (Id: 64514) with status 201
+2022-10-26 17:11:29,108 - basicLogger - INFO - Returned event "upload_sales" response (Id: 89911) with status 201
+2022-10-26 17:11:29,108 - basicLogger - INFO - Returned event "upload_sales" response (Id: 33179) with status 201
+2022-10-26 17:11:29,108 - basicLogger - INFO - Returned event "upload_sales" response (Id: 67700) with status 201
+2022-10-26 17:11:29,109 - basicLogger - INFO - Returned event "upload_sales" response (Id: 79923) with status 201
+2022-10-26 17:11:29,109 - basicLogger - INFO - Returned event "upload_sales" response (Id: 18583) with status 201
+2022-10-26 17:11:29,109 - basicLogger - INFO - Returned event "upload_sales" response (Id: 97900) with status 201
+2022-10-26 17:11:29,112 - basicLogger - INFO - Returned event "upload_sales" response (Id: 63341) with status 201
+2022-10-26 17:11:29,114 - basicLogger - INFO - Returned event "upload_sales" response (Id: 22942) with status 201
+2022-10-26 17:11:29,115 - basicLogger - INFO - Returned event "upload_sales" response (Id: 41287) with status 201
+2022-10-26 17:11:29,115 - basicLogger - INFO - Returned event "upload_sales" response (Id: 46624) with status 201
+2022-10-26 17:11:29,115 - basicLogger - INFO - Returned event "upload_sales" response (Id: 54539) with status 201
+2022-10-26 17:11:29,159 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 61305
+2022-10-26 17:11:29,180 - basicLogger - INFO - Returned event "upload_sales" response (Id: 27424) with status 201
+2022-10-26 17:11:29,180 - basicLogger - INFO - Returned event "upload_sales" response (Id: 20104) with status 201
+2022-10-26 17:11:29,180 - basicLogger - INFO - Returned event "upload_sales" response (Id: 91388) with status 201
+2022-10-26 17:11:29,181 - basicLogger - INFO - Returned event "upload_sales" response (Id: 28859) with status 201
+2022-10-26 17:11:29,181 - basicLogger - INFO - Returned event "upload_sales" response (Id: 59168) with status 201
+2022-10-26 17:11:29,181 - basicLogger - INFO - Returned event "upload_sales" response (Id: 91033) with status 201
+2022-10-26 17:11:29,189 - basicLogger - INFO - Returned event "upload_sales" response (Id: 18096) with status 201
+2022-10-26 17:11:29,207 - basicLogger - INFO - Returned event "upload_sales" response (Id: 34508) with status 201
+2022-10-26 17:11:29,208 - basicLogger - INFO - Returned event "upload_sales" response (Id: 29410) with status 201
+2022-10-26 17:11:29,208 - basicLogger - INFO - Returned event "upload_sales" response (Id: 10191) with status 201
+2022-10-26 17:11:29,208 - basicLogger - INFO - Returned event "upload_sales" response (Id: 86871) with status 201
+2022-10-26 17:11:29,209 - basicLogger - INFO - Returned event "upload_sales" response (Id: 62094) with status 201
+2022-10-26 17:11:29,212 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 44215
+2022-10-26 17:11:29,232 - basicLogger - INFO - Returned event "upload_sales" response (Id: 16543) with status 201
+2022-10-26 17:11:29,240 - basicLogger - INFO - Returned event "upload_sales" response (Id: 31016) with status 201
+2022-10-26 17:11:29,240 - basicLogger - INFO - Returned event "upload_sales" response (Id: 95877) with status 201
+2022-10-26 17:11:29,240 - basicLogger - INFO - Returned event "upload_sales" response (Id: 77734) with status 201
+2022-10-26 17:11:29,260 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 62018
+2022-10-26 17:11:29,269 - basicLogger - INFO - Returned event "upload_sales" response (Id: 52932) with status 201
+2022-10-26 17:11:29,273 - basicLogger - INFO - Returned event "upload_sales" response (Id: 59060) with status 201
+2022-10-26 17:11:29,273 - basicLogger - INFO - Returned event "upload_sales" response (Id: 81608) with status 201
+2022-10-26 17:11:29,308 - basicLogger - INFO - Returned event "upload_sales" response (Id: 84107) with status 201
+2022-10-26 17:11:29,322 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 83090
+2022-10-26 17:11:29,375 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 47851
+2022-10-26 17:11:29,392 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 23086
+2022-10-26 17:11:29,398 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 20677
+2022-10-26 17:11:29,403 - basicLogger - INFO - Returned event "upload_sales" response (Id: 45500) with status 201
+2022-10-26 17:11:29,406 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 21309
+2022-10-26 17:11:29,410 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 13847
+2022-10-26 17:11:29,413 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 83093
+2022-10-26 17:11:29,415 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 12074
+2022-10-26 17:11:29,417 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 31528
+2022-10-26 17:11:29,420 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 32915
+2022-10-26 17:11:29,448 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 25668
+2022-10-26 17:11:29,479 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 31671
+2022-10-26 17:11:29,527 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 78934
+2022-10-26 17:11:29,567 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 48109
+2022-10-26 17:11:29,606 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 62618
+2022-10-26 17:11:29,655 - basicLogger - INFO - Returned event "upload_sales" response (Id: 38663) with status 201
+2022-10-26 17:11:29,659 - basicLogger - INFO - Returned event "upload_sales" response (Id: 73561) with status 201
+2022-10-26 17:11:29,670 - basicLogger - INFO - Returned event "upload_sales" response (Id: 36544) with status 201
+2022-10-26 17:11:29,674 - basicLogger - INFO - Returned event "upload_sales" response (Id: 38287) with status 201
+2022-10-26 17:11:29,691 - basicLogger - INFO - Returned event "upload_sales" response (Id: 13534) with status 201
+2022-10-26 17:11:29,710 - basicLogger - INFO - Returned event "upload_sales" response (Id: 80961) with status 201
+2022-10-26 17:11:29,712 - basicLogger - INFO - Returned event "upload_sales" response (Id: 16153) with status 201
+2022-10-26 17:11:29,715 - basicLogger - INFO - Returned event "upload_sales" response (Id: 39054) with status 201
+2022-10-26 17:11:29,722 - basicLogger - INFO - Returned event "upload_sales" response (Id: 73084) with status 201
+2022-10-26 17:11:29,722 - basicLogger - INFO - Returned event "upload_sales" response (Id: 86501) with status 201
+2022-10-26 17:11:29,722 - basicLogger - INFO - Returned event "upload_sales" response (Id: 54249) with status 201
+2022-10-26 17:11:29,723 - basicLogger - INFO - Returned event "upload_sales" response (Id: 77173) with status 201
+2022-10-26 17:11:29,734 - basicLogger - INFO - Returned event "upload_sales" response (Id: 10119) with status 201
+2022-10-26 17:11:29,734 - basicLogger - INFO - Returned event "upload_sales" response (Id: 53788) with status 201
+2022-10-26 17:11:29,734 - basicLogger - INFO - Returned event "upload_sales" response (Id: 41350) with status 201
+2022-10-26 17:11:29,756 - basicLogger - INFO - Returned event "upload_sales" response (Id: 40216) with status 201
+2022-10-26 17:11:29,757 - basicLogger - INFO - Returned event "upload_sales" response (Id: 35281) with status 201
+2022-10-26 17:11:29,773 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 51488
+2022-10-26 17:11:29,798 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 36803
+2022-10-26 17:11:29,804 - basicLogger - INFO - Returned event "upload_sales" response (Id: 10071) with status 201
+2022-10-26 17:11:29,805 - basicLogger - INFO - Returned event "upload_sales" response (Id: 87236) with status 201
+2022-10-26 17:11:29,806 - basicLogger - INFO - Returned event "upload_sales" response (Id: 68338) with status 201
+2022-10-26 17:11:29,819 - basicLogger - INFO - Returned event "upload_sales" response (Id: 12497) with status 201
+2022-10-26 17:11:29,820 - basicLogger - INFO - Returned event "upload_sales" response (Id: 20934) with status 201
+2022-10-26 17:11:29,820 - basicLogger - INFO - Returned event "upload_sales" response (Id: 68129) with status 201
+2022-10-26 17:11:29,820 - basicLogger - INFO - Returned event "upload_sales" response (Id: 35488) with status 201
+2022-10-26 17:11:29,822 - basicLogger - INFO - Returned event "upload_sales" response (Id: 34497) with status 201
+2022-10-26 17:11:29,822 - basicLogger - INFO - Returned event "upload_sales" response (Id: 80876) with status 201
+2022-10-26 17:11:29,822 - basicLogger - INFO - Returned event "upload_sales" response (Id: 31485) with status 201
+2022-10-26 17:11:29,824 - basicLogger - INFO - Returned event "upload_sales" response (Id: 18262) with status 201
+2022-10-26 17:11:29,831 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 98841
+2022-10-26 17:11:29,844 - basicLogger - INFO - Returned event "upload_sales" response (Id: 53661) with status 201
+2022-10-26 17:11:29,848 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 93049
+2022-10-26 17:11:29,857 - basicLogger - INFO - Returned event "upload_sales" response (Id: 45695) with status 201
+2022-10-26 17:11:29,858 - basicLogger - INFO - Returned event "upload_sales" response (Id: 99134) with status 201
+2022-10-26 17:11:29,891 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 17344
+2022-10-26 17:11:29,904 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 12553
+2022-10-26 17:11:29,905 - basicLogger - INFO - Returned event "upload_sales" response (Id: 21417) with status 201
+2022-10-26 17:11:29,907 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 89699
+2022-10-26 17:11:29,907 - basicLogger - INFO - Returned event "upload_sales" response (Id: 94088) with status 201
+2022-10-26 17:11:29,908 - basicLogger - INFO - Returned event "upload_sales" response (Id: 10868) with status 201
+2022-10-26 17:11:29,911 - basicLogger - INFO - Returned event "upload_sales" response (Id: 68790) with status 201
+2022-10-26 17:11:29,911 - basicLogger - INFO - Returned event "upload_sales" response (Id: 11900) with status 201
+2022-10-26 17:11:29,911 - basicLogger - INFO - Returned event "upload_sales" response (Id: 32186) with status 201
+2022-10-26 17:11:29,913 - basicLogger - INFO - Returned event "upload_sales" response (Id: 87858) with status 201
+2022-10-26 17:11:29,914 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 11493
+2022-10-26 17:11:29,916 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 57251
+2022-10-26 17:11:29,922 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 19945
+2022-10-26 17:11:29,924 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 82122
+2022-10-26 17:11:29,926 - basicLogger - INFO - Returned event "upload_sales" response (Id: 17007) with status 201
+2022-10-26 17:11:29,928 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 42614
+2022-10-26 17:11:29,933 - basicLogger - INFO - Returned event "upload_sales" response (Id: 92612) with status 201
+2022-10-26 17:11:29,935 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 37710
+2022-10-26 17:11:29,937 - basicLogger - INFO - Returned event "upload_sales" response (Id: 84460) with status 201
+2022-10-26 17:11:29,937 - basicLogger - INFO - Returned event "upload_sales" response (Id: 81796) with status 201
+2022-10-26 17:11:29,937 - basicLogger - INFO - Returned event "upload_sales" response (Id: 94671) with status 201
+2022-10-26 17:11:29,938 - basicLogger - INFO - Returned event "upload_sales" response (Id: 40421) with status 201
+2022-10-26 17:11:29,938 - basicLogger - INFO - Returned event "upload_sales" response (Id: 39769) with status 201
+2022-10-26 17:11:29,939 - basicLogger - INFO - Returned event "upload_sales" response (Id: 13939) with status 201
+2022-10-26 17:11:29,941 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 32060
+2022-10-26 17:11:29,946 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 28042
+2022-10-26 17:11:29,948 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 46194
+2022-10-26 17:11:29,951 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 49178
+2022-10-26 17:11:29,953 - basicLogger - INFO - Returned event "upload_sales" response (Id: 89649) with status 201
+2022-10-26 17:11:29,958 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 66035
+2022-10-26 17:11:29,974 - basicLogger - INFO - Returned event "upload_sales" response (Id: 76248) with status 201
+2022-10-26 17:11:29,978 - basicLogger - INFO - Returned event "upload_sales" response (Id: 23178) with status 201
+2022-10-26 17:11:29,979 - basicLogger - INFO - Returned event "upload_sales" response (Id: 90774) with status 201
+2022-10-26 17:11:29,980 - basicLogger - INFO - Returned event "upload_sales" response (Id: 84752) with status 201
+2022-10-26 17:11:29,981 - basicLogger - INFO - Returned event "upload_sales" response (Id: 76647) with status 201
+2022-10-26 17:11:29,991 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 48428
+2022-10-26 17:11:30,017 - basicLogger - INFO - Returned event "upload_sales" response (Id: 70643) with status 201
+2022-10-26 17:11:30,036 - basicLogger - INFO - Returned event "upload_sales" response (Id: 52089) with status 201
+2022-10-26 17:11:30,038 - basicLogger - INFO - Returned event "upload_sales" response (Id: 48826) with status 201
+2022-10-26 17:11:30,042 - basicLogger - INFO - Returned event "upload_sales" response (Id: 52559) with status 201
+2022-10-26 17:11:30,042 - basicLogger - INFO - Returned event "upload_sales" response (Id: 42117) with status 201
+2022-10-26 17:11:30,042 - basicLogger - INFO - Returned event "upload_sales" response (Id: 79471) with status 201
+2022-10-26 17:11:30,060 - basicLogger - INFO - Returned event "upload_sales" response (Id: 31504) with status 201
+2022-10-26 17:11:30,075 - basicLogger - INFO - Returned event "upload_sales" response (Id: 94162) with status 201
+2022-10-26 17:11:30,470 - basicLogger - INFO - Returned event "upload_sales" response (Id: 82899) with status 201
+2022-10-26 17:11:30,574 - basicLogger - INFO - Returned event "upload_sales" response (Id: 57617) with status 201
+2022-10-26 17:11:30,598 - basicLogger - INFO - Returned event "upload_sales" response (Id: 96091) with status 201
+2022-10-26 17:11:30,599 - basicLogger - INFO - Returned event "upload_sales" response (Id: 62170) with status 201
+2022-10-26 17:11:30,599 - basicLogger - INFO - Returned event "upload_sales" response (Id: 61430) with status 201
+2022-10-26 17:11:30,630 - basicLogger - INFO - Returned event "upload_sales" response (Id: 14544) with status 201
+2022-10-26 17:11:30,675 - basicLogger - INFO - Returned event "upload_sales" response (Id: 43439) with status 201
+2022-10-26 17:11:30,741 - basicLogger - INFO - Returned event "upload_sales" response (Id: 70609) with status 201
+2022-10-26 17:11:30,741 - basicLogger - INFO - Returned event "upload_sales" response (Id: 36286) with status 201
+2022-10-26 17:11:30,750 - basicLogger - INFO - Returned event "upload_sales" response (Id: 29988) with status 201
+2022-10-26 17:11:30,777 - basicLogger - INFO - Returned event "upload_sales" response (Id: 83142) with status 201
+2022-10-26 17:11:30,834 - basicLogger - INFO - Returned event "upload_sales" response (Id: 59011) with status 201
+2022-10-26 17:11:30,845 - basicLogger - INFO - Returned event "upload_sales" response (Id: 44215) with status 201
+2022-10-26 17:11:31,385 - basicLogger - INFO - Returned event "upload_sales" response (Id: 62018) with status 201
+2022-10-26 17:11:31,386 - basicLogger - INFO - Returned event "upload_sales" response (Id: 20677) with status 201
+2022-10-26 17:11:32,002 - basicLogger - INFO - Returned event "upload_sales" response (Id: 47851) with status 201
+2022-10-26 17:11:32,004 - basicLogger - INFO - Returned event "upload_sales" response (Id: 13847) with status 201
+2022-10-26 17:11:32,009 - basicLogger - INFO - Returned event "upload_sales" response (Id: 32915) with status 201
+2022-10-26 17:11:32,010 - basicLogger - INFO - Returned event "upload_sales" response (Id: 62618) with status 201
+2022-10-26 17:11:32,010 - basicLogger - INFO - Returned event "upload_sales" response (Id: 48109) with status 201
+2022-10-26 17:11:32,010 - basicLogger - INFO - Returned event "upload_sales" response (Id: 92224) with status 201
+2022-10-26 17:11:32,010 - basicLogger - INFO - Returned event "upload_sales" response (Id: 78934) with status 201
+2022-10-26 17:11:32,011 - basicLogger - INFO - Returned event "upload_sales" response (Id: 88723) with status 201
+2022-10-26 17:11:32,422 - basicLogger - INFO - Returned event "upload_sales" response (Id: 57251) with status 201
+2022-10-26 17:11:32,422 - basicLogger - INFO - Returned event "upload_sales" response (Id: 42614) with status 201
+2022-10-26 17:11:32,424 - basicLogger - INFO - Returned event "upload_sales" response (Id: 51488) with status 201
+2022-10-26 17:11:32,430 - basicLogger - INFO - Returned event "upload_sales" response (Id: 36803) with status 201
+2022-10-26 17:11:32,448 - basicLogger - INFO - Returned event "upload_sales" response (Id: 12553) with status 201
+2022-10-26 17:11:32,449 - basicLogger - INFO - Returned event "upload_sales" response (Id: 82122) with status 201
+2022-10-26 17:11:32,449 - basicLogger - INFO - Returned event "upload_sales" response (Id: 19945) with status 201
+2022-10-26 17:11:32,449 - basicLogger - INFO - Returned event "upload_sales" response (Id: 11493) with status 201
+2022-10-26 17:11:32,450 - basicLogger - INFO - Returned event "upload_sales" response (Id: 37710) with status 201
+2022-10-26 17:11:32,491 - basicLogger - INFO - Returned event "upload_sales" response (Id: 32060) with status 201
+2022-10-26 17:11:32,514 - basicLogger - INFO - Returned event "upload_sales" response (Id: 23086) with status 201
+2022-10-26 17:11:32,625 - basicLogger - INFO - Returned event "upload_sales" response (Id: 89699) with status 201
+2022-10-26 17:11:32,626 - basicLogger - INFO - Returned event "upload_sales" response (Id: 17344) with status 201
+2022-10-26 17:11:32,651 - basicLogger - INFO - Returned event "upload_sales" response (Id: 98841) with status 201
+2022-10-26 17:11:32,651 - basicLogger - INFO - Returned event "upload_sales" response (Id: 93049) with status 201
+2022-10-26 17:11:32,678 - basicLogger - INFO - Returned event "upload_sales" response (Id: 25668) with status 201
+2022-10-26 17:11:32,686 - basicLogger - INFO - Returned event "upload_sales" response (Id: 31528) with status 201
+2022-10-26 17:11:32,739 - basicLogger - INFO - Returned event "upload_sales" response (Id: 66035) with status 201
+2022-10-26 17:11:33,060 - basicLogger - INFO - Returned event "upload_sales" response (Id: 61305) with status 201
+2022-10-26 17:11:33,124 - basicLogger - INFO - Returned event "upload_sales" response (Id: 83090) with status 201
+2022-10-26 17:11:33,415 - basicLogger - INFO - Returned event "upload_sales" response (Id: 21309) with status 201
+2022-10-26 17:11:33,432 - basicLogger - INFO - Returned event "upload_sales" response (Id: 12074) with status 201
+2022-10-26 17:11:33,433 - basicLogger - INFO - Returned event "upload_sales" response (Id: 83093) with status 201
+2022-10-26 17:11:33,433 - basicLogger - INFO - Returned event "upload_sales" response (Id: 31671) with status 201
+2022-10-26 17:11:33,434 - basicLogger - INFO - Returned event "upload_sales" response (Id: 46194) with status 201
+2022-10-26 17:11:33,518 - basicLogger - INFO - Returned event "upload_sales" response (Id: 48428) with status 201
+2022-10-26 17:11:33,522 - basicLogger - INFO - Returned event "upload_sales" response (Id: 49178) with status 201
+2022-10-26 17:11:33,796 - basicLogger - INFO - Returned event "upload_sales" response (Id: 28042) with status 201
+2022-10-26 17:14:04,504 - basicLogger - INFO - Received event "upload_sales" request with a trace id of 30990
+2022-10-26 17:14:05,222 - basicLogger - INFO - Returned event "upload_sales" response (Id: 30990) with status 201
+2022-10-27 09:33:10,551 - basicLogger - INFO - Received event "upload_delivery" request with a trace id of 54767
+2022-10-27 09:33:11,064 - basicLogger - INFO - Returned event "upload_delivery" response (Id: 54767) with status 201
+2022-10-27 09:39:00,479 - basicLogger - INFO - Received event "upload_delivery" request with a trace id of 15525
+2022-10-27 09:39:00,917 - basicLogger - INFO - Returned event "upload_delivery" response (Id: 15525) with status 201
+2022-10-27 10:02:12,734 - basicLogger - INFO - Received event "upload_delivery" request with a trace id of 37778
+2022-10-27 10:02:13,746 - basicLogger - INFO - Returned event "upload_delivery" response (Id: 37778) with status 201
