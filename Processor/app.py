@@ -10,6 +10,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from apscheduler.schedulers.background import BackgroundScheduler
 import datetime
+from flask_cors import CORS, cross_origin
 
 from models.base import Base
 from models.stats import InventoryStats
@@ -35,6 +36,9 @@ def get_stats():
         logger.error("Statistics do not exist")
         return 404
     results = results.to_dict()
+    
+    date_time = datetime.datetime.now()
+    date_time = date_time.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     json = {
         'num_daily_sales_events' : results['num_daily_sales_events'],
@@ -43,7 +47,8 @@ def get_stats():
         'max_hamburgers_sold' : results['max_hamburgers_sold'],
         'num_delivery_events' : results['num_delivery_events'],
         'max_bun_trays_received' : results['max_bun_trays_received'],
-        'max_fry_boxes_received' : results['max_fry_boxes_received']
+        'max_fry_boxes_received' : results['max_fry_boxes_received'],
+        'last_updated' : date_time
     }
     logger.debug(f'Contents of dictionary: {json}')
     logger.info("Get_stats request completed")
@@ -155,6 +160,8 @@ def init_scheduler():
     sched.start()
 
 app = connexion.FlaskApp(__name__, specification_dir='')
+CORS(app.app)
+app.app.config['CORS_HEADERS'] - 'Content-Type'
 app.add_api("processor_api.yaml",
             strict_validation=True,
             validate_responses=True)

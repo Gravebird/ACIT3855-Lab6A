@@ -43,6 +43,7 @@ components:
         - num_delivery_events
         - max_bun_trays_received
         - max_fry_boxes_received
+        - last_updated
       properties:
         num_daily_sales_events:
           type: integer
@@ -65,4 +66,7 @@ components:
         max_fry_boxes_received:
           type: integer
           example: 100
+        last_updated:
+          type: string
+          format: date
       type: object
