@@ -39,8 +39,8 @@ export default function AppStats() {
 							<th>Deliveries</th>
 						</tr>
 						<tr>
-							<td># BP: {stats['num_daily_sales_events']}</td>
-							<td># HR: {stats['num_delivery_events']}</td>
+							<td># Total daily sales events: {stats['num_daily_sales_events']}</td>
+							<td># Total delivery events: {stats['num_delivery_events']}</td>
 						</tr>
 						<tr>
 							<td colspan="2">Max Cheeseburgers Sold: {stats['max_cheeseburgers_sold']}</td>
