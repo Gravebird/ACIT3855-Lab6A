@@ -1,2 +1,2 @@
 @Library('bryan_ci_functions@master') _
-python_build('storage','storageapp',8090)
+python_build('storage','storageapp',8090,'Storage')
