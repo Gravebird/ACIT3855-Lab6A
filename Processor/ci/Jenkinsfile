@@ -1,0 +1,2 @@
+@Library('bryan_ci_functions@master') _
+python_build('processor','processorapp',8100)
