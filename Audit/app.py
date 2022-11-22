@@ -101,6 +101,7 @@ with open('log_conf.yml', 'r') as f:
 
 logger = logging.getLogger('basicLogger')
 
+# Adding a comment to test the pipeline!
 
 if __name__ == "__main__":
     app.run(port=8110)
