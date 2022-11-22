@@ -88,10 +88,11 @@ def populate_stats():
         json['max_bun_trays_received'] = res_dict['max_bun_trays_received']
         json['max_fry_boxes_received'] = res_dict['max_fry_boxes_received']
 
-    
+    current_timestamp = datetime.datetime.now()
+    current_timestamp = current_timestamp.strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    recent_sales_response = requests.get(f'{STORAGE_URL}/get_daily_sales?timestamp={date_time}')
-    recent_deliveries_response = requests.get(f'{STORAGE_URL}/get_deliveries?timestamp={date_time}')
+    recent_sales_response = requests.get(f'{STORAGE_URL}/get_daily_sales?start_timestamp={date_time}&end_timestamp={current_timestamp}')
+    recent_deliveries_response = requests.get(f'{STORAGE_URL}/get_deliveries?start_timestamp={date_time}&end_timestamp={current_timestamp}')
     recent_sales = js.loads(recent_sales_response.content)
     recent_deliveries = js.loads(recent_deliveries_response.content)
 
@@ -131,9 +132,6 @@ def populate_stats():
         + f', max_bun_trays_received: {json["max_bun_trays_received"]}' \
         + f', max_fry_boxes_received: {json["max_fry_boxes_received"]}')
 
-    date_time = datetime.datetime.now()
-    date_time = date_time.strftime("%Y-%m-%dT%H:%M:%SZ")
-
     stats = InventoryStats(json['num_daily_sales_events'],
                            json['max_cheeseburgers_sold'],
                            json['max_fry_servings_sold'],
@@ -141,7 +139,7 @@ def populate_stats():
                            json['num_delivery_events'],
                            json['max_bun_trays_received'],
                            json['max_fry_boxes_received'],
-                           datetime.datetime.strptime(date_time, "%Y-%m-%dT%H:%M:%SZ"))
+                           datetime.datetime.strptime(current_timestamp, "%Y-%m-%dT%H:%M:%SZ"))
     session.add(stats)
 
     logger.info("Finished Periodic Processing")

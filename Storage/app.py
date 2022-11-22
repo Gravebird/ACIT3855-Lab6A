@@ -8,33 +8,42 @@ from pykafka.common import OffsetType
 from threading import Thread
 from connexion import NoContent
 
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, and_
 from sqlalchemy.orm import sessionmaker
 from models.base import Base
 from models.daily_sales import DailySales
 from models.delivery import Delivery
 import datetime
+import time
 
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
     db_info = app_config['datastore']
+    events_info = app_config['events']
+
+kafka_hostname = "%s:%d" % (events_info['hostname'],
+                        events_info['port'])
+kafka_max_connection_retries = events_info['max_retries']
+kafka_topic = events_info['topic']
+kafka_sleep_time_before_reconnect = events_info['kafka_sleep_time_before_reconnect']
 
 DB_ENGINE = create_engine(f'mysql+pymysql://{db_info["user"]}:{db_info["password"]}@{db_info["hostname"]}:{db_info["port"]}/{db_info["db"]}')
 Base.metadata.bind = DB_ENGINE
 DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 
-def get_daily_sales(timestamp):
+def get_daily_sales(start_timestamp, end_timestamp):
     """ Gets new daily sales after the timestamp """
     session = DB_SESSION()
 
-    if timestamp == 'None':
+    if start_timestamp == 'None':
         daily_sales = session.query(DailySales)
         # change timestamp variable so logger message is more helpful
-        timestamp = 'the beginning of time'
+        start_timestamp = 'the beginning of time'
     else:
-        timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
-        daily_sales = session.query(DailySales).filter(DailySales.inventory_datetime >= timestamp_datetime)
+        start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+        end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+        daily_sales = session.query(DailySales).filter(and_(DailySales.inventory_datetime >= start_timestamp_datetime, DailySales.inventory_datetime < end_timestamp_datetime))
 
     results_list = []
 
@@ -43,22 +52,23 @@ def get_daily_sales(timestamp):
     
     session.close()
 
-    logger.info(f'Query for Daily Sales after {timestamp} returns {len(results_list)} results')
+    logger.info(f'Query for Daily Sales after {start_timestamp} returns {len(results_list)} results')
 
     return results_list, 200
 
 
-def get_deliveries(timestamp):
+def get_deliveries(start_timestamp, end_timestamp):
     """ Gets new deliveries after the timestamp """
     session = DB_SESSION()
-    print(timestamp, type(timestamp))
-    if timestamp == 'None':
+    print(start_timestamp, type(start_timestamp))
+    if start_timestamp == 'None':
         deliveries = session.query(Delivery)
         # change timestamp variable so logger message is more helpful
-        timestamp = 'the beginning of time'
+        start_timestamp = 'the beginning of time'
     else:
-        timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
-        deliveries = session.query(Delivery).filter(Delivery.delivery_datetime >= timestamp_datetime)
+        start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+        end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+        deliveries = session.query(Delivery).filter(and_(Delivery.delivery_datetime >= start_timestamp_datetime, Delivery.delivery_datetime < end_timestamp_datetime))
 
     results_list = []
 
@@ -67,17 +77,24 @@ def get_deliveries(timestamp):
 
     session.close()
 
-    logger.info(f'Query for Delivery after {timestamp} returns {len(results_list)} results')
+    logger.info(f'Query for Delivery after {start_timestamp} returns {len(results_list)} results')
 
     return results_list, 200
 
 
 def process_messages():
     """ Process event messages """
-    hostname = "%s:%d" % (app_config['events']['hostname'],
-                          app_config['events']['port'])
-    client = KafkaClient(hosts=hostname)
-    topic = client.topics[str.encode(app_config['events']['topic'])]
+    
+    current_retry_count = 0
+    while current_retry_count < kafka_max_connection_retries:
+        logger.info(f'Attempting to connect to kafak - Attempt #{current_retry_count}')
+        try:
+            client = KafkaClient(hosts=kafka_hostname)
+            topic = client.topics[str.encode(kafka_topic)]
+        except:
+            logger.error(f'Kafka connection failed. Attempt #{current_retry_count}')
+            time.sleep(kafka_sleep_time_before_reconnect)
+            current_retry_count += 1
 
     # Create a consume on consumer group, that only reads new messages
     # (uncommitted messages) when the service re-starts (i.e., it doesn't

@@ -25,13 +25,19 @@ paths:
       operationId: app.get_daily_sales
       description: Gets daily sales added after a timestamp
       parameters:
-        - name: timestamp
+        - name: start_timestamp
           in: query
           description: Limits the number of items on a page
           schema:
             type: string
             format: date-time
             example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
       responses:
         '200':
           description: Successfully returned a list of daily sales
@@ -58,13 +64,19 @@ paths:
       operationId: app.get_deliveries
       description: Gets deliveries added after a timestamp
       parameters:
-        - name: timestamp
+        - name: start_timestamp
           in: query
           description: Limits the number of items on a page
           schema:
             type: string
             format: date-time
             example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
       responses:
         '200':
           description: Successfully returned a list of deliveries

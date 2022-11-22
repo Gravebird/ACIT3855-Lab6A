@@ -9,6 +9,7 @@ from random import randint
 from connexion import NoContent
 
 import requests
+import time
 
 
 def upload_sales(body):
@@ -64,8 +65,6 @@ def upload_delivery(body):
         'trace_id' : trace_id
     }
 
-    client = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_PORT}')
-    topic = client.topics[str.encode(KAFKA_TOPIC)]
     producer = topic.get_sync_producer()
     msg = {
         "type": "delivery",
@@ -100,12 +99,25 @@ DELIVERY_URL = app_config['eventstore2']['url']
 KAFKA_HOST = app_config['events']['hostname']
 KAFKA_PORT = app_config['events']['port']
 KAFKA_TOPIC = app_config['events']['topic']
+kafka_max_connection_retries = app_config['events']['max_retries']
+kafka_sleep_time_before_reconnect = app_config['events']['kafka_sleep_time_before_reconnect']
 
 with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
     
 logger = logging.getLogger('basicLogger')
+
+current_retry_count = 0
+while current_retry_count < kafka_max_connection_retries:
+    logger.info(f'Attempting to connect to kafak - Attempt #{current_retry_count}')
+    try:
+        client = KafkaClient(hosts=KAFKA_HOST)
+        topic = client.topics[str.encode(KAFKA_TOPIC)]
+    except:
+        logger.error(f'Kafka connection failed. Attempt #{current_retry_count}')
+        time.sleep(kafka_sleep_time_before_reconnect)
+        current_retry_count += 1
 
 if __name__ == "__main__":
     app.run(port=8080)

@@ -9,3 +9,5 @@ events:
     hostname: bryan-rainbow-lab6a-acit3855.eastus.cloudapp.azure.com
     port: 9092
     topic: events
+    max_retries: 10
+    kafka_sleep_time_before_reconnect: 1.0
