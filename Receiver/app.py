@@ -52,9 +52,7 @@ def upload_sales(body):
         'fry_servings_sold' : body["fry_servings_sold"],
         'trace_id' : trace_id
         }
-
-    client = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_PORT}')
-    topic = client.topics[str.encode(KAFKA_TOPIC)]
+        
     producer = topic.get_sync_producer()
     msg = {
         "type": "daily_sales",
