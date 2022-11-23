@@ -7,6 +7,7 @@ from pykafka import KafkaClient
 from pykafka.common import OffsetType
 from threading import Thread
 from connexion import NoContent
+import os
 
 from sqlalchemy import create_engine, and_
 from sqlalchemy.orm import sessionmaker
@@ -16,10 +17,30 @@ from models.delivery import Delivery
 import datetime
 import time
 
-with open('app_conf.yml', 'r') as f:
+if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
+    print("In Test Environment")
+    app_conf_file = "/config/app_conf.yml"
+    log_conf_file = "/config/log_conf.yml"
+else:
+    print("In Dev Environment")
+    app_conf_file = "app_conf.yml"
+    log_conf_file = "log_conf.yml"
+
+
+with open(app_conf_file, 'r') as f:
     app_config = yaml.safe_load(f.read())
-    db_info = app_config['datastore']
-    events_info = app_config['events']
+
+with open(log_conf_file, 'r') as f:
+    log_config = yaml.safe_load(f.read())
+    logging.config.dictConfig(log_config)
+
+logger = logging.getLogger('basicLogger')
+
+logger.info(f'App Conf File: {app_conf_file}')
+logger.info(f'Log Conf File: {log_conf_file}')
+
+db_info = app_config['datastore']
+events_info = app_config['events']
 
 kafka_hostname = "%s:%d" % (events_info['hostname'],
                         events_info['port'])
@@ -140,12 +161,6 @@ app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("storage_api.yaml",
             strict_validation=True,
             validate_responses=True)
-
-with open('log_conf.yml', 'r') as f:
-    log_config = yaml.safe_load(f.read())
-    logging.config.dictConfig(log_config)
-
-logger = logging.getLogger('basicLogger')
 
 
 if __name__ == "__main__":

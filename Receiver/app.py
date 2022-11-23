@@ -7,9 +7,33 @@ import json
 from pykafka import KafkaClient
 from random import randint
 from connexion import NoContent
+import os
 
 import requests
 import time
+
+
+if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
+    print("In Test Environment")
+    app_conf_file = "/config/app_conf.yml"
+    log_conf_file = "/config/log_conf.yml"
+else:
+    print("In Dev Environment")
+    app_conf_file = "app_conf.yml"
+    log_conf_file = "log_conf.yml"
+
+
+with open(app_conf_file, 'r') as f:
+    app_config = yaml.safe_load(f.read())
+
+with open(log_conf_file, 'r') as f:
+    log_config = yaml.safe_load(f.read())
+    logging.config.dictConfig(log_config)
+
+logger = logging.getLogger('basicLogger')
+
+logger.info(f'App Conf File: {app_conf_file}')
+logger.info(f'Log Conf File: {log_conf_file}')
 
 
 def upload_sales(body):
@@ -91,9 +115,6 @@ app.add_api("receiver_api.yaml",
             strict_validation=True,
             validate_responses=True)
 
-with open('app_conf.yml', 'r') as f:
-    app_config = yaml.safe_load(f.read())
-
 SALES_URL = app_config['eventstore1']['url']
 DELIVERY_URL = app_config['eventstore2']['url']
 KAFKA_HOST = app_config['events']['hostname']
@@ -101,12 +122,6 @@ KAFKA_PORT = app_config['events']['port']
 KAFKA_TOPIC = app_config['events']['topic']
 kafka_max_connection_retries = app_config['events']['max_retries']
 kafka_sleep_time_before_reconnect = app_config['events']['kafka_sleep_time_before_reconnect']
-
-with open('log_conf.yml', 'r') as f:
-    log_config = yaml.safe_load(f.read())
-    logging.config.dictConfig(log_config)
-    
-logger = logging.getLogger('basicLogger')
 
 current_retry_count = 0
 while current_retry_count < kafka_max_connection_retries:
