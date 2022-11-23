@@ -129,6 +129,7 @@ while current_retry_count < kafka_max_connection_retries:
     try:
         client = KafkaClient(hosts=KAFKA_HOST)
         topic = client.topics[str.encode(KAFKA_TOPIC)]
+        break
     except:
         logger.error(f'Kafka connection failed. Attempt #{current_retry_count}')
         time.sleep(kafka_sleep_time_before_reconnect)
