@@ -117,8 +117,7 @@ app.add_api("receiver_api.yaml",
 
 SALES_URL = app_config['eventstore1']['url']
 DELIVERY_URL = app_config['eventstore2']['url']
-KAFKA_HOST = app_config['events']['hostname']
-KAFKA_PORT = app_config['events']['port']
+KAFKA_HOST = "%s:%d" % (app_config['events']['hostname'], app_config['events']['port'])
 KAFKA_TOPIC = app_config['events']['topic']
 kafka_max_connection_retries = app_config['events']['max_retries']
 kafka_sleep_time_before_reconnect = app_config['events']['kafka_sleep_time_before_reconnect']
