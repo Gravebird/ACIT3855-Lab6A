@@ -122,13 +122,14 @@ KAFKA_PORT = app_config['events']['port']
 KAFKA_TOPIC = app_config['events']['topic']
 kafka_max_connection_retries = app_config['events']['max_retries']
 kafka_sleep_time_before_reconnect = app_config['events']['kafka_sleep_time_before_reconnect']
-
+logger.debug(f'Kafka host: {KAFKA_HOST}')
 current_retry_count = 0
 while current_retry_count < kafka_max_connection_retries:
     logger.info(f'Attempting to connect to kafak - Attempt #{current_retry_count}')
     try:
         client = KafkaClient(hosts=KAFKA_HOST)
         topic = client.topics[str.encode(KAFKA_TOPIC)]
+        logger.info(f'Connection Attempt #{current_retry_count} successful')
         break
     except:
         logger.error(f'Kafka connection failed. Attempt #{current_retry_count}')
