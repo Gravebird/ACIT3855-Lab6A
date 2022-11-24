@@ -43,26 +43,26 @@ services:
     volumes:
       - my-db:/var/lib/mysql
   receiver:
-    image: ent-assign2:receiverapp
+    image: gravebird/ent-assign2:receiverapp
     ports: 
       - "8080:8080"
     depends_on: 
       - "kafka"
   storage:
-    image: ent-assign2:storageapp
+    image: gravebird/ent-assign2:storageapp
     ports:
       - "8090:8090"
     depends_on: 
       - "kafka"
   processor:
-    image: ent-assign2:processorapp
+    image: gravebird/ent-assign2:processorapp
     ports:
       - "8100:8100"
     network_mode: "host"
     depends_on: 
       - "storage"
   audit:
-    image: ent-assign2:auditapp
+    image: gravebird/ent-assign2:auditapp
     ports:
       - "8110:8110"
     depends_on: 
