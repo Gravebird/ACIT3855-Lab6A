@@ -44,6 +44,7 @@ db_name = app_config['datastore']['filename']
 # Check if sqlite DB exists
 if not os.path.isfile(db_name):
     # Sqlite DB file does not exist
+    logger.info(f'Sqlite DB {db_name} not found - Creating...')
     create_tables.create_tables(db_name)
 
 DB_ENGINE = create_engine(f'sqlite:///{db_name}')
