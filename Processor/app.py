@@ -15,6 +15,7 @@ from flask_cors import CORS, cross_origin
 
 from models.base import Base
 from models.stats import InventoryStats
+from data import create_tables
 
 if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
     print("In Test Environment")
@@ -39,6 +40,11 @@ logger.info(f'App Conf File: {app_conf_file}')
 logger.info(f'Log Conf File: {log_conf_file}')
 
 db_name = app_config['datastore']['filename']
+
+# Check if sqlite DB exists
+if not os.path.isfile(db_name):
+    # Sqlite DB file does not exist
+    create_tables.create_tables(db_name)
 
 DB_ENGINE = create_engine(f'sqlite:///{db_name}')
 Base.metadata.bind = DB_ENGINE

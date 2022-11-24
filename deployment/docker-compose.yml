@@ -76,6 +76,7 @@ services:
     volumes:
       - /home/azureuser/config/processor:/config
       - /home/azureuser/logs:/logs
+      - processing-db:/data
   audit:
     image: audit:latest
     ports:
@@ -96,3 +97,5 @@ services:
       - "audit"
 volumes:
   my-db:
+  
+  processing-db:
