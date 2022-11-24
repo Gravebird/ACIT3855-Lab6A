@@ -1,2 +1,2 @@
 @Library('bryan_ci_functions@master') _
-python_build('audit','auditapp',8110,'Audit')
+python_build('ent-assign2','auditapp',8110,'Audit')

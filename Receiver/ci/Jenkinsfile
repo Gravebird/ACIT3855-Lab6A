@@ -1,2 +1,2 @@
 @Library('bryan_ci_functions@master') _
-python_build('receiver','receiverapp',8080,'Receiver')
+python_build('ent-assign2','receiverapp',8080,'Receiver')

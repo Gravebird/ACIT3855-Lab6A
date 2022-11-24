@@ -1,2 +1,2 @@
 @Library('bryan_ci_functions@master') _
-python_build('storage','storageapp',8090,'Storage')
+python_build('ent-assign2','storageapp',8090,'Storage')
