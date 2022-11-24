@@ -1,0 +1,78 @@
+version: '3.3'
+services:
+  zookeeper:
+    image: wurstmeister/zookeeper
+    ports:
+      - "2181"
+    hostname: zookeeper
+    volumes:
+      - /home/azureuser/zookeeper/data:/opt/zookeeper-3.4.13/data
+  kafka:
+    image: wurstmeister/kafka
+    command: [start-kafka.sh]
+    ports:
+      - "9092:9092"
+    hostname: kafka
+    environment:
+      KAFKA_CREATE_TOPICS: "events:1:1" # topic:partition:replicas
+      KAFKA_ADVERTISED_HOST_NAME: bryan-rainbow-lab6a-acit3855.eastus.cloudapp.azure.com # docker-machine ip
+      KAFKA_LISTENERS: INSIDE://:29092,OUTSIDE://:9092
+      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://bryan-rainbow-lab6a-acit3855.eastus.cloudapp.azure.com:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LOG_DIRS: /kafka/kafka-logs
+      KAFKA_BROKER_ID: 1
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /home/azureuser/kafka:/kafka/kafka-logs
+    depends_on:
+      - "zookeeper"
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'ACIT3855_Events'
+      MYSQL_USER: 'events_user'
+      MYSQL_PASSWORD: 'events_password'
+      MYSQL_ROOT_PASSWORD: 'A00768125'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db:/var/lib/mysql
+  receiver:
+    image: ent-assign2:receiverapp
+    ports: 
+      - "8080:8080"
+    depends_on: 
+      - "kafka"
+  storage:
+    image: ent-assign2:storageapp
+    ports:
+      - "8090:8090"
+    depends_on: 
+      - "kafka"
+  processor:
+    image: ent-assign2:processorapp
+    ports:
+      - "8100:8100"
+    network_mode: "host"
+    depends_on: 
+      - "storage"
+  audit:
+    image: ent-assign2:auditapp
+    ports:
+      - "8110:8110"
+    depends_on: 
+      - "kafka"
+  dashboard:
+    image: dashboard:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - "processor"
+      - "audit"
+volumes:
+  my-db:
