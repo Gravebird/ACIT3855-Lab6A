@@ -102,7 +102,11 @@ def upload_delivery(body):
     
     return NoContent, 201
 
-
+def health():
+    """
+        Returns 200 to show that the service is running.
+    """
+    return NoContent, 200
 
 
 

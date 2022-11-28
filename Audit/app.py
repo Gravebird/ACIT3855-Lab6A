@@ -6,6 +6,7 @@ import json
 import os
 
 from pykafka import KafkaClient
+from connexion import NoContent
 from flask_cors import CORS, cross_origin
 
 
@@ -106,6 +107,13 @@ def get_delivery(index):
     
     logger.error("Could not find Delivery at index %d" % index)
     return { "message": "Not Found"}, 404
+
+
+def health():
+    """
+        Returns 200 to show that the service is running.
+    """
+    return NoContent, 200
 
 
 app = connexion.FlaskApp(__name__, specification_dir='')

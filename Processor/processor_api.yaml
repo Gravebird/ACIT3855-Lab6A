@@ -31,7 +31,13 @@ paths:
                 properties:
                   message:
                     type: string
-
+  /health:
+    get:
+      summary: returns a 200 status to show that the service is running
+      operationId: app.health
+      responses:
+        "200":
+          description: service is running
 components:
   schemas:
     ReadingStats:

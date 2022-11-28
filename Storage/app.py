@@ -102,6 +102,12 @@ def get_deliveries(start_timestamp, end_timestamp):
 
     return results_list, 200
 
+def health():
+    """
+        Returns 200 to show that the service is running.
+    """
+    return NoContent, 200
+
 
 def process_messages():
     """ Process event messages """

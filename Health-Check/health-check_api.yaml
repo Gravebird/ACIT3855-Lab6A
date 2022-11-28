@@ -1,0 +1,56 @@
+---
+openapi: 3.0.0
+info:
+  title: Health Check API
+  description: This API provides information about whether other services are running or not
+  version: "1.0.0"
+  contact:
+    email: brainbow@my.bcit.ca
+
+paths:
+  /health:
+    get:
+      summary: Gets the health status information
+      operationId: app.get_health
+      description: Gets information about whether other services are running or not
+      responses:
+        '200':
+          description: Successfully returned a health check
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/HealthStats'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+components:
+  schemas:
+    HealthStats:
+      required:
+        - receiver
+        - storage
+        - processor
+        - audit
+        - last_updated
+      properties:
+        receiver:
+          type: string
+        storage:
+          type: string
+        processor:
+          type: string
+        audit:
+          type: string
+        last_updated:
+          type: string
+          format: date
+      type: object

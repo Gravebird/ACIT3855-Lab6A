@@ -84,7 +84,12 @@ def get_stats():
 
     return json, 200
 
-    
+
+def health():
+    """
+        Returns 200 to show that the service is running.
+    """
+    return NoContent, 200
 
 
 def populate_stats():
