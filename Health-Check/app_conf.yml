@@ -8,4 +8,4 @@ endpoints:
   audit: http://localhost:8110
   timeout_sec: 5
 data:
-  filepath: ./data.json
+  filepath: ./data/data.json

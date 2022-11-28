@@ -10,7 +10,7 @@ from flask_cors import CORS, cross_origin
 import os
 from controllers import data_controller
 
-from apscheduler.shcedulers.background import BackgroundScheduler
+from apscheduler.schedulers.background import BackgroundScheduler
 
 
 if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
@@ -40,42 +40,52 @@ PROCESSOR_URL = app_config['endpoints']['processor']
 AUDIT_URL = app_config['endpoints']['audit']
 REQUEST_TIMEOUT = app_config['endpoints']['timeout_sec']
 
+print(app_config['data']['filepath'])
+
 data_storage = data_controller.Data_Controller(app_config['data']['filepath'])
 
 
 
 def poll_services():
-    receiver_response = requests.get(f'{RECEIVER_URL}/health', timeout=REQUEST_TIMEOUT)
-    logger.info(f'Received {receiver_response.status_code} from receiver service')
-
-    storage_response = requests.get(f'{STORAGE_URL}/health', timeout=REQUEST_TIMEOUT)
-    logger.info(f'Received {storage_response.status_code} from storage service')
-
-    processor_response = requests.get(f'{PROCESSOR_URL}/health', timeout=REQUEST_TIMEOUT)
-    logger.info(f'Received {processor_response.status_code} from processor service')
-
-    audit_response = requests.get(f'{AUDIT_URL}/health', timeout=REQUEST_TIMEOUT)
-    logger.info(f'Received {audit_response.status_code} from audit service')
-
-    if receiver_response.status_code == 200:
-        receiver_response = "Running"
-    else:
+    try:
+        res = requests.get(f'{RECEIVER_URL}/health', timeout=REQUEST_TIMEOUT)
+        if res.status_code == 200:
+            receiver_response = "Running"
+        else:
+            receiver_response = "Down"
+    except:
         receiver_response = "Down"
+    logger.info(f'Receiver service poll returned status {receiver_response}')
 
-    if storage_response.status_code == 200:
-        storage_response = "Running"
-    else:
+    try:
+        res = requests.get(f'{STORAGE_URL}/health', timeout=REQUEST_TIMEOUT)
+        if res.status_code == 200:
+            storage_response = "Running"
+        else:
+            storage_response = "Down"
+    except:
         storage_response = "Down"
+    logger.info(f'Storage service poll returned status {storage_response}')
 
-    if processor_response.status_code == 200:
-        processor_response = "Running"
-    else:
+    try:
+        res = requests.get(f'{PROCESSOR_URL}/health', timeout=REQUEST_TIMEOUT)
+        if res.status_code == 200:
+            processor_response = "Running"
+        else:
+            processor_response = "Down"
+    except:
         processor_response = "Down"
+    logger.info(f'Processor service poll returned status {processor_response}')
 
-    if audit_response.status_code == 200:
-        audit_response = "Running"
-    else:
+    try:
+        res = requests.get(f'{AUDIT_URL}/health', timeout=REQUEST_TIMEOUT)
+        if res.status_code == 200:
+            audit_response = "Running"
+        else:
+            audit_response = "Down"
+    except:
         audit_response = "Down"
+    logger.info(f'Audit service poll returned status {audit_response}')
 
     json = {
         "receiver": receiver_response,
@@ -90,7 +100,7 @@ def poll_services():
 
 def get_health():
     data = data_storage.get_latest_data()
-    logger.info(f'Processed request for health stats at {data["last_updated"]}')
+    logger.info(f'Processed request for health stats at {data["last_update"]}')
     return data, 200
 
 

@@ -19,4 +19,4 @@ class Data_Controller:
     
     def save_data_file(self):
         with open(self._data_file_path, 'w') as f:
-            json.dump(self._data, f)
+            json.dump(self._data, f, indent=4, default=str)

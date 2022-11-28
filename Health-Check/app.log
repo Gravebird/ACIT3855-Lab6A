@@ -1,0 +1,83 @@
+2022-11-28 15:22:00,929 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:22:00,930 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:22:19,723 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:22:19,723 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:22:28,400 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:22:28,400 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:26:00,959 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:26:00,959 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:27:11,733 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:27:11,733 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:27:30,542 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:27:30,543 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:27:30,610 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:27:30,611 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:33:51,120 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:33:51,121 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:33:51,139 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:33:51,139 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:34:15,273 - basicLogger - INFO - Receiver service poll returned status Down
+2022-11-28 15:34:35,282 - basicLogger - INFO - Receiver service poll returned status Down
+2022-11-28 15:34:55,313 - basicLogger - INFO - Receiver service poll returned status Down
+2022-11-28 15:35:15,309 - basicLogger - INFO - Receiver service poll returned status Down
+2022-11-28 15:36:17,552 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:36:17,552 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:36:17,571 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:36:17,571 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:36:41,717 - basicLogger - INFO - Receiver service poll returned status Down
+2022-11-28 15:36:45,780 - basicLogger - INFO - Storage service poll returned status Down
+2022-11-28 15:36:49,880 - basicLogger - INFO - Processor service poll returned status Down
+2022-11-28 15:36:53,987 - basicLogger - INFO - Audit service poll returned status Down
+2022-11-28 15:37:01,713 - basicLogger - INFO - Receiver service poll returned status Down
+2022-11-28 15:37:05,809 - basicLogger - INFO - Storage service poll returned status Down
+2022-11-28 15:37:09,889 - basicLogger - INFO - Processor service poll returned status Down
+2022-11-28 15:37:13,961 - basicLogger - INFO - Audit service poll returned status Down
+2022-11-28 15:37:21,738 - basicLogger - INFO - Receiver service poll returned status Down
+2022-11-28 15:37:25,808 - basicLogger - INFO - Storage service poll returned status Down
+2022-11-28 15:37:29,905 - basicLogger - INFO - Processor service poll returned status Down
+2022-11-28 15:37:34,004 - basicLogger - INFO - Audit service poll returned status Down
+2022-11-28 15:39:08,145 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:39:08,146 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:39:32,731 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:39:32,732 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:39:32,749 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:39:32,749 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:39:56,907 - basicLogger - INFO - Receiver service poll returned status Down
+2022-11-28 15:40:01,005 - basicLogger - INFO - Storage service poll returned status Down
+2022-11-28 15:40:05,097 - basicLogger - INFO - Processor service poll returned status Down
+2022-11-28 15:40:09,189 - basicLogger - INFO - Audit service poll returned status Down
+2022-11-28 15:40:16,933 - basicLogger - INFO - Receiver service poll returned status Down
+2022-11-28 15:40:20,996 - basicLogger - INFO - Storage service poll returned status Down
+2022-11-28 15:40:25,049 - basicLogger - INFO - Processor service poll returned status Down
+2022-11-28 15:40:29,105 - basicLogger - INFO - Audit service poll returned status Down
+2022-11-28 15:40:34,343 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:40:34,343 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:40:43,119 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:40:43,120 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:40:43,139 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:40:43,139 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:41:07,306 - basicLogger - INFO - Receiver service poll returned status Down
+2022-11-28 15:41:11,379 - basicLogger - INFO - Storage service poll returned status Down
+2022-11-28 15:41:15,443 - basicLogger - INFO - Processor service poll returned status Down
+2022-11-28 15:41:19,543 - basicLogger - INFO - Audit service poll returned status Down
+2022-11-28 15:41:27,337 - basicLogger - INFO - Receiver service poll returned status Down
+2022-11-28 15:41:31,428 - basicLogger - INFO - Storage service poll returned status Down
+2022-11-28 15:41:35,504 - basicLogger - INFO - Processor service poll returned status Down
+2022-11-28 15:41:39,597 - basicLogger - INFO - Audit service poll returned status Down
+2022-11-28 15:41:47,298 - basicLogger - INFO - Receiver service poll returned status Down
+2022-11-28 15:41:51,384 - basicLogger - INFO - Storage service poll returned status Down
+2022-11-28 15:41:55,466 - basicLogger - INFO - Processor service poll returned status Down
+2022-11-28 15:41:59,584 - basicLogger - INFO - Audit service poll returned status Down
+2022-11-28 15:42:07,302 - basicLogger - INFO - Receiver service poll returned status Down
+2022-11-28 15:42:11,385 - basicLogger - INFO - Storage service poll returned status Down
+2022-11-28 15:42:15,439 - basicLogger - INFO - Processor service poll returned status Down
+2022-11-28 15:42:19,538 - basicLogger - INFO - Audit service poll returned status Down
+2022-11-28 15:42:23,422 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:42:23,422 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:42:23,439 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:42:23,440 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:42:50,324 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:42:50,324 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:42:50,343 - basicLogger - INFO - App Conf File: app_conf.yml
+2022-11-28 15:42:50,343 - basicLogger - INFO - Log Conf File: log_conf.yml
+2022-11-28 15:42:52,351 - basicLogger - INFO - Processed request for health stats at 2022-11-28 15:42:19.538059

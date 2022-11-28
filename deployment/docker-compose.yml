@@ -95,6 +95,15 @@ services:
     depends_on:
       - "processor"
       - "audit"
+  health:
+    image: health:latest
+    ports:
+      - "8120:8120"
+    depends_on:
+      - "receiver"
+      - "storage"
+      - "processor"
+      - "audit"
 volumes:
   my-db:
   
