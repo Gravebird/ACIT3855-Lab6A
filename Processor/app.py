@@ -63,6 +63,7 @@ def get_stats():
 def populate_stats():
     """ Periodically update stats """
     logger.info("Start Periodic Processing")
+    logger.info("TESTING PIPELINE!!!!!!!!!")
 
     session = DB_SESSION()
     json = {

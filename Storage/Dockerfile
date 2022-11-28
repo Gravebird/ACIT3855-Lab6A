@@ -9,7 +9,7 @@ COPY . /app
 
 WORKDIR /app
 
-# Comment to trigger the pipeline!!
+# Comment to trigger the pipeline
 
 RUN pip3 install -r requirements.txt
 
