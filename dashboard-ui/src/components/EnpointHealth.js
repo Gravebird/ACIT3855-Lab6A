@@ -32,7 +32,11 @@ export default function EndpointHealth(props) {
         return (
             <div>
                 <h3>Health Stats</h3>
-                {JSON.stringify(log)}
+                <p><strong>Receiver: </strong> {log.receiver}</p>
+                <p><strong>Storage: </strong> {log.storage}</p>
+                <p><strong>Processor: </strong> {log.processor}</p>
+                <p><strong>Audit: </strong> {log.audit}</p>
+                <p><strong>Last Update: </strong> {log.last_update}</p>
             </div>
         )
     }

@@ -48,6 +48,7 @@ data_storage = data_controller.Data_Controller(app_config['data']['filepath'])
 
 def poll_services():
     try:
+        logger.info(f'Polling {RECEIVER_URL}/health with timout of {REQUEST_TIMEOUT}')
         res = requests.get(f'{RECEIVER_URL}/health', timeout=REQUEST_TIMEOUT)
         if res.status_code == 200:
             receiver_response = "Running"
@@ -58,6 +59,7 @@ def poll_services():
     logger.info(f'Receiver service poll returned status {receiver_response}')
 
     try:
+        logger.info(f'Polling {STORAGE_URL}/health with timout of {REQUEST_TIMEOUT}')
         res = requests.get(f'{STORAGE_URL}/health', timeout=REQUEST_TIMEOUT)
         if res.status_code == 200:
             storage_response = "Running"
@@ -68,6 +70,7 @@ def poll_services():
     logger.info(f'Storage service poll returned status {storage_response}')
 
     try:
+        logger.info(f'Polling {PROCESSOR_URL}/health with timout of {REQUEST_TIMEOUT}')
         res = requests.get(f'{PROCESSOR_URL}/health', timeout=REQUEST_TIMEOUT)
         if res.status_code == 200:
             processor_response = "Running"
@@ -78,6 +81,7 @@ def poll_services():
     logger.info(f'Processor service poll returned status {processor_response}')
 
     try:
+        logger.info(f'Polling {AUDIT_URL}/health with timout of {REQUEST_TIMEOUT}')
         res = requests.get(f'{AUDIT_URL}/health', timeout=REQUEST_TIMEOUT)
         if res.status_code == 200:
             audit_response = "Running"
