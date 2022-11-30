@@ -56,7 +56,7 @@ def poll_services():
             receiver_response = "Down"
     except:
         receiver_response = "Down"
-    logger.info(f'Receiver service poll returned status {receiver_response}')
+    logger.info(f'Receiver service poll returned status {res.status_code} - {receiver_response}')
 
     try:
         logger.info(f'Polling {STORAGE_URL}/health with timout of {REQUEST_TIMEOUT}')
@@ -67,7 +67,7 @@ def poll_services():
             storage_response = "Down"
     except:
         storage_response = "Down"
-    logger.info(f'Storage service poll returned status {storage_response}')
+    logger.info(f'Storage service poll returned status {res.status_code} - {storage_response}')
 
     try:
         logger.info(f'Polling {PROCESSOR_URL}/health with timout of {REQUEST_TIMEOUT}')
@@ -78,7 +78,7 @@ def poll_services():
             processor_response = "Down"
     except:
         processor_response = "Down"
-    logger.info(f'Processor service poll returned status {processor_response}')
+    logger.info(f'Processor service poll returned status {res.status_code} - {processor_response}')
 
     try:
         logger.info(f'Polling {AUDIT_URL}/health with timout of {REQUEST_TIMEOUT}')
@@ -89,7 +89,7 @@ def poll_services():
             audit_response = "Down"
     except:
         audit_response = "Down"
-    logger.info(f'Audit service poll returned status {audit_response}')
+    logger.info(f'Audit service poll returned status {res.status_code} - {audit_response}')
 
     json = {
         "receiver": receiver_response,
