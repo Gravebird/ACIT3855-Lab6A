@@ -56,7 +56,7 @@ def poll_services():
             receiver_response = "Running"
         else:
             receiver_response = "Down"
-    except ConnectTimeout:
+    except:
         receiver_response = "Down"
     logger.info(f'Receiver service poll returned status {receiver_response}')
 
@@ -67,7 +67,7 @@ def poll_services():
             storage_response = "Running"
         else:
             storage_response = "Down"
-    except ConnectTimeout:
+    except:
         storage_response = "Down"
     logger.info(f'Storage service poll returned status {storage_response}')
 
@@ -78,7 +78,7 @@ def poll_services():
             processor_response = "Running"
         else:
             processor_response = "Down"
-    except ConnectTimeout:
+    except:
         processor_response = "Down"
     logger.info(f'Processor service poll returned status {processor_response}')
 
@@ -89,7 +89,7 @@ def poll_services():
             audit_response = "Running"
         else:
             audit_response = "Down"
-    except ConnectTimeout:
+    except:
         audit_response = "Down"
     logger.info(f'Audit service poll returned status {audit_response}')
 
