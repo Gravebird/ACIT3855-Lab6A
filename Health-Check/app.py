@@ -50,7 +50,7 @@ data_storage = data_controller.Data_Controller(app_config['data']['filepath'])
 def poll_services():
     try:
         logger.info(f'Polling {RECEIVER_URL}/health with timout of {REQUEST_TIMEOUT}')
-        res = requests.get(f'{RECEIVER_URL}/health', timeout=REQUEST_TIMEOUT)
+        res = requests.get(f'{RECEIVER_URL}/health')
         logger.info(f'Received response from receiver: {res}')
         if res.status_code == 200:
             receiver_response = "Running"
