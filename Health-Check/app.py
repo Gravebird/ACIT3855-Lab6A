@@ -6,7 +6,7 @@ import yaml
 import logging, logging.config
 import requests
 import json as js
-from flask_cors import CORS, cross_origin
+# from flask_cors import CORS, cross_origin
 import os
 from requests.exceptions import ConnectTimeout
 from controllers import data_controller
