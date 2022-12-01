@@ -14,7 +14,8 @@ class Data_Controller:
 
 
     def get_latest_data(self):
-        return self._data
+        with open(self._data_file_path, 'r') as f:
+            return json.loads(f.read())
 
     
     def save_data_file(self):
